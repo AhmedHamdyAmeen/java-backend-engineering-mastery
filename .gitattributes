@@ -1,0 +1,2 @@
+# tools/build.py writes LF; keep it that way on every platform so --check stays stable.
+* text=auto eol=lf
