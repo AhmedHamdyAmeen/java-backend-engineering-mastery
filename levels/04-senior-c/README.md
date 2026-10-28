@@ -23,6 +23,7 @@
 | [`SRC-007`](P1-system-design-and-decisions.md#src-007--database-scaling) | Database scaling | Read replicas, partitioning, sharding, hot partitions |
 | [`SRC-008`](P1-system-design-and-decisions.md#src-008--architectural-decomposition) | Architectural decomposition | Modular monolith vs services, migration criteria |
 | [`SRC-009`](P1-system-design-and-decisions.md#src-009--failure-mode-analysis) | Failure-mode analysis | Failure domains, dependency mapping, graceful degradation |
+| [`SRC-021`](P1-system-design-and-decisions.md#src-021--designing-reliable-ai-features) | Designing reliable AI features | Latency and cost budgets, fallbacks, provider outages, model routing, caching, SLOs for non-deterministic features |
 | [`SRC-010`](P1-system-design-and-decisions.md#src-010--architecture-documentation) | Architecture documentation | ADRs, C4, sequence diagrams, operational runbooks |
 
 ## SRC-P2 — [Reliability and Technical Ownership](P2-reliability-and-ownership.md)
@@ -31,6 +32,7 @@
 | --- | --- | --- |
 | [`SRC-011`](P2-reliability-and-ownership.md#src-011--production-readiness) | Production readiness | Readiness reviews, deployment safety, rollback, runbooks |
 | [`SRC-012`](P2-reliability-and-ownership.md#src-012--slo-engineering) | SLO engineering | Service-level objectives, error-budget policies, alerts |
+| [`SRC-022`](P2-reliability-and-ownership.md#src-022--operating-ai-in-production) | Operating AI in production | Prompt and model versioning and rollback, evaluation-gated releases, drift, bad-output incidents, human review |
 | [`SRC-013`](P2-reliability-and-ownership.md#src-013--disaster-recovery) | Disaster recovery | RPO, RTO, backups, failover, recovery exercises |
 | [`SRC-014`](P2-reliability-and-ownership.md#src-014--data-integrity) | Data integrity | Cross-service invariants, reconciliation, exactly-once effects vs guarantees |
 | [`SRC-015`](P2-reliability-and-ownership.md#src-015--advanced-troubleshooting) | Advanced troubleshooting | Thread starvation, connection exhaustion, deadlocks, cascading failures |

@@ -28,6 +28,9 @@ The questions most often asked in mid-level Java backend interviews, how to answ
 | Docker, Kubernetes, cloud, Terraform | MID-056, MID-057, MID-058 | `MID-057-LAB1` Shop on Kubernetes, `MID-058-LAB1` |
 | API security (OAuth 2.0 / OIDC) | MID-051, MID-052 | `MID-051-LAB1` zero implicit trust |
 | System design | MID-023, MID-024, MID-059 … MID-061 | `MID-CAP` Distributed Order Processing Platform |
+| RAG and vector search | MID-067, MID-068 | `MID-068-LAB1` order-support assistant |
+| Tool calling, evaluation, AI security | MID-069, MID-070, MID-071 | `MID-070-LAB1` evaluations in CI, `MID-071-LAB1` |
+| AI-assisted engineering at codebase scale | MID-072 | `MID-072-LAB1` |
 
 **Your portfolio at the end of Level 3:** the Distributed Order Processing Platform (`MID-CAP`) with C4 diagrams, ADRs, a load-test report, dashboards, and a postmortem. In interviews, the load-test report and the postmortem are often more persuasive than the code.
 
@@ -453,7 +456,75 @@ If you lack real production experience, use the game-day incident from this cour
 
 ---
 
-## 7. Four-week preparation plan
+## 7. AI questions
+
+### Q23 · System design: build an assistant that answers customer questions using our policies and order data.
+**How often:** Increasingly common · **Round:** System design
+
+**How to answer (RAG plus tools):**
+1. **Requirements:** which questions, which data, latency target, cost per conversation, what the assistant may *do* (read only?), languages, audit.
+2. **Retrieval:** chunk policy and help documents, embed them, store vectors in PostgreSQL with pgvector (HNSW index), and combine with keyword search (hybrid). Re-index on document-change events.
+3. **Personal data via tools, not the index:** an order-status tool that calls the orders service with the *customer's* authorization, never a shared admin token.
+4. **Generation:** a prompt with retrieved passages and tool results; require citations; refuse when the context lacks an answer.
+5. **Safety:** treat retrieved text as untrusted (indirect injection), no side-effect tools without human approval, rate and cost limits.
+6. **Quality and operations:** an evaluation set in CI (retrieval recall, groundedness), token/latency/cost tracing, fallbacks when the model provider is down.
+
+**Common trap:** putting customer orders into the vector index, or skipping evaluation.
+
+**Learned in:** MID-067, MID-068, MID-069
+**Practiced in:** `MID-067-LAB1`, `MID-068-LAB1`, `MID-069-LAB1`, `MID-CAP`
+**Show it:** the order-support assistant in your capstone, with its citations and tool authorization.
+
+---
+
+### Q24 · How do you test and evaluate an LLM feature whose output is not deterministic?
+**How often:** Common · **Round:** Technical
+
+**How to answer:**
+- Keep normal unit tests deterministic by faking the model behind its interface.
+- Add an **evaluation set**: representative questions with expected facts or reference answers, scored automatically (exact checks, retrieval recall, groundedness). LLM-as-judge can help but must itself be spot-checked by people.
+- Run evaluations in CI on every prompt or model change, with a threshold that blocks regressions.
+- In production, trace token usage, latency, cost, and user feedback, and sample conversations for review.
+
+**Learned in:** MID-070
+**Practiced in:** `MID-070-LAB1`
+
+---
+
+### Q25 · What new security risks do RAG and tool-calling agents introduce?
+**How often:** Increasingly common · **Round:** Security, design
+
+**How to answer:**
+- **Indirect prompt injection:** malicious text inside retrieved documents or tool results steers the model.
+- **Excessive agency:** tools with more permissions than the user, or side effects without confirmation.
+- **Data exfiltration:** the model is tricked into revealing other users' data or its system prompt, or embedding it in links.
+- **Unbounded consumption:** prompts or loops that burn tokens and money.
+- Mitigations: per-user authorization inside every tool, read-only by default, human approval for side effects, output encoding, allow-listed links, per-user rate and cost limits, and dedicated injection tests.
+
+**Learned in:** MID-071, MID-069
+**Practiced in:** `MID-071-LAB1`
+
+---
+
+### Q26 · How do you use AI assistants to debug or refactor a large codebase safely?
+**How often:** Common · **Round:** Technical, behavioral
+
+**How to answer:**
+- **Give the assistant evidence, not guesses:** the stack trace, the profile or thread dump, the failing test, and the relevant code — then use it to generate hypotheses you verify yourself.
+- **Refactor behind tests:** add characterization tests first (AI can draft them), then refactor in small, reviewable steps; every step keeps the suite green.
+- **Generated tests must earn their place:** check they fail when the code is wrong (e.g., mutation testing), not just that they pass.
+- **Review discipline:** small pull requests, a human owner for every change, and no secrets or customer data in prompts.
+- Close with a measured result: time saved, defects caught, or coverage gained — and one case where the assistant was wrong.
+
+**Common trap:** large AI-generated refactorings merged without characterization tests.
+
+**Learned in:** MID-072, MID-008
+**Practiced in:** `MID-072-LAB1`
+**Show it:** the refactoring and generated tests on Shop Platform, with the review evidence from the lab.
+
+---
+
+## 8. Four-week preparation plan
 
 | Week | Focus | Do this |
 | --- | --- | --- |

@@ -4,7 +4,7 @@
 
 **Running project:** *Shop API* gains registration, login, roles (customer, admin), and per-customer data isolation.
 
-**Phase total:** ~8.3 h video · ~20 h practice · `version:` current Spring Security major
+**Phase total:** ~9.4 h video · ~22.5 h practice · `version:` current Spring Security major
 
 ---
 
@@ -228,6 +228,37 @@
 **Assessment:** the lab, graded on fixes and tests.
 
 **Career relevance:** OWASP API Security (MID-052).
+
+---
+
+### JNR-057 · Securing LLM features
+`n: new (added in v2.0)` · **Video:** 62 min · **Practice:** 2.5 h
+
+**Prerequisites:** JNR-041, JNR-056
+
+**Learning outcomes** — the learner can:
+1. Explain the main risks in the OWASP Top 10 for LLM Applications, including prompt injection, sensitive information disclosure, improper output handling, excessive agency, system prompt leakage, and unbounded consumption.
+2. Demonstrate a prompt injection against an LLM feature and reduce its impact with input separation, least privilege, and output validation.
+3. Treat model output as untrusted input: validate, encode, and never execute it directly.
+4. Keep secrets and personal data out of prompts and logs, and limit cost per user.
+
+**Lectures**
+| ID | Title | Min |
+| --- | --- | --- |
+| JNR-057-L01 | Why LLM features need their own threat list | 10 |
+| JNR-057-L02 | Prompt injection and the limits of defense | 12 |
+| JNR-057-L03 | Model output is untrusted input | 10 |
+| JNR-057-L04 | Sensitive data in prompts and logs | 10 |
+| JNR-057-L05 | Limiting cost and abuse | 8 |
+| JNR-057-L06 | Demo: injecting the Shop helper, then hardening it | 12 |
+
+**Lab** — `JNR-057-LAB1` *Attack your helper:* attack the `JNR-056-LAB1` helper with direct prompt injection and attempts to leak the system prompt or another customer's data; then harden it (no secrets in prompts, output validated against the record schema, per-user rate and token limits, no privileged actions available to the model). Acceptance: attack log with results before and after; regression tests for each attack; security notes added to `SECURITY.md`.
+
+**Common mistakes:** believing a system-prompt instruction prevents injection; rendering model output as HTML unescaped; giving the model access to data the user cannot see.
+
+**Assessment:** find the vulnerabilities in a provided LLM feature and propose mitigations.
+
+**Career relevance:** AI features are now part of security reviews; MID-071 covers deeper threats such as indirect injection through retrieved content and agent tools.
 
 ---
 

@@ -98,6 +98,7 @@ Separate durable principles from version-specific details. Version-specific lect
 | Delivery | Git, GitHub, GitHub Actions, Docker, Kubernetes, Terraform |
 | Observability | OpenTelemetry, Prometheus, Grafana |
 | Cloud | One provider in depth (AWS or Azure — decision pending), principles provider-neutral |
+| AI | Spring AI as the primary Java framework (LangChain4j mentioned); PostgreSQL with pgvector for vector search; provider-neutral model access through an interface; model names, prices, and framework APIs verified before recording |
 
 Review the baseline at the start of every release and log changes in the change history below.
 
@@ -125,3 +126,4 @@ Modular monoliths before microservices. Distributed complexity is introduced onl
 | 2026-10-28 | v1.7: Level 6 (Senior A) detailed — prerequisites for SRA-001…020, two worked sessions per module (~28 h video), new running case *Commerce 2030* (25 teams, marketplace, five countries); full SRA-CAP brief |
 | 2026-10-28 | v1.8: interview preparation guide per level (`levels/*/interview-prep.md`) linking each common interview question to the modules, labs, and capstone that teach and prove it, plus a market-skills table per level; validator checks every referenced ID |
 | 2026-10-28 | v1.9: Levels 7 (Staff) and 8 (Solution Architect) detailed — all 299 modules now detailed; new running cases *Platform 2.0* (Staff) and *Larkspur Retail* (Architect); full STF-CAP and ARC-CAP briefs; Staff and Architect interview guides now point to their own labs |
+| 2026-10-28 | v2.0: AI added to every level — 22 new modules (BEG-056/057, JNR-055…057, MID-067…072, SRC-021/022, SRB-021/022, SRA-021/022, STF-021/022, ARC-045…047) covering AI-assisted development, building AI features in Java, and AI architecture and governance; AI requirements in all eight capstones; AI questions in every interview guide; AI-use policy for assessments; AI technology baseline |

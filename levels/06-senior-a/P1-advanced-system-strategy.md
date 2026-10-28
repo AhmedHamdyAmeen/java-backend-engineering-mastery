@@ -6,7 +6,7 @@
 
 **Format:** case studies, worked strategy sessions, and leadership role-play, with two worked sessions per module. Each module lists the workplace evidence that demonstrates the role.
 
-**Phase total:** ~14.3 h video · ~37 h practice
+**Phase total:** ~17.2 h video · ~44.5 h practice
 
 ---
 
@@ -282,6 +282,40 @@
 
 ---
 
+### SRA-021 · AI strategy and build vs buy
+`n: new (added in v2.0)` · **Video:** 88 min · **Practice:** 4 h
+
+**Prerequisites:** SRA-008, SRB-021
+
+**Learning outcomes** — the engineer can:
+1. Identify where AI creates real value in a product area and where it adds cost and risk without benefit.
+2. Compare hosted model APIs, open-weight self-hosted models, and managed platforms by cost, control, latency, and data handling.
+3. Choose between prompting, retrieval-augmented generation, and fine-tuning for a use case.
+4. Build a multi-year AI cost and capability plan, including lock-in and exit options, and the data foundations it depends on.
+
+**Lectures**
+| ID | Title | Min |
+| --- | --- | --- |
+| SRA-021-L01 | Finding real AI value | 12 |
+| SRA-021-L02 | Hosted, open-weight, or managed | 12 |
+| SRA-021-L03 | Prompting, RAG, or fine-tuning | 12 |
+| SRA-021-L04 | AI total cost of ownership and lock-in | 12 |
+| SRA-021-L05 | Data foundations for AI | 10 |
+| SRA-021-L06 | Demo: scoring ten AI ideas for the marketplace | 15 |
+| SRA-021-L07 | Demo: hosted API vs self-hosted model, three-year cost | 15 |
+
+**Lab** — `SRA-021-LAB1` *Commerce 2030 AI strategy:* a portfolio of AI use cases for the marketplace (seller listing assistant, support assistant, search) prioritized by value and risk, with build/buy decisions, a three-year cost model, and exit options. Acceptance: at least one idea rejected with reasons; costs traceable to usage assumptions.
+
+**Common mistakes:** AI strategy as a list of demos; fine-tuning by default; ignoring data quality and ownership; single-provider dependency without an exit plan.
+
+**Assessment:** strategy defense before a role-played CTO and CFO.
+
+**Workplace evidence:** an AI investment decision you shaped with a cost and value case.
+
+**Career relevance:** AI solution architecture (ARC-045) and AI vendor evaluation (ARC-047).
+
+---
+
 ### SRA-009 · Security and compliance
 `n: 223` · **Video:** 84 min · **Practice:** 3.5 h
 
@@ -313,6 +347,40 @@
 **Workplace evidence:** an architecture change you led that reduced compliance risk or scope.
 
 **Career relevance:** privacy and compliance architecture (ARC-029).
+
+---
+
+### SRA-022 · Responsible AI and AI compliance
+`n: new (added in v2.0)` · **Video:** 86 min · **Practice:** 3.5 h
+
+**Prerequisites:** SRA-009, SRA-021
+
+**Learning outcomes** — the engineer can:
+1. Apply responsible-AI principles (transparency, fairness, human oversight, accountability) as concrete design controls.
+2. Handle privacy for AI: what data may be sent to which model, where it is processed, and how long it is retained.
+3. Classify AI use cases by risk, following the risk-based approach of emerging AI regulation such as the EU AI Act, and work with legal partners on obligations.
+4. Design auditability: record inputs, outputs, versions, and human decisions for AI-assisted outcomes.
+
+**Lectures**
+| ID | Title | Min |
+| --- | --- | --- |
+| SRA-022-L01 | Responsible AI as engineering | 10 |
+| SRA-022-L02 | Privacy and residency of model calls | 12 |
+| SRA-022-L03 | Risk-based classification of AI use cases | 12 |
+| SRA-022-L04 | Transparency, bias, and human oversight | 12 |
+| SRA-022-L05 | Auditability of AI decisions | 10 |
+| SRA-022-L06 | Demo: risk-classifying the marketplace's AI features | 15 |
+| SRA-022-L07 | Demo: designing human oversight for automated seller suspensions | 15 |
+
+**Lab** — `SRA-022-LAB1` *Responsible AI controls:* risk classification, data-flow and residency analysis, transparency notices, human-oversight design, and audit records for the Commerce 2030 marketplace AI features. Acceptance: reviewed with a role-played legal and compliance advisor; every high-risk use has human oversight and an audit trail.
+
+**Common mistakes:** sending personal data to a model without checking terms and residency; fully automated decisions that affect people with no appeal path; treating compliance as a final checklist.
+
+**Assessment:** controls review.
+
+**Workplace evidence:** a responsible-AI or AI privacy control you designed and got adopted.
+
+**Career relevance:** AI security, privacy, and compliance architecture (ARC-046).
 
 ---
 

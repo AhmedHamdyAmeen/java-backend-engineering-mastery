@@ -4,7 +4,7 @@
 
 **Phase practice:** implement each data structure from scratch, then compare with the JDK implementation; all implementations covered by JUnit tests from BEG-045 onward (retrofit earlier ones).
 
-**Phase total:** ~6.8 h video · ~26 h practice
+**Phase total:** ~7.4 h video · ~28.5 h practice
 
 ---
 
@@ -222,3 +222,33 @@
 **Career relevance:** JNR-043 to JNR-047 and quality engineering throughout.
 
 > **Teaching note:** Maven is introduced in BEG-054. Until then, add JUnit through IntelliJ's library prompt; BEG-054 migrates projects to Maven.
+
+---
+
+### BEG-057 · Verifying AI-generated code
+`n: new (added in v2.0)` · **Video:** 40 min · **Practice:** 2.5 h
+
+**Prerequisites:** BEG-045, BEG-056
+
+**Learning outcomes** — the learner can:
+1. Read and trace AI-generated code line by line and explain what it does before using it.
+2. Write tests that check generated code against the requirement, including boundaries and invalid input.
+3. Spot plausible-but-wrong code: off-by-one errors, missing edge cases, wrong complexity, invented library calls.
+4. Explain licensing and academic-integrity rules for AI-generated code and disclose AI use where required.
+
+**Lectures**
+| ID | Title | Min |
+| --- | --- | --- |
+| BEG-057-L01 | Generated code is a draft, not an answer | 8 |
+| BEG-057-L02 | Reading and tracing code you did not write | 10 |
+| BEG-057-L03 | Testing generated code against the requirement | 8 |
+| BEG-057-L04 | Licensing, integrity, and disclosure | 6 |
+| BEG-057-L05 | Demo: catching a subtle bug in generated binary search with tests | 8 |
+
+**Lab** — `BEG-057-LAB1` *Trust but verify:* ask an assistant for three methods from earlier labs (a search, a hash map operation, and a Library borrowing rule). Write the tests first from the requirement, then run them against the generated code and fix every failure. Acceptance: tests written before the code is pasted; at least one defect found and documented; final code explained in your own words in comments or the README.
+
+**Common mistakes:** writing tests that copy the generated code's behavior instead of the requirement; accepting code you cannot explain; ignoring the complexity of the generated solution.
+
+**Assessment:** given generated code with hidden defects, find them with tests; score = defects caught and explained.
+
+**Career relevance:** reviewing AI-written code is part of every pull request today; JNR-055 applies this to a team workflow.

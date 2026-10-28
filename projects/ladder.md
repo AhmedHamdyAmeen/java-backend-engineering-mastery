@@ -34,6 +34,10 @@ A console application for a small library to manage books, members, and loans, b
 8. Maven build; `mvn test` passes on a clean checkout.
 9. Public Git repository with meaningful commit history and a README: purpose, setup (DB + env vars), usage, and a class diagram.
 
+**Required — AI (BEG-056, BEG-057)**
+1. An `AI-USE.md` file listing where an AI assistant helped, what it suggested, and how each suggestion was verified (read, traced, tested) — or stating that none was used.
+2. At least one AI-suggested piece of code that you rejected or corrected, with the reason.
+
 **Stretch**
 - Export reports (overdue list, popular books) to CSV.
 - Reservation queue for unavailable books (`Queue`).
@@ -74,6 +78,12 @@ A console application for a small library to manage books, members, and loans, b
 8. `SECURITY.md` listing the threat list and every control (from JNR-035 and JNR-042).
 9. README: architecture overview diagram, local setup, configuration reference, and API usage.
 
+**Required — AI (JNR-055 … JNR-057)**
+1. One LLM feature in Shop API — e.g., natural-language product search or product-description drafting for admins — behind an interface, with a fake implementation used in all tests.
+2. Timeouts, a per-request token budget, and graceful behavior when the model is unavailable.
+3. Prompt-injection and output-handling defenses documented in `SECURITY.md`, with at least two tests.
+4. `AI-USE.md` describing how AI assistants were used during development and how their output was reviewed.
+
 **Stretch**
 - Product image upload and download with limits (JNR-023).
 - `ETag`-based conditional GET on products (JNR-017).
@@ -111,6 +121,12 @@ A console application for a small library to manage books, members, and loans, b
 7. Deployed on Kubernetes with probes, limits, and autoscaling; infrastructure in Terraform; promotion pipeline with automatic rollback (MID-055, MID-057, MID-058).
 8. SBOMs, image scans, and secrets in a secrets manager (MID-053, MID-054).
 9. Documentation: C4 diagrams, saga sequence diagrams, ADRs (including datastore choices), runbooks for every alert, and a recovery procedure for database loss tested once (MID-018, MID-063).
+
+**Required — AI (MID-067 … MID-072)**
+1. A RAG order-support assistant answering customer questions about orders and policies, with citations, over pgvector-indexed documents kept fresh by events (MID-067, MID-068).
+2. Read-only, authorized tools (e.g., order-status lookup) and a human-approval step for any action with side effects (MID-069).
+3. An evaluation set run in CI with a quality threshold, plus token, latency, and cost dashboards (MID-070).
+4. Injection and data-exfiltration tests, including indirect injection through retrieved content (MID-071).
 
 **Stretch**
 - Reviews service on MongoDB with a datastore ADR (MID-042, MID-044).
@@ -152,6 +168,10 @@ A console application for a small library to manage books, members, and loans, b
 1. Architecture pack for engineers, operators, and leadership (SRC-010).
 2. Runbooks for every alert, each executed once by someone other than the author.
 3. A 30-minute operational handover to an incoming owner (role-played), recorded.
+
+**Required — AI (SRC-021, SRC-022)**
+1. The order-support assistant meets explicit latency, cost-per-conversation, and availability targets, with fallbacks for a provider outage (SRC-021).
+2. Prompt and model versions are released behind evaluation gates and can be rolled back; one bad-output incident is simulated and handled (SRC-022).
 
 **Stretch**
 - Performance regression check in CI catching a seeded regression.
@@ -195,6 +215,10 @@ A console application for a small library to manage books, members, and loans, b
 5. Cost-per-order analysis before and after integration (SRB-015).
 6. Biweekly status reports and a final outcomes report against the measurable goals (SRB-020).
 
+**Required — AI (SRB-021, SRB-022)**
+1. A shared LLM gateway used by at least two of the four teams, with quotas, redaction of personal data, cost attribution per team, and model routing (SRB-021).
+2. A rollout plan for AI coding assistants across the program with policy and an honest impact measure (SRB-022).
+
 **Stretch**
 - Service mesh trial with adopt/reject ADR (SRB-009).
 - Second migration phase planned in detail with updated risk register.
@@ -233,6 +257,10 @@ A console application for a small library to manage books, members, and loans, b
 4. Capability development plan tied to the strategy's actions (SRA-016).
 5. Succession plan for three critical areas, including the engineer's own (SRA-020).
 6. Executive funding pitch for year one (SRA-019).
+
+**Required — AI (SRA-021, SRA-022)**
+1. An AI strategy section: where AI creates value in commerce, build vs buy per use case, hosted vs open-weight choices, and three-year cost (SRA-021).
+2. Responsible-AI controls for the marketplace: transparency to sellers and customers, human oversight, privacy and residency of model calls, auditability (SRA-022).
 
 **Stretch**
 - A quarterly strategy review template with leading indicators for each guiding policy.
@@ -274,6 +302,10 @@ A console application for a small library to manage books, members, and loans, b
 5. Capability plan: platform champions, documentation, and a community of practice (STF-015).
 6. Executive business case and quarterly update format (STF-017).
 
+**Required — AI (STF-021, STF-022)**
+1. AI governance for the platform: approved tools, usage policy, evaluation standards for AI features, and guardrails offered as paved roads (STF-021).
+2. An AI adoption program for the product teams with enablement, risk controls, and outcome metrics (STF-022).
+
 **Stretch**
 - A technical due-diligence report on one team's stack recommending platform migration or not (STF-010).
 - A personal Staff promotion packet drafted from the capstone and real work (STF-020).
@@ -314,6 +346,11 @@ A console application for a small library to manage books, members, and loans, b
 1. Architecture principles for the program (ARC-007).
 2. Passage through a simulated architecture review board, with conditions closed (ARC-035, ARC-042).
 3. Stakeholder map and engagement plan (ARC-041).
+
+**Required — AI (ARC-045 … ARC-047)**
+1. AI customer-service assistant for Larkspur Retail: reference architecture over order, product, and policy data, integrated with CRM (ARC-045).
+2. AI security, privacy, and compliance architecture: prompt-data classification, residency, vendor terms, guardrails, audit (ARC-046).
+3. AI vendor and model evaluation with own evaluation results, total cost, and exit plan (ARC-047).
 
 **Stretch**
 - A second solution option fully costed for comparison (e.g., SaaS commerce suite vs custom build).

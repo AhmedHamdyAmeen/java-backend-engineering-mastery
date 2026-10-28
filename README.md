@@ -9,7 +9,7 @@ This repository turns the roadmap (Curriculum Architecture v1.0) into a maintain
 | Path | What it holds |
 | --- | --- |
 | [`CONVENTIONS.md`](CONVENTIONS.md) | ID scheme, module template, definition of done, technology baseline, change process |
-| [`catalog/modules.yaml`](catalog/modules.yaml) | **Machine-readable source of truth**: levels, phases, all 299 modules (the roadmap's 298 plus BEG-055), prerequisites |
+| [`catalog/modules.yaml`](catalog/modules.yaml) | **Machine-readable source of truth**: levels, phases, all 321 modules (the roadmap's 298, plus BEG-055 and 22 AI modules added in v2.0), prerequisites |
 | [`catalog/INDEX.md`](catalog/INDEX.md) | Generated index of every module, grouped by level and phase |
 | [`levels/`](levels/) | One folder per level. `README.md` is generated from the catalog; phase files hold detailed module specs; `interview-prep.md` holds that level's most common interview questions, how to answer them, and where each was learned and practiced |
 | [`projects/ladder.md`](projects/ladder.md) | The evolving-domain project ladder and capstone briefs |
@@ -20,16 +20,18 @@ This repository turns the roadmap (Curriculum Architecture v1.0) into a maintain
 
 | Level | Code | Modules | Status |
 | --- | --- | --- | --- |
-| 1. Beginner — Foundations | `BEG` | 55 | **Detailed** — full module specs in [`levels/01-beginner/`](levels/01-beginner/) |
-| 2. Junior Backend Engineer | `JNR` | 54 | **Detailed** — full module specs in [`levels/02-junior/`](levels/02-junior/) |
-| 3. Mid-Level Backend Engineer | `MID` | 66 | **Detailed** — full module specs in [`levels/03-mid/`](levels/03-mid/) |
-| 4. Senior Backend Engineer — Grade C | `SRC` | 20 | **Detailed** — full module specs in [`levels/04-senior-c/`](levels/04-senior-c/) |
-| 5. Senior Backend Engineer — Grade B | `SRB` | 20 | **Detailed** — full module specs in [`levels/05-senior-b/`](levels/05-senior-b/) |
-| 6. Senior Backend Engineer — Grade A | `SRA` | 20 | **Detailed** — full module specs in [`levels/06-senior-a/`](levels/06-senior-a/) |
-| 7. Staff Software Engineer | `STF` | 20 | **Detailed** — full module specs in [`levels/07-staff/`](levels/07-staff/) |
-| 8. Solution Architect | `ARC` | 44 | **Detailed** — full module specs in [`levels/08-solution-architect/`](levels/08-solution-architect/) |
+| 1. Beginner — Foundations | `BEG` | 57 | **Detailed** — full module specs in [`levels/01-beginner/`](levels/01-beginner/) |
+| 2. Junior Backend Engineer | `JNR` | 57 | **Detailed** — full module specs in [`levels/02-junior/`](levels/02-junior/) |
+| 3. Mid-Level Backend Engineer | `MID` | 72 | **Detailed** — full module specs in [`levels/03-mid/`](levels/03-mid/) |
+| 4. Senior Backend Engineer — Grade C | `SRC` | 22 | **Detailed** — full module specs in [`levels/04-senior-c/`](levels/04-senior-c/) |
+| 5. Senior Backend Engineer — Grade B | `SRB` | 22 | **Detailed** — full module specs in [`levels/05-senior-b/`](levels/05-senior-b/) |
+| 6. Senior Backend Engineer — Grade A | `SRA` | 22 | **Detailed** — full module specs in [`levels/06-senior-a/`](levels/06-senior-a/) |
+| 7. Staff Software Engineer | `STF` | 22 | **Detailed** — full module specs in [`levels/07-staff/`](levels/07-staff/) |
+| 8. Solution Architect | `ARC` | 47 | **Detailed** — full module specs in [`levels/08-solution-architect/`](levels/08-solution-architect/) |
 
 *Outline* means the module exists in the catalog with its ID, title, and topics; *Detailed* means every module also has prerequisites, outcomes, lectures, a lab, and an assessment (see the status ladder in `CONVENTIONS.md`).
+
+**AI is woven through every level**, at the depth of that level: using AI assistants responsibly (Beginner, Junior), building LLM features in Spring and then RAG, tools, and evaluation (Junior, Mid), operating AI reliably (Senior C), AI platforms, strategy, and responsible AI (Senior B, Senior A), AI governance (Staff), and AI solution architecture (Architect). Every capstone has AI requirements and every interview guide has AI questions.
 
 Senior grades run C → B → A, with A the most advanced. This is a course convention, not an industry standard. Staff Engineer and Solution Architect are related advanced tracks, not a mandatory linear sequence, and real progression into Senior, Staff, and Architect roles requires production experience that no course can substitute for.
 

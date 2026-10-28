@@ -4,7 +4,7 @@
 
 **Running project:** *Shop Core* — a plain-Java domain library (products, prices, carts, discounts) built here and reused as the domain layer of the Junior capstone (`JNR-CAP`).
 
-**Phase total:** ~7.9 h video · ~21 h practice
+**Phase total:** ~8.9 h video · ~23.5 h practice
 
 ---
 
@@ -104,6 +104,38 @@
 **Assessment:** smell-spotting review of an unseen class, with proposed refactorings.
 
 **Career relevance:** code reviews (JNR-053) and technical debt (SRC-017).
+
+---
+
+### JNR-055 · AI-assisted development workflow
+`n: new (added in v2.0)` · **Video:** 62 min · **Practice:** 2.5 h
+
+**Prerequisites:** BEG-057, JNR-003
+
+**Learning outcomes** — the learner can:
+1. Use an IDE assistant for completion, chat, and refactoring suggestions, and choose when not to use it.
+2. Write context-rich prompts: the relevant code, constraints, conventions, and the expected result.
+3. Generate tests and boilerplate with an assistant, then review them for meaningful assertions and correct behavior.
+4. Review AI-assisted changes in a pull request with the same standards as human code, and disclose AI use as the team requires.
+5. Follow a team policy that protects proprietary code, secrets, and licenses.
+
+**Lectures**
+| ID | Title | Min |
+| --- | --- | --- |
+| JNR-055-L01 | Assistants in the professional workflow | 10 |
+| JNR-055-L02 | Prompts with context: code, constraints, conventions | 12 |
+| JNR-055-L03 | AI for tests and boilerplate, and how to review it | 10 |
+| JNR-055-L04 | Reviewing AI-assisted pull requests | 10 |
+| JNR-055-L05 | Team policies: code privacy, secrets, licenses | 8 |
+| JNR-055-L06 | Demo: refactoring a long method with an assistant under green tests | 12 |
+
+**Lab** — `JNR-055-LAB1` *Assisted refactoring:* use an assistant to help refactor the `CheckoutService` from `JNR-003-LAB1` and to generate missing unit tests. Keep a log of prompts, what you accepted, what you rejected, and why. Acceptance: tests stay green throughout; every generated test has meaningful assertions; at least two suggestions rejected with reasons; a one-page team AI-use policy drafted for Shop.
+
+**Common mistakes:** accepting large generated diffs without reading them; generated tests that assert nothing useful; pasting proprietary code into tools the employer has not approved.
+
+**Assessment:** review a provided AI-assisted pull request and find its defects and policy issues.
+
+**Career relevance:** most teams now use AI assistants; reviewing their output well is a junior expectation. Deepened in MID-072 and governed at scale in SRB-022 and STF-021.
 
 ---
 

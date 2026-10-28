@@ -4,9 +4,43 @@
 
 **Running project:** *Shop Platform* on Kubernetes with OpenTelemetry tracing, Prometheus/Grafana dashboards, SLO alerts, and Terraform-managed infrastructure.
 
-**Phase total:** ~15.4 h video · ~38 h practice
+**Phase total:** ~18.9 h video · ~47 h practice
 
 > **Cloud note:** labs are written for one provider (AWS or Azure, per the pending baseline decision in `CONVENTIONS.md`). A local Kubernetes cluster (kind or k3d) covers everything except MID-056 and MID-058 for learners without a cloud account.
+
+---
+
+### MID-069 · Tool calling and agents
+`n: new (added in v2.0)` · **Video:** 80 min · **Practice:** 3.5 h · `version:` tool-calling APIs and the Model Context Protocol evolve quickly — verify before recording
+
+**Prerequisites:** MID-033, MID-068
+
+**Learning outcomes** — the learner can:
+1. Explain how tool (function) calling works: the model proposes a call, the application decides whether and how to execute it.
+2. Design tools with narrow scope, typed parameters, idempotency, and clear error results.
+3. Enforce authorization on every tool call using the end user's identity, never the model's judgment.
+4. Require human approval for tools with side effects (refunds, cancellations) and bound agent loops with step, time, and cost limits.
+5. Describe the Model Context Protocol (MCP) as a standard way to expose tools and data to models, and when it is worth adopting.
+
+**Lectures**
+| ID | Title | Min |
+| --- | --- | --- |
+| MID-069-L01 | From answering to acting | 8 |
+| MID-069-L02 | How tool calling works | 12 |
+| MID-069-L03 | Designing safe tools | 10 |
+| MID-069-L04 | Authorization and identity for tool calls | 10 |
+| MID-069-L05 | Side effects, idempotency, and human approval | 8 |
+| MID-069-L06 | Agent loops and their limits; MCP as a concept | 7 |
+| MID-069-L07 | Demo: an order-status tool that respects ownership | 12 |
+| MID-069-L08 | Demo: a refund request routed to human approval | 13 |
+
+**Lab** — `MID-069-LAB1` *Assistant with tools:* give the order-support assistant read-only tools (order status, shipment tracking) that call Shop Platform services with the customer's token, and a "request refund" tool that only creates a pending request for a human agent. Acceptance: a customer can never see another customer's order through the assistant (test); no tool with side effects executes without approval; loops stop at the configured step and cost limits.
+
+**Common mistakes:** tools that run with a service account and bypass ownership checks; letting the model decide whether an action is allowed; non-idempotent tools retried by the agent loop; unbounded loops.
+
+**Assessment:** tool-design review — find authorization, idempotency, and approval gaps in a provided tool set.
+
+**Career relevance:** agentic features at Senior levels (SRC-021) and the AI platform's tool governance (SRB-021).
 
 ---
 
@@ -135,6 +169,39 @@
 
 ---
 
+### MID-070 · LLM evaluation and observability
+`n: new (added in v2.0)` · **Video:** 67 min · **Practice:** 3 h
+
+**Prerequisites:** MID-047, MID-068
+
+**Learning outcomes** — the learner can:
+1. Build an evaluation set of realistic questions with expected sources and acceptance criteria.
+2. Measure retrieval recall, answer groundedness (faithfulness to sources), and refusal correctness.
+3. Use an LLM as a judge with calibration against human-labeled samples, and state its limits.
+4. Run evaluations in CI so prompt, model, or retrieval changes cannot silently degrade quality.
+5. Trace each request with token counts, latency per step, model version, and cost, and build dashboards and alerts on them.
+
+**Lectures**
+| ID | Title | Min |
+| --- | --- | --- |
+| MID-070-L01 | Why LLM features need evaluations | 8 |
+| MID-070-L02 | Building an evaluation set | 10 |
+| MID-070-L03 | Metrics: recall, groundedness, refusals | 10 |
+| MID-070-L04 | LLM-as-judge and its caveats | 8 |
+| MID-070-L05 | Evaluations in CI | 8 |
+| MID-070-L06 | Tracing tokens, latency, and cost | 10 |
+| MID-070-L07 | Demo: an evaluation run catching a prompt regression | 13 |
+
+**Lab** — `MID-070-LAB1` *Measured assistant:* a 50-question evaluation set for the order-support assistant run in CI with pass thresholds; OpenTelemetry spans for retrieval, model call, and tools with token and cost attributes; a Grafana dashboard for cost per conversation and p95 latency. Acceptance: a deliberately worse prompt fails the pipeline; cost per conversation is visible per day.
+
+**Common mistakes:** evaluating with five hand-picked questions; trusting an uncalibrated judge model; no record of which prompt and model version produced an answer; cost discovered on the monthly invoice.
+
+**Assessment:** design an evaluation plan for a new AI feature, including thresholds and what blocks a release.
+
+**Career relevance:** evaluation-gated releases (SRC-022) and AI vendor and model evaluation (ARC-047).
+
+---
+
 ### MID-049 · Reliability
 `n: 157` · **Video:** 60 min · **Practice:** 2 h
 
@@ -254,6 +321,38 @@
 **Assessment:** threat model review.
 
 **Career relevance:** security reviews (SRC-018).
+
+---
+
+### MID-071 · AI application threats
+`n: new (added in v2.0)` · **Video:** 61 min · **Practice:** 2.5 h · `version:` follows the current OWASP Top 10 for LLM Applications — verify before recording
+
+**Prerequisites:** MID-052, MID-069
+
+**Learning outcomes** — the learner can:
+1. Explain the OWASP Top 10 for LLM Applications categories, including prompt injection, sensitive information disclosure, improper output handling, excessive agency, system prompt leakage, vector and embedding weaknesses, and unbounded consumption.
+2. Demonstrate indirect prompt injection through retrieved content and mitigate it (content provenance, separation of instructions and data, tool restrictions, output checks).
+3. Prevent data exfiltration through tools, links, and rendered output.
+4. Protect against cost and resource abuse with per-user quotas, input limits, and loop limits.
+5. Add these threats to the service's threat model and to automated security tests.
+
+**Lectures**
+| ID | Title | Min |
+| --- | --- | --- |
+| MID-071-L01 | The LLM threat landscape | 12 |
+| MID-071-L02 | Indirect prompt injection through retrieved content | 10 |
+| MID-071-L03 | Excessive agency and improper output handling | 10 |
+| MID-071-L04 | Sensitive data disclosure and system prompt leakage | 8 |
+| MID-071-L05 | Unbounded consumption and cost abuse | 8 |
+| MID-071-L06 | Demo: a poisoned help article hijacks the assistant, then the fix | 13 |
+
+**Lab** — `MID-071-LAB1` *Attack the assistant:* write automated tests for direct and indirect injection (a planted help article), attempts to read another customer's data via tools, data exfiltration via generated links, and quota exhaustion; then fix what they find. Acceptance: all attack tests run in CI and pass after the fixes; threat model updated.
+
+**Common mistakes:** relying on "ignore malicious instructions" in the system prompt as the only defense; trusting content because it came from your own index; rendering model output as HTML or executing it.
+
+**Assessment:** threat-model the order-support assistant and rank the top five risks with mitigations.
+
+**Career relevance:** AI security architecture (ARC-046) and responsible AI (SRA-022).
 
 ---
 

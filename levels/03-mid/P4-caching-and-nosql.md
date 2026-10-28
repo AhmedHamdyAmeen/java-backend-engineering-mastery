@@ -4,7 +4,7 @@
 
 **Running project:** *Shop Platform* gains a Redis cache for the catalog, a search service backed by OpenSearch, and a decision record on whether reviews belong in MongoDB.
 
-**Phase total:** ~7.4 h video · ~17.5 h practice
+**Phase total:** ~9.8 h video · ~24 h practice
 
 ---
 
@@ -220,6 +220,71 @@
 **Assessment:** lab plus tool-choice scenario.
 
 **Career relevance:** data platform integration (SRB-007).
+
+---
+
+### MID-067 · Embeddings and vector search
+`n: new (added in v2.0)` · **Video:** 65 min · **Practice:** 3 h · `version:` embedding models and pgvector releases change — verify before recording
+
+**Prerequisites:** JNR-056, MID-043
+
+**Learning outcomes** — the learner can:
+1. Explain what an embedding is and why semantically similar texts end up close together.
+2. Choose a similarity measure (cosine, inner product, Euclidean distance) consistent with the embedding model.
+3. Store and query embeddings in PostgreSQL with pgvector, and choose between HNSW and IVFFlat indexes by recall, build time, and memory.
+4. Combine keyword (full-text) and vector search into hybrid search and explain when each wins.
+
+**Lectures**
+| ID | Title | Min |
+| --- | --- | --- |
+| MID-067-L01 | What embeddings are | 10 |
+| MID-067-L02 | Similarity measures | 8 |
+| MID-067-L03 | pgvector: storing and querying vectors | 12 |
+| MID-067-L04 | Approximate indexes: HNSW and IVFFlat | 12 |
+| MID-067-L05 | Hybrid search: keywords plus vectors | 10 |
+| MID-067-L06 | Demo: semantic search over Shop's help-center articles | 13 |
+
+**Lab** — `MID-067-LAB1` *Searchable help center:* embed Shop's help-center and policy documents into pgvector, add an HNSW index, and expose a semantic search endpoint with a hybrid (full-text + vector) mode. Acceptance: a test set of 30 customer questions shows the right article in the top 3 for at least 25; query latency and index size recorded.
+
+**Common mistakes:** mixing embeddings from different models in one column; using a distance measure the model was not trained for; approximate indexes without measuring recall; re-embedding everything on every change.
+
+**Assessment:** design exercise — choose model, dimensions, index, and refresh strategy for a new corpus and justify each choice.
+
+**Career relevance:** the data layer of every RAG feature (MID-068) and of AI solution architectures (ARC-045).
+
+---
+
+### MID-068 · Retrieval-augmented generation
+`n: new (added in v2.0)` · **Video:** 80 min · **Practice:** 3.5 h
+
+**Prerequisites:** MID-067
+
+**Learning outcomes** — the learner can:
+1. Explain why retrieval-augmented generation (RAG) grounds model answers in your own data and where it still fails.
+2. Chunk documents with sensible size, overlap, and metadata, and retrieve with filters (e.g., language, product, customer tier).
+3. Assemble a prompt from retrieved chunks with source citations, and make the assistant say "I don't know" when retrieval finds nothing relevant.
+4. Keep the index fresh by re-embedding on change events instead of nightly full rebuilds.
+5. Measure retrieval quality (recall of the right chunk) separately from answer quality.
+
+**Lectures**
+| ID | Title | Min |
+| --- | --- | --- |
+| MID-068-L01 | Why RAG, and its limits | 8 |
+| MID-068-L02 | Chunking strategies | 10 |
+| MID-068-L03 | Retrieval, filters, and re-ranking | 10 |
+| MID-068-L04 | Context assembly and citations | 10 |
+| MID-068-L05 | Freshness: re-indexing on events | 8 |
+| MID-068-L06 | Evaluating retrieval separately from generation | 9 |
+| MID-068-L07 | Demo: the order-support assistant answers with citations | 13 |
+| MID-068-L08 | Demo: a stale policy answer fixed by event-driven re-indexing | 12 |
+
+**Lab** — `MID-068-LAB1` *Order-support assistant v1:* answer customer questions about shipping, returns, and payment policies from the MID-067 index, citing the source articles; when an article changes, a `HelpArticleUpdated` event re-embeds only that article. Acceptance: every answer cites at least one source or explicitly declines; a changed policy is reflected within one minute; retrieval recall measured on the question set.
+
+**Common mistakes:** chunks so large they drown the answer; no citations, so wrong answers cannot be traced; answering from model memory when retrieval is empty; judging RAG only by how fluent the answers sound.
+
+**Assessment:** diagnose three bad answers (retrieval miss, stale chunk, ignored context) from logs and fix each at the right layer.
+
+**Career relevance:** the most common pattern in enterprise AI features; evaluated in MID-070, secured in MID-071, operated in SRC-022.
 
 ---
 

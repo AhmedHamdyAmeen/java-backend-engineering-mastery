@@ -6,7 +6,7 @@
 
 **Format:** case studies, worked sessions, and leadership role-play, with two worked sessions per module. Assessment weighs organizational leverage, not code.
 
-**Phase total:** ~15.6 h video · ~34.5 h practice
+**Phase total:** ~17.1 h video · ~38 h practice
 
 ---
 
@@ -147,6 +147,40 @@
 **Workplace evidence:** an adoption you drove, with adoption numbers over time.
 
 **Career relevance:** operational transition for architects (ARC-038).
+
+---
+
+### STF-022 · Leading an AI adoption program
+`n: new (added in v2.0)` · **Video:** 86 min · **Practice:** 3.5 h
+
+**Prerequisites:** STF-014, STF-021
+
+**Learning outcomes** — the engineer can:
+1. Design an adoption program for AI tools and AI features: champions, enablement, communities, and support.
+2. Address fears and resistance (job security, quality, deskilling) honestly.
+3. Manage adoption risk: security incidents, quality drops, cost overruns, and over-reliance.
+4. Report outcomes to leadership and adjust the program from evidence.
+
+**Lectures**
+| ID | Title | Min |
+| --- | --- | --- |
+| STF-022-L01 | AI adoption is organizational change | 10 |
+| STF-022-L02 | Champions, enablement, and communities | 12 |
+| STF-022-L03 | Resistance and trust | 12 |
+| STF-022-L04 | Managing adoption risk | 12 |
+| STF-022-L05 | Reporting and adjusting | 10 |
+| STF-022-L06 | Demo: a town hall on AI tools with skeptical engineers | 15 |
+| STF-022-L07 | Demo: pausing a rollout after a quality drop | 15 |
+
+**Lab** — `STF-022-LAB1` *AI adoption program:* a two-quarter adoption program for Platform 2.0 covering enablement, champions, risk management, and an executive report template; respond to an assessor-injected event (a secret leaked through an AI tool, or a defect spike). Acceptance: response follows the program's risk plan; executive report states outcomes and trade-offs.
+
+**Common mistakes:** adoption targets as percentages of engineers using a tool; no plan for incidents; dismissing concerns as resistance.
+
+**Assessment:** program review plus incident-response simulation.
+
+**Workplace evidence:** an AI adoption effort you led and its measured outcome.
+
+**Career relevance:** organizational change at Staff scope; executive communication (STF-017).
 
 ---
 

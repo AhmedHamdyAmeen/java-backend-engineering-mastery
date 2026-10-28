@@ -6,7 +6,7 @@
 
 **Format:** case studies, worked architecture sessions, governance and stakeholder role-play. Each module lists the workplace evidence that demonstrates the role.
 
-**Phase total:** ~12.5 h video · ~40.5 h practice
+**Phase total:** ~13.6 h video · ~44 h practice
 
 ---
 
@@ -267,6 +267,39 @@
 **Workplace evidence:** a vendor evaluation you ran or contributed to.
 
 **Career relevance:** buy decisions are frequent in enterprise solutions.
+
+---
+
+### ARC-047 · AI vendor and model evaluation
+`n: new (added in v2.0)` · **Video:** 70 min · **Practice:** 3.5 h
+
+**Prerequisites:** ARC-040, ARC-045
+
+**Learning outcomes** — the architect can:
+1. Define evaluation criteria for AI vendors and models: quality on your own tasks, latency, cost, data terms, security, support, and exit.
+2. Explain why public benchmarks are not enough and build a task-specific evaluation set.
+3. Run a time-boxed AI proof of concept that answers the riskiest questions.
+4. Compare total cost over several years, including usage growth and switching costs.
+
+**Lectures**
+| ID | Title | Min |
+| --- | --- | --- |
+| ARC-047-L01 | Evaluating AI vendors and models | 12 |
+| ARC-047-L02 | Benchmarks vs your own evaluations | 12 |
+| ARC-047-L03 | AI proofs of concept | 10 |
+| ARC-047-L04 | Multi-year AI cost and exit planning | 10 |
+| ARC-047-L05 | Demo: scoring three AI vendors for Larkspur | 14 |
+| ARC-047-L06 | Demo: building a 50-question evaluation set from support tickets | 12 |
+
+**Lab** — `ARC-047-LAB1` *AI vendor choice:* evaluate three candidate approaches for the Larkspur assistant (two hosted providers and one self-hosted open-weight model) with a task-specific evaluation set, cost model, and terms review. Acceptance: recommendation with evaluation scores, three-year cost, and exit plan.
+
+**Common mistakes:** choosing on public leaderboard rank; PoCs on toy questions; ignoring data terms until contracting.
+
+**Assessment:** evaluation report review.
+
+**Workplace evidence:** an AI vendor or model evaluation you ran and its outcome.
+
+**Career relevance:** vendor and procurement work in every AI-enabled solution.
 
 ---
 

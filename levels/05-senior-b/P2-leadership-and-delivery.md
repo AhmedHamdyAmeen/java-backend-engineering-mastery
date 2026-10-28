@@ -6,7 +6,7 @@
 
 **Format:** case studies, worked sessions, and multi-team role-play.
 
-**Phase total:** ~14.2 h video · ~34 h practice
+**Phase total:** ~15.6 h video · ~37.5 h practice
 
 ---
 
@@ -144,6 +144,40 @@
 **Workplace evidence:** an improvement you drove using delivery or reliability metrics.
 
 **Career relevance:** measuring impact (STF-019) and engineering productivity (STF-009).
+
+---
+
+### SRB-022 · AI tools across teams
+`n: new (added in v2.0)` · **Video:** 86 min · **Practice:** 3.5 h
+
+**Prerequisites:** MID-072, SRB-014
+
+**Learning outcomes** — the engineer can:
+1. Plan a rollout of AI coding assistants across several teams with pilots, training, and support.
+2. Write a usage policy covering code confidentiality, secrets, licensing, and review requirements.
+3. Run a security review of an AI tool (data handling, retention, access, admin controls).
+4. Measure impact honestly with delivery, quality, and developer-experience metrics rather than vanity metrics.
+
+**Lectures**
+| ID | Title | Min |
+| --- | --- | --- |
+| SRB-022-L01 | AI assistants as a team capability | 10 |
+| SRB-022-L02 | Pilots and rollout | 12 |
+| SRB-022-L03 | Usage policy | 12 |
+| SRB-022-L04 | Reviewing an AI tool's security | 10 |
+| SRB-022-L05 | Measuring impact without fooling yourself | 12 |
+| SRB-022-L06 | Demo: designing a two-team pilot with a control group | 15 |
+| SRB-022-L07 | Demo: reading a pilot's results that look better than they are | 15 |
+
+**Lab** — `SRB-022-LAB1` *Assistant rollout at FulfillCo:* pilot plan, usage policy, and security review for an AI coding assistant across the four teams, plus a measurement plan using DORA and quality metrics. Acceptance: policy approved by a role-played security lead; measurement plan includes a baseline and a defect-rate check.
+
+**Common mistakes:** measuring "lines of code generated"; rolling out without a policy; ignoring review load created by more code.
+
+**Assessment:** rollout plan defense.
+
+**Workplace evidence:** an AI tool rollout or policy you led and what the data showed.
+
+**Career relevance:** AI governance and adoption at organization scale (STF-021, STF-022).
 
 ---
 

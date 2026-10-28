@@ -27,6 +27,7 @@ Typical entry-level Java job posts list the skills below. The right-hand columns
 | Git and GitHub | BEG-046, BEG-047 | `BEG-047-LAB1` public portfolio |
 | HTTP and REST basics | BEG-052, BEG-053 | `BEG-053-LAB1` Postman collection |
 | Build tools (Maven) | BEG-054 | `BEG-054-LAB1` Mavenized project |
+| Using AI assistants responsibly | BEG-056, BEG-057 | `BEG-057-LAB1`, `AI-USE.md` in `BEG-CAP` |
 
 **Your portfolio at the end of Level 1:** the Library Management System (`BEG-CAP`) on GitHub with a README, tests, and a class diagram, plus the data-structures project. Pin both on your GitHub profile and link them on your CV.
 
@@ -468,7 +469,39 @@ try (var ps = connection.prepareStatement(sql)) {
 
 ---
 
-## 8. Four-week preparation plan
+## 8. AI questions
+
+### Q25 · Do you use AI tools like ChatGPT or Copilot when you code? How do you make sure the code is right?
+**How often:** Very common · **Round:** Screen, technical
+
+**How to answer:** say yes honestly, then show discipline — interviewers worry about candidates who paste code they cannot explain.
+- I try first, then ask the assistant to **explain** an error or concept, not just to write the solution.
+- I treat every suggestion as untrusted: I read it line by line, trace it with a small input, and run tests — including edge cases the assistant did not mention.
+- I never paste secrets, passwords, or private company code into a public tool.
+- Give a concrete example of a suggestion you rejected and why (e.g., it used `==` on strings, or ignored an empty list).
+
+**Common trap:** "I always use AI so I don't need to understand the details." Interviews still test whether you understand the code yourself.
+
+**Learned in:** BEG-056, BEG-057
+**Practiced in:** `BEG-056-LAB1`, `BEG-057-LAB1`, `BEG-CAP`
+**Show it:** your capstone's `AI-USE.md` with the suggestion you corrected.
+
+---
+
+### Q26 · What is a "hallucination" in an AI assistant, and why does it happen?
+**How often:** Common · **Round:** Screen
+
+**How to answer:**
+- A language model predicts likely next words from patterns in its training data; it does not look facts up or run your code.
+- So it can produce confident, plausible, but wrong answers — invented methods, wrong API names, outdated syntax.
+- The defense is verification: compile, run, test, and check the official documentation.
+
+**Learned in:** BEG-056
+**Practiced in:** `BEG-056-LAB1`
+
+---
+
+## 9. Four-week preparation plan
 
 | Week | Focus | Do this |
 | --- | --- | --- |

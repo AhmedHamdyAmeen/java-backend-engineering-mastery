@@ -6,7 +6,7 @@
 
 **Format:** case studies, worked architecture sessions, and stakeholder role-play. Each module lists the workplace evidence that demonstrates the role.
 
-**Phase total:** ~10.9 h video · ~33 h practice
+**Phase total:** ~13.0 h video · ~40.5 h practice
 
 ---
 
@@ -73,6 +73,39 @@
 **Workplace evidence:** an integration design you produced and how it held up in operation.
 
 **Career relevance:** integration is where most enterprise solutions succeed or fail.
+
+---
+
+### ARC-045 · AI solution architecture
+`n: new (added in v2.0)` · **Video:** 70 min · **Practice:** 4 h
+
+**Prerequisites:** SRA-021, ARC-024
+
+**Learning outcomes** — the architect can:
+1. Select a reference architecture for an AI capability: assistant, retrieval over enterprise content, or agent with tools.
+2. Integrate AI with enterprise systems (ERP, CRM, knowledge bases) through governed APIs and events rather than direct database access.
+3. Choose deployment options (hosted API, private endpoint, self-hosted) against data, latency, and cost requirements.
+4. Estimate cost and latency of an AI capability and design fallbacks to human or non-AI paths.
+
+**Lectures**
+| ID | Title | Min |
+| --- | --- | --- |
+| ARC-045-L01 | AI reference architectures | 12 |
+| ARC-045-L02 | Grounding AI in enterprise data | 12 |
+| ARC-045-L03 | Agents and tools over enterprise systems | 10 |
+| ARC-045-L04 | Deployment options and their trade-offs | 10 |
+| ARC-045-L05 | Demo: architecture of the Larkspur customer-service assistant | 14 |
+| ARC-045-L06 | Demo: costing the assistant per conversation | 12 |
+
+**Lab** — `ARC-045-LAB1` *Larkspur AI assistant:* solution architecture for a customer-service assistant that answers order, return, and product questions using CRM and ERP data and hands over to human agents. Acceptance: C4 container view, data flows, deployment choice justified, cost per conversation estimated, human handover designed.
+
+**Common mistakes:** letting the model query core systems directly; no human handover; costs estimated per request without conversation volume.
+
+**Assessment:** architecture defense.
+
+**Workplace evidence:** an AI solution architecture you designed or reviewed.
+
+**Career relevance:** AI is now a standard part of enterprise solution designs.
 
 ---
 
@@ -238,6 +271,38 @@
 **Workplace evidence:** a compliance requirement you turned into architecture that passed an audit.
 
 **Career relevance:** privacy and compliance constraints shape retail and payments solutions.
+
+---
+
+### ARC-046 · AI security, privacy, and compliance architecture
+`n: new (added in v2.0)` · **Video:** 58 min · **Practice:** 3.5 h
+
+**Prerequisites:** ARC-029, ARC-045
+
+**Learning outcomes** — the architect can:
+1. Classify data that may appear in prompts, retrieved content, and outputs, and enforce rules per class.
+2. Address residency, retention, and training-use terms of AI providers in the architecture and contracts.
+3. Design guardrails against prompt injection, data leakage, and excessive agency at architecture level.
+4. Make AI outcomes auditable and support data-subject rights for data used by AI features.
+
+**Lectures**
+| ID | Title | Min |
+| --- | --- | --- |
+| ARC-046-L01 | Data classification for AI | 10 |
+| ARC-046-L02 | Provider terms: residency, retention, training use | 12 |
+| ARC-046-L03 | Architectural guardrails | 12 |
+| ARC-046-L04 | Auditability and data-subject rights | 10 |
+| ARC-046-L05 | Demo: threat-modeling the Larkspur assistant | 14 |
+
+**Lab** — `ARC-046-LAB1` *Securing the assistant:* data classification, provider-terms checklist, guardrail design, audit design, and threat model for the Larkspur assistant. Acceptance: reviewed by a role-played security and privacy officer; no payment card data can reach the model.
+
+**Common mistakes:** assuming provider defaults meet company policy; guardrails only in the prompt; no deletion path for conversation logs.
+
+**Assessment:** security and privacy review.
+
+**Workplace evidence:** an AI security or privacy design you led through review.
+
+**Career relevance:** AI compliance is increasingly part of architecture review boards.
 
 ---
 

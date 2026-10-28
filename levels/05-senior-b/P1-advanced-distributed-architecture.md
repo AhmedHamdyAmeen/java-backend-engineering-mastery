@@ -6,7 +6,7 @@
 
 **Format:** case studies, worked design sessions, and multi-team role-play. Each module lists the workplace evidence that demonstrates the role.
 
-**Phase total:** ~15.0 h video · ~38 h practice
+**Phase total:** ~16.4 h video · ~42 h practice
 
 ---
 
@@ -353,3 +353,37 @@
 **Workplace evidence:** a reusable capability other teams adopted.
 
 **Career relevance:** the Staff capstone (STF-CAP) builds on this.
+
+---
+
+### SRB-021 · AI platform capabilities
+`n: new (added in v2.0)` · **Video:** 88 min · **Practice:** 4 h
+
+**Prerequisites:** SRB-010, SRC-021
+
+**Learning outcomes** — the engineer can:
+1. Design a shared LLM gateway: authentication, per-team quotas, redaction of sensitive data, logging, cost attribution, and model routing.
+2. Offer shared retrieval services (embedding, indexing, search) with clear data ownership per team.
+3. Build an AI golden path: template, evaluation harness, observability, and security checks pre-wired.
+4. Decide which AI capabilities to centralize and which to leave to product teams.
+
+**Lectures**
+| ID | Title | Min |
+| --- | --- | --- |
+| SRB-021-L01 | Why AI needs platform support | 10 |
+| SRB-021-L02 | The LLM gateway | 14 |
+| SRB-021-L03 | Quotas, redaction, and cost attribution | 12 |
+| SRB-021-L04 | Shared retrieval services and data ownership | 12 |
+| SRB-021-L05 | An AI golden path | 10 |
+| SRB-021-L06 | Demo: four teams, one gateway, one cost report | 15 |
+| SRB-021-L07 | Demo: redacting customer data before it reaches a model | 15 |
+
+**Lab** — `SRB-021-LAB1` *FulfillCo LLM gateway:* design and prototype a gateway used by all four teams, with per-team quotas, redaction, request logging, and cost attribution; write the AI golden path. Acceptance: one team's runaway usage cannot exhaust another's quota; cost per team reported; no unredacted personal data in logs.
+
+**Common mistakes:** every team holding its own provider keys; logging full prompts with customer data; centralizing prompt design that belongs to product teams.
+
+**Assessment:** platform capability review.
+
+**Workplace evidence:** a shared AI capability other teams adopted.
+
+**Career relevance:** AI strategy (SRA-021) and AI governance (STF-021).

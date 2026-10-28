@@ -25,6 +25,8 @@ The questions most often asked when hiring senior engineers who lead the technic
 | Organizational design awareness | SRA-018 | `SRA-018-LAB1` team-boundary proposal |
 | Executive communication | SRA-019 | `SRA-019-LAB1` funding pitch |
 | Growing engineers and succession | SRA-016, SRA-020 | `SRA-016-LAB1`, `SRA-020-LAB1` |
+| AI strategy and build vs buy | SRA-021 | `SRA-021-LAB1`, AI strategy in `SRA-CAP` |
+| Responsible AI and AI compliance | SRA-022 | `SRA-022-LAB1` |
 
 **Your portfolio at the end of Level 6:** the *Commerce 2030* strategy package (`SRA-CAP`) — vision, context map, roadmap, cost model, standards — plus a written record of the **workplace evidence** each SRA module asks for. Interviewers at this level care far more about the second.
 
@@ -287,7 +289,42 @@ The questions most often asked when hiring senior engineers who lead the technic
 
 ---
 
-## 6. Six-week preparation plan
+## 6. AI questions
+
+### Q15 · Leadership wants "an AI strategy" for the product area. How do you approach it?
+**How often:** Increasingly common · **Round:** Strategy, executive
+
+**How to answer:**
+1. **Start from problems, not models:** list use cases by business value and feasibility (data available, error tolerance, regulatory risk).
+2. **Choose the approach per use case:** hosted model API, open-weight model you host, RAG over your data, or fine-tuning — and say why (RAG for changing knowledge, fine-tuning for style or narrow tasks, self-hosting for data control or cost at scale).
+3. **Total cost of ownership:** tokens or GPUs, engineering, evaluation, operations, and the cost of errors; include exit options to limit lock-in.
+4. **Foundations:** data quality and access, an AI platform, evaluation and governance.
+5. **Sequence:** a few high-value, low-risk use cases first, with measurable outcomes and a decision point to scale or stop.
+
+**Common trap:** a strategy that is a list of tools, or "add a chatbot everywhere".
+
+**Learned in:** SRA-021, SRA-008, SRA-010
+**Practiced in:** `SRA-021-LAB1`, `SRA-CAP`
+**Show it:** the AI section of your Commerce 2030 strategy; at work, an AI investment decision you shaped.
+
+---
+
+### Q16 · How do you make an AI feature responsible and compliant?
+**How often:** Increasingly common · **Round:** Strategy, risk
+
+**How to answer:**
+- **Classify the risk** of the use case (risk-based regulation such as the EU AI Act takes this approach) and involve legal and compliance early.
+- **Privacy:** minimize personal data in prompts, know where model calls are processed (residency), check vendor data-use terms, and support deletion.
+- **Transparency and oversight:** tell users they are interacting with AI, keep a human in the loop for consequential decisions, and provide a way to contest outcomes.
+- **Quality and fairness:** evaluate for bias and errors on representative data.
+- **Auditability:** log inputs, outputs, model versions, and decisions so you can explain what happened.
+
+**Learned in:** SRA-022, SRA-009
+**Practiced in:** `SRA-022-LAB1`
+
+---
+
+## 7. Six-week preparation plan
 
 | Week | Focus | Do this |
 | --- | --- | --- |

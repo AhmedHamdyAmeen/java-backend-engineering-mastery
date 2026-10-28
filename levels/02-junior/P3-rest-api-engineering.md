@@ -4,7 +4,7 @@
 
 **Running project:** *Shop API* gains the full catalog, cart, and file features over the in-memory repository from JNR-P2 (persistence follows in JNR-P4).
 
-**Phase total:** ~7.7 h video · ~20 h practice
+**Phase total:** ~8.9 h video · ~23 h practice
 
 ---
 
@@ -191,6 +191,41 @@
 **Assessment:** lab check.
 
 **Career relevance:** API testing (JNR-046) and resilience (MID-033).
+
+---
+
+### JNR-056 · Calling LLMs from Spring
+`n: new (added in v2.0)` · **Video:** 74 min · **Practice:** 3 h · `version:` current Spring AI
+
+**Prerequisites:** JNR-012, JNR-022
+
+**Learning outcomes** — the learner can:
+1. Explain how an LLM API call works: messages, system prompt, model parameters, tokens, and cost.
+2. Call a model from Spring with Spring AI's `ChatClient`, keeping the provider behind configuration.
+3. Convert model output into Java records with structured output, and validate it before use.
+4. Stream responses to clients and set timeouts, retries, and a token budget per request.
+5. Hide the model behind an application interface and test the feature with a fake implementation.
+
+**Lectures**
+| ID | Title | Min |
+| --- | --- | --- |
+| JNR-056-L01 | What happens in an LLM API call | 10 |
+| JNR-056-L02 | Spring AI concepts: ChatClient, prompts, advisors | 12 |
+| JNR-056-L03 | Structured output to records, and validating it | 12 |
+| JNR-056-L04 | Streaming responses | 10 |
+| JNR-056-L05 | Timeouts, retries, and token budgets | 10 |
+| JNR-056-L06 | Keys, configuration, and testing with a fake model | 8 |
+| JNR-056-L07 | Demo: an AI product-description helper for Shop API | 12 |
+
+> **Version note:** Spring AI's APIs evolve; lectures teach the stable concepts above, and each recording is checked against the current Spring AI reference before publishing.
+
+**Lab** — `JNR-056-LAB1` *AI helper for Shop:* add a `ProductDescriptionAssistant` (or natural-language product search) to Shop API behind an interface. The Spring AI implementation returns a validated record; a fake implementation is used in tests. Acceptance: provider and model set only in configuration; API key from the environment; timeout and max-token limit configured; invalid model output handled with a clear error or fallback; controller and service tests pass without network access.
+
+**Common mistakes:** parsing free text instead of requesting structured output; no timeout on model calls; API keys in `application.yml`; tests that call the real model.
+
+**Assessment:** extend the helper with a new field and keep all tests deterministic.
+
+**Career relevance:** LLM features are increasingly part of backend work; JNR-057 secures them, and MID-067 to MID-070 add retrieval, tools, and evaluation.
 
 ---
 

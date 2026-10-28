@@ -24,6 +24,7 @@
 | [`SRB-008`](P1-advanced-distributed-architecture.md#srb-008--architecture-migration) | Architecture migration | Strangler fig, branch by abstraction, dual-write risks |
 | [`SRB-009`](P1-advanced-distributed-architecture.md#srb-009--service-mesh) | Service mesh | mTLS, traffic management, policy enforcement, trade-offs |
 | [`SRB-010`](P1-advanced-distributed-architecture.md#srb-010--platform-engineering) | Platform engineering | Internal developer platforms, golden paths, self-service capabilities |
+| [`SRB-021`](P1-advanced-distributed-architecture.md#srb-021--ai-platform-capabilities) | AI platform capabilities | Shared LLM gateway with quotas, redaction, cost attribution, and routing, shared retrieval services, AI golden path |
 
 ## SRB-P2 — [Engineering Leadership and Delivery](P2-leadership-and-delivery.md)
 
@@ -33,6 +34,7 @@
 | [`SRB-012`](P2-leadership-and-delivery.md#srb-012--architecture-governance) | Architecture governance | RFCs, design reviews, exception processes |
 | [`SRB-013`](P2-leadership-and-delivery.md#srb-013--technology-evaluation) | Technology evaluation | Proofs of concept, evaluation matrices, decision criteria |
 | [`SRB-014`](P2-leadership-and-delivery.md#srb-014--engineering-metrics) | Engineering metrics | DORA metrics, reliability indicators, delivery effectiveness |
+| [`SRB-022`](P2-leadership-and-delivery.md#srb-022--ai-tools-across-teams) | AI tools across teams | Rolling out coding assistants, usage policy, security review of AI tools, honest impact measurement |
 | [`SRB-015`](P2-leadership-and-delivery.md#srb-015--cost-optimization) | Cost optimization | Infrastructure utilization, cloud cost drivers, FinOps basics |
 | [`SRB-016`](P2-leadership-and-delivery.md#srb-016--security-architecture) | Security architecture | Identity boundaries, zero-trust principles, service-to-service authorization |
 | [`SRB-017`](P2-leadership-and-delivery.md#srb-017--large-migrations) | Large migrations | Rollout strategy, feature flags, canary deployment, data backfills |

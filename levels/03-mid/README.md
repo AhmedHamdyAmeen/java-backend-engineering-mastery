@@ -75,20 +75,25 @@
 | [`MID-041`](P4-caching-and-nosql.md#mid-041--nosql-fundamentals) | NoSQL fundamentals | Key-value, document, column-family, graph databases |
 | [`MID-042`](P4-caching-and-nosql.md#mid-042--mongodb) | MongoDB | Document modeling, indexing, aggregation, transactions, use cases |
 | [`MID-043`](P4-caching-and-nosql.md#mid-043--search-systems) | Search systems | Full-text search, inverted indexes, Elasticsearch/OpenSearch basics |
+| [`MID-067`](P4-caching-and-nosql.md#mid-067--embeddings-and-vector-search) | Embeddings and vector search | Embeddings, similarity metrics, pgvector, HNSW and IVFFlat indexes, hybrid keyword plus vector search |
+| [`MID-068`](P4-caching-and-nosql.md#mid-068--retrieval-augmented-generation) | Retrieval-augmented generation | Chunking, retrieval, context assembly, citations, keeping the index fresh with events, retrieval quality |
 | [`MID-044`](P4-caching-and-nosql.md#mid-044--data-selection) | Data selection | PostgreSQL vs Redis vs MongoDB vs search engines; workload-driven decisions |
 
 ## MID-P5 — [Production Engineering and Security](P5-production-engineering.md)
 
 | ID | Module | Topics |
 | --- | --- | --- |
+| [`MID-069`](P5-production-engineering.md#mid-069--tool-calling-and-agents) | Tool calling and agents | Function calling, safe tool design, side effects and idempotency, authorization, human approval, agent loops, Model Context Protocol concept |
 | [`MID-045`](P5-production-engineering.md#mid-045--advanced-testing) | Advanced testing | Contract testing, consumer-driven contracts, property-based testing |
 | [`MID-046`](P5-production-engineering.md#mid-046--performance-testing) | Performance testing | k6 or Gatling, load, stress, spike, soak testing |
 | [`MID-047`](P5-production-engineering.md#mid-047--observability) | Observability | Logs, metrics, traces, correlation IDs, OpenTelemetry |
 | [`MID-048`](P5-production-engineering.md#mid-048--monitoring) | Monitoring | Prometheus, Grafana, dashboards, alerting |
+| [`MID-070`](P5-production-engineering.md#mid-070--llm-evaluation-and-observability) | LLM evaluation and observability | Evaluation sets in CI, LLM-as-judge caveats, regression detection, token, latency, and cost tracing |
 | [`MID-049`](P5-production-engineering.md#mid-049--reliability) | Reliability | SLIs, SLOs, error budgets, availability, latency percentiles |
 | [`MID-050`](P5-production-engineering.md#mid-050--incident-handling) | Incident handling | Triage, severity, escalation, incident timeline, postmortems |
 | [`MID-051`](P5-production-engineering.md#mid-051--advanced-api-security) | Advanced API security | OAuth 2.0 flows, OIDC, token validation, authorization design |
 | [`MID-052`](P5-production-engineering.md#mid-052--application-threats) | Application threats | Threat modeling, OWASP API Security Top 10, abuse prevention |
+| [`MID-071`](P5-production-engineering.md#mid-071--ai-application-threats) | AI application threats | Indirect prompt injection through retrieved content, excessive agency, data exfiltration, cost abuse, mitigations |
 | [`MID-053`](P5-production-engineering.md#mid-053--dependency-security) | Dependency security | SCA, SBOM, vulnerability scanning, secure builds |
 | [`MID-054`](P5-production-engineering.md#mid-054--secrets-and-cryptography) | Secrets and cryptography | Encryption in transit/at rest, key management concepts, rotation |
 | [`MID-055`](P5-production-engineering.md#mid-055--cicd-advanced) | CI/CD advanced | Deployment environments, automated quality gates, rollback |
@@ -105,6 +110,7 @@
 | [`MID-064`](P6-api-evolution-and-ownership.md#mid-064--estimation-and-delivery) | Estimation and delivery | Requirement clarification, decomposition, risk identification |
 | [`MID-065`](P6-api-evolution-and-ownership.md#mid-065--engineering-ownership) | Engineering ownership | Operational responsibility, prioritization, communication |
 | [`MID-066`](P6-api-evolution-and-ownership.md#mid-066--technical-collaboration) | Technical collaboration | Reviews, constructive feedback, mentoring junior engineers |
+| [`MID-072`](P6-api-evolution-and-ownership.md#mid-072--ai-assisted-engineering-at-codebase-scale) | AI-assisted engineering at codebase scale | AI-assisted debugging, refactoring, and test generation on large codebases, review discipline, measuring quality |
 
 ## Capstone — Distributed Order Processing Platform (`MID-CAP`)
 

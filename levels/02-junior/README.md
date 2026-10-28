@@ -17,6 +17,7 @@
 | [`JNR-001`](P1-professional-java.md#jnr-001--modern-java) | Modern Java | Release cadence, LTS versions, records, sealed classes, switch expressions, text blocks, pattern matching |
 | [`JNR-002`](P1-professional-java.md#jnr-002--maven-in-depth) | Maven in depth | Dependency scopes, transitive dependencies, BOMs, plugins, multi-module basics, reproducible builds |
 | [`JNR-003`](P1-professional-java.md#jnr-003--code-quality) | Code quality | Naming, cohesion, coupling, DRY, KISS, YAGNI, code smells |
+| [`JNR-055`](P1-professional-java.md#jnr-055--ai-assisted-development-workflow) | AI-assisted development workflow | IDE assistants, context-rich prompts, generating tests and boilerplate, reviewing AI code in pull requests, protecting proprietary code, team policy |
 | [`JNR-004`](P1-professional-java.md#jnr-004--solid-principles) | SOLID principles | SRP, OCP, LSP, ISP, DIP with practical Java examples |
 | [`JNR-005`](P1-professional-java.md#jnr-005--design-patterns-introduction) | Design patterns introduction | Factory, Builder, Strategy, Adapter, Decorator, Observer, Repository |
 | [`JNR-006`](P1-professional-java.md#jnr-006--logging) | Logging | SLF4J, Logback, log levels, structured messages, avoiding sensitive data |
@@ -46,6 +47,7 @@
 | [`JNR-020`](P3-rest-api-engineering.md#jnr-020--api-design-conventions) | API design conventions | DTOs, mapping, consistent errors, filtering, versioning strategies |
 | [`JNR-021`](P3-rest-api-engineering.md#jnr-021--openapi) | OpenAPI | Swagger UI, OpenAPI specification, examples, API documentation |
 | [`JNR-022`](P3-rest-api-engineering.md#jnr-022--api-clients) | API clients | Postman, curl, API collections, environment variables |
+| [`JNR-056`](P3-rest-api-engineering.md#jnr-056--calling-llms-from-spring) | Calling LLMs from Spring | Spring AI ChatClient, system prompts, structured output to records, streaming, timeouts and retries, token cost, API key handling, testing with a fake model |
 | [`JNR-023`](P3-rest-api-engineering.md#jnr-023--file-operations) | File operations | Multipart uploads, downloads, streaming, file-size restrictions |
 | [`JNR-024`](P3-rest-api-engineering.md#jnr-024--api-security-fundamentals) | API security fundamentals | Authentication vs authorization, session vs token, HTTPS, CORS, CSRF concepts |
 
@@ -75,6 +77,7 @@
 | [`JNR-039`](P5-security.md#jnr-039--oauth-20-and-oidc-basics) | OAuth 2.0 and OIDC basics | Roles, flows, authorization server, resource server, login vs API authorization |
 | [`JNR-040`](P5-security.md#jnr-040--role-based-authorization) | Role-based authorization | RBAC, method security, ownership checks |
 | [`JNR-041`](P5-security.md#jnr-041--common-vulnerabilities) | Common vulnerabilities | OWASP Top 10, injection, broken access control, XSS, CSRF, SSRF introduction |
+| [`JNR-057`](P5-security.md#jnr-057--securing-llm-features) | Securing LLM features | Prompt injection, untrusted model output, sensitive data leakage, OWASP Top 10 for LLM applications |
 | [`JNR-042`](P5-security.md#jnr-042--secure-configuration) | Secure configuration | Secrets management basics, HTTPS, dependency updates, secure logging |
 
 ## JNR-P6 — [Testing and Delivery](P6-testing-and-delivery.md)

@@ -6,7 +6,7 @@
 
 **Format:** Senior modules are case-study driven. Lectures are shorter on mechanics and longer on judgment; demos are worked design sessions on the running case, thinking aloud — including the dead ends.
 
-**Phase total:** ~14.3 h video · ~40.5 h practice
+**Phase total:** ~15.8 h video · ~44.5 h practice
 
 ---
 
@@ -318,6 +318,40 @@
 **Workplace evidence:** a failure-mode review or game day you led.
 
 **Career relevance:** enterprise resilience (SRA-006) and resilience architecture (ARC-031).
+
+---
+
+### SRC-021 · Designing reliable AI features
+`n: new (added in v2.0)` · **Video:** 88 min · **Practice:** 4 h
+
+**Prerequisites:** SRC-005, MID-070
+
+**Learning outcomes** — the engineer can:
+1. Set latency, cost, and quality budgets for an LLM-backed feature and allocate them across retrieval, model calls, and tools.
+2. Design fallbacks for model or provider failure (smaller model, cached answer, non-AI path, honest "unavailable" state) that keep the core journey working.
+3. Use routing, caching, streaming, and request shaping to meet latency and cost targets.
+4. Define SLOs for non-deterministic features that combine availability, latency, and evaluated quality.
+
+**Lectures**
+| ID | Title | Min |
+| --- | --- | --- |
+| SRC-021-L01 | What makes AI features different to operate | 10 |
+| SRC-021-L02 | Latency and cost budgets for model calls | 12 |
+| SRC-021-L03 | Fallbacks and graceful degradation for AI | 12 |
+| SRC-021-L04 | Model routing, caching, and streaming | 12 |
+| SRC-021-L05 | SLOs for non-deterministic features | 12 |
+| SRC-021-L06 | Demo: an order-support assistant surviving a provider outage | 15 |
+| SRC-021-L07 | Demo: cutting cost per answer by routing easy questions to a smaller model | 15 |
+
+**Lab** — `SRC-021-LAB1` *AI order support at 10×:* design the order-support assistant for the 10× forecast with p95 latency, cost-per-conversation, and quality targets; implement a fallback path and a model-routing rule; inject a provider outage and a latency spike. Acceptance: checkout and order tracking are unaffected by the outage; budgets met in a load test; quality measured on the evaluation set before and after routing.
+
+**Common mistakes:** putting a model call on the critical checkout path; no timeout on model calls; measuring only availability for an AI feature; assuming the provider's rate limits will scale with you.
+
+**Assessment:** design review of the assistant with an assessor-injected constraint (cost halved, or the provider's quota cut).
+
+**Workplace evidence:** an AI feature you designed or hardened with explicit latency, cost, and fallback targets.
+
+**Career relevance:** AI platform capabilities (SRB-021) and AI solution architecture (ARC-045).
 
 ---
 

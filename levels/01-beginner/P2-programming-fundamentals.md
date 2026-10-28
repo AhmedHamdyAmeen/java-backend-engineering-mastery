@@ -4,7 +4,7 @@
 
 **Phase practice:** 40–60 progressive exercises (`BEG-0xx-EXnn`), ending with three mini-projects: command-line calculator, number guessing game, and student-grade manager.
 
-**Phase total:** ~10.5 h video · ~43 h practice
+**Phase total:** ~11.2 h video · ~45 h practice
 
 ---
 
@@ -356,3 +356,34 @@
 **Career relevance:** grows into troubleshooting (JNR-054), profiling (MID-008), and incident handling (MID-050).
 
 > **Teaching note:** introduce the debugger briefly in BEG-013 (step through a loop) so learners use it before this module formalizes it.
+
+---
+
+### BEG-056 · AI coding assistants for learners
+`n: new (added in v2.0)` · **Video:** 42 min · **Practice:** 2 h
+
+**Prerequisites:** BEG-016, BEG-018
+
+**Learning outcomes** — the learner can:
+1. Explain at a conceptual level how a large language model produces text (tokens, next-token prediction, training data) and why that makes it fluent but not always correct.
+2. Recognize hallucinations: invented methods, wrong APIs, confident but incorrect explanations.
+3. Ask an assistant a good question: the goal, the code, the exact error, and what was already tried.
+4. Use an assistant to explain an error or a concept *after* trying first, and turn the answer into their own understanding.
+5. Follow safe-use rules: never paste passwords, keys, or personal data; follow course and employer policies.
+
+**Lectures**
+| ID | Title | Min |
+| --- | --- | --- |
+| BEG-056-L01 | What an AI coding assistant actually is | 8 |
+| BEG-056-L02 | Why assistants sound right and are sometimes wrong | 10 |
+| BEG-056-L03 | Asking good questions: goal, code, error, attempts | 8 |
+| BEG-056-L04 | Learning with AI without skipping the learning | 8 |
+| BEG-056-L05 | Demo: using an assistant to understand a stack trace, then checking it | 8 |
+
+**Lab** — `BEG-056-LAB1` *Explain, don't copy:* for three bugs from the `BEG-018-LAB1` bug hunt, first write your own hypothesis, then ask an assistant, then confirm or reject its answer with the debugger. Record one case where the assistant was wrong or incomplete. Acceptance: written log per bug with your hypothesis, the assistant's answer, and the evidence that settled it.
+
+**Common mistakes:** asking before trying; pasting whole projects without the error; trusting an answer because it is confident; pasting secrets into a chat.
+
+**Assessment:** short quiz on how LLMs work and safe use, plus the lab log.
+
+**Career relevance:** the habit of verifying AI output is expected from the first day of a junior role; it deepens in JNR-055 and MID-072.

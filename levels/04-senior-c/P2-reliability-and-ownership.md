@@ -6,7 +6,7 @@
 
 **Format:** as in SRC-P1 — case studies, worked sessions, and scenario-based assessment.
 
-**Phase total:** ~13.7 h video · ~39 h practice
+**Phase total:** ~15.1 h video · ~43 h practice
 
 ---
 
@@ -76,6 +76,40 @@
 **Workplace evidence:** an SLO or error-budget policy adopted by your team.
 
 **Career relevance:** organization-wide reliability (STF-005).
+
+---
+
+### SRC-022 · Operating AI in production
+`n: new (added in v2.0)` · **Video:** 86 min · **Practice:** 4 h
+
+**Prerequisites:** SRC-011, SRC-021
+
+**Learning outcomes** — the engineer can:
+1. Version prompts, model choices, and retrieval settings as deployable configuration with rollback.
+2. Gate releases on evaluation results and roll out prompt or model changes progressively.
+3. Detect quality drift (model updates, data changes, new user behavior) from evaluation and production signals.
+4. Run incidents for bad AI output (wrong, unsafe, or leaking answers), including kill switches and human review queues.
+
+**Lectures**
+| ID | Title | Min |
+| --- | --- | --- |
+| SRC-022-L01 | AI changes are deployments too | 10 |
+| SRC-022-L02 | Versioning prompts, models, and retrieval | 12 |
+| SRC-022-L03 | Evaluation-gated and progressive releases | 12 |
+| SRC-022-L04 | Detecting drift | 10 |
+| SRC-022-L05 | Bad-output incidents, kill switches, and human review | 12 |
+| SRC-022-L06 | Demo: rolling back a prompt change that broke refund answers | 15 |
+| SRC-022-L07 | Demo: an incident where the assistant revealed another customer's order | 15 |
+
+**Lab** — `SRC-022-LAB1` *Run the assistant:* put the order-support assistant's prompts and model choice under versioned configuration; add an evaluation gate and canary; rehearse a bad-output incident with a kill switch and a human review queue. Acceptance: a seeded regression is blocked by the gate; the kill switch disables the feature in under one minute; postmortem written.
+
+**Common mistakes:** editing prompts directly in production; no record of which prompt and model produced an answer; treating unsafe output as "just a bug" without an incident process.
+
+**Assessment:** incident simulation on a misbehaving AI feature.
+
+**Workplace evidence:** a release process or incident you ran for an AI feature.
+
+**Career relevance:** shared AI platforms (SRB-021) and responsible AI controls (SRA-022).
 
 ---
 

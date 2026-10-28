@@ -48,11 +48,13 @@
 | --- | --- | --- |
 | [`ARC-023`](P3-data-integration-and-security.md#arc-023--data-architecture) | Data architecture | Operational vs analytical workloads, data lifecycle |
 | [`ARC-024`](P3-data-integration-and-security.md#arc-024--integration-patterns) | Integration patterns | Synchronous APIs, async events, batch ETL/ELT, CDC |
+| [`ARC-045`](P3-data-integration-and-security.md#arc-045--ai-solution-architecture) | AI solution architecture | Reference architectures for assistants, RAG, and agents over enterprise data, deployment options, cost and latency |
 | [`ARC-025`](P3-data-integration-and-security.md#arc-025--api-management) | API management | Gateways, developer portals, governance, quotas |
 | [`ARC-026`](P3-data-integration-and-security.md#arc-026--event-architecture) | Event architecture | Event ownership, event catalogs, schemas, compatibility |
 | [`ARC-027`](P3-data-integration-and-security.md#arc-027--identity-and-access) | Identity and access | RBAC, ABAC, identity federation, privileged access |
 | [`ARC-028`](P3-data-integration-and-security.md#arc-028--security-architecture) | Security architecture | Zero trust, threat modeling, defense in depth |
 | [`ARC-029`](P3-data-integration-and-security.md#arc-029--privacy-and-compliance) | Privacy and compliance | Data classification, retention, residency, audit requirements |
+| [`ARC-046`](P3-data-integration-and-security.md#arc-046--ai-security) | AI security | Data classification for prompts, residency, vendor terms, guardrails, auditability, responsible AI controls |
 | [`ARC-030`](P3-data-integration-and-security.md#arc-030--data-governance) | Data governance | Ownership, quality, lineage, access policies |
 | [`ARC-031`](P3-data-integration-and-security.md#arc-031--resilience-architecture) | Resilience architecture | Failure scenarios, fault isolation, continuity plans |
 | [`ARC-032`](P3-data-integration-and-security.md#arc-032--integration-with-enterprise-systems) | Integration with enterprise systems | ERP, CRM, payment gateways, identity providers |
@@ -69,6 +71,7 @@
 | [`ARC-038`](P4-solution-design-and-delivery.md#arc-038--operational-architecture) | Operational architecture | Monitoring, support, incident processes, service ownership |
 | [`ARC-039`](P4-solution-design-and-delivery.md#arc-039--financial-analysis) | Financial analysis | TCO, ROI, cost-benefit, licensing, operational costs |
 | [`ARC-040`](P4-solution-design-and-delivery.md#arc-040--vendor-and-procurement) | Vendor and procurement | RFP/RFI, technical evaluation, SLAs, contracts |
+| [`ARC-047`](P4-solution-design-and-delivery.md#arc-047--ai-vendor-and-model-evaluation) | AI vendor and model evaluation | AI vendor criteria, public benchmarks vs own evaluations, total cost, exit plans |
 | [`ARC-041`](P4-solution-design-and-delivery.md#arc-041--stakeholder-management) | Stakeholder management | Business, engineering, security, operations, vendors |
 | [`ARC-042`](P4-solution-design-and-delivery.md#arc-042--architecture-assurance) | Architecture assurance | Design reviews, testing evidence, operational acceptance |
 | [`ARC-043`](P4-solution-design-and-delivery.md#arc-043--solution-documentation) | Solution documentation | Architecture packs, decision logs, assumptions, risks |

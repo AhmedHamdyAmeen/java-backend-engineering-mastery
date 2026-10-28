@@ -25,6 +25,8 @@ The questions most often asked when hiring a senior engineer who will lead cross
 | Engineering metrics and cost | SRB-014, SRB-015 | `SRB-014-LAB1` program dashboard, `SRB-015-LAB1` cost per order |
 | Security architecture | SRB-016 | `SRB-016-LAB1` merged trust model |
 | Risk and stakeholder management | SRB-019, SRB-020 | `SRB-019-LAB1`, `SRB-020-LAB1` |
+| AI platform capabilities (LLM gateway) | SRB-021 | `SRB-021-LAB1` shared gateway for four teams |
+| Rolling out AI tools across teams | SRB-022 | `SRB-022-LAB1` |
 
 **Your portfolio at the end of Level 5:** the `SRB-CAP` package — target architecture with ADRs, event catalog, migration plan with phase-one results, risk register, DORA dashboard, cost analysis, and status reports — plus workplace evidence of a cross-team design you led and a migration you carried through to decommissioning.
 
@@ -287,7 +289,39 @@ The questions most often asked when hiring a senior engineer who will lead cross
 
 ---
 
-## 6. Six-week preparation plan
+## 6. AI questions
+
+### Q15 · Four teams each call LLM providers directly. What would you build, and why?
+**How often:** Increasingly common · **Round:** System design, leadership
+
+**How to answer:**
+- **Problems to name:** duplicated keys and integrations, no cost visibility per team, personal data sent without control, no quotas, provider lock-in in every codebase.
+- **A shared LLM gateway:** one internal API with authentication per team, quotas and rate limits, redaction of personal data, cost attribution, logging and tracing, and routing between models and providers.
+- **Shared retrieval services and a golden path** (template with evaluation, tracing, and safety defaults) so new AI features start correct.
+- **Adoption:** start with one willing team, keep escape hatches, measure cost and incident reduction.
+- **Trade-off:** a central gateway is a dependency — design it for high availability and avoid putting product logic in it.
+
+**Learned in:** SRB-021, SRB-010
+**Practiced in:** `SRB-021-LAB1`, `SRB-CAP`
+**Show it:** the gateway in your capstone used by two teams; at work, a shared capability you built for AI or another cross-team need.
+
+---
+
+### Q16 · How would you roll out AI coding assistants to several teams, and how would you know if it helped?
+**How often:** Increasingly common · **Round:** Leadership, behavioral
+
+**How to answer:**
+- Agree a policy first: approved tools, what code and data may be shared, licensing, and review expectations.
+- Pilot with volunteer teams, provide enablement, and collect feedback.
+- Measure outcomes, not activity: DORA metrics, change-failure rate, review time, defect escape rate, and developer survey — compared with a baseline. "Lines generated" is a vanity metric.
+- Watch for risks: more code to review, security issues, skill erosion in juniors.
+
+**Learned in:** SRB-022, SRB-014
+**Practiced in:** `SRB-022-LAB1`
+
+---
+
+## 7. Six-week preparation plan
 
 | Week | Focus | Do this |
 | --- | --- | --- |

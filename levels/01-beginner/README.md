@@ -37,6 +37,7 @@
 | [`BEG-016`](P2-programming-fundamentals.md#beg-016--problem-solving) | Problem-solving | Decomposition, pseudocode, flowcharts, tracing, debugging, edge cases |
 | [`BEG-017`](P2-programming-fundamentals.md#beg-017--introductory-algorithms) | Introductory algorithms | Linear search, binary search, bubble sort, selection sort, basic time complexity |
 | [`BEG-018`](P2-programming-fundamentals.md#beg-018--debugging) | Debugging | Breakpoints, step into/over/out, variable inspection, stack traces, common errors |
+| [`BEG-056`](P2-programming-fundamentals.md#beg-056--ai-coding-assistants-for-learners) | AI coding assistants for learners | How LLMs work conceptually, tokens and prediction, hallucination, asking good questions, explaining errors, never pasting secrets, try-first learning rules |
 
 ## BEG-P3 — [Object-Oriented Programming](P3-object-oriented-programming.md)
 
@@ -79,6 +80,7 @@
 | [`BEG-043`](P5-computer-science-foundations.md#beg-043--graph-basics) | Graph basics | Vertices, edges, BFS, DFS, common applications |
 | [`BEG-044`](P5-computer-science-foundations.md#beg-044--algorithmic-techniques) | Algorithmic techniques | Two pointers, sliding window, recursion, basic backtracking |
 | [`BEG-045`](P5-computer-science-foundations.md#beg-045--testing-fundamentals) | Testing fundamentals | What testing is, test cases, assertions, boundary conditions, JUnit introduction |
+| [`BEG-057`](P5-computer-science-foundations.md#beg-057--verifying-ai-generated-code) | Verifying AI-generated code | Reading and tracing generated code, testing it, plausible-but-wrong code, licensing and academic integrity |
 
 ## BEG-P6 — [Git, SQL, and Web Foundations](P6-git-sql-web.md)
 

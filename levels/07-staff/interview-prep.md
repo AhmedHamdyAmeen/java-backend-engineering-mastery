@@ -25,6 +25,7 @@ The questions most often asked when hiring Staff engineers, how to answer them, 
 | Measuring impact | STF-019, SRB-014 | `SRB-014-LAB1`, `STF-CAP` success metrics |
 | Organizational change and adoption | STF-014, SRA-012 | `SRA-012-LAB1`, `STF-CAP` |
 | Major-incident leadership | STF-018, SRC-019 | `SRC-019-LAB1` |
+| AI governance and productivity | STF-021, STF-022 | `STF-021-LAB1`, `STF-022-LAB1`, AI requirements in `STF-CAP` |
 
 **Your portfolio at the end of Level 7:** the internal developer platform design and rollout plan (`STF-CAP`), plus written evidence of organizational impact from your real work. The capstone shows you can reason at Staff scope; only work evidence shows you have operated there.
 
@@ -285,7 +286,41 @@ The questions most often asked when hiring Staff engineers, how to answer them, 
 
 ---
 
-## 8. Six-week preparation plan
+## 8. AI questions
+
+### Q15 · How would you set up AI governance for an engineering organization of 20 teams without slowing them down?
+**How often:** Increasingly common · **Round:** Org-scale design, leadership
+
+**How to answer:**
+- **Guardrails as paved roads:** approved assistants and model access through a shared gateway, with data protection built in, so the safe path is the easy path.
+- **A short policy:** what data and code may be shared, where AI may make decisions, review expectations, disclosure.
+- **Standards for AI features:** evaluation before release, tracing, cost limits, safety tests — provided as templates, not checklists.
+- **Decision rights and exceptions:** who approves new tools or high-risk uses, with a fast path.
+- **Measure and adjust:** adoption, delivery and quality metrics, incidents, and developer feedback; review quarterly.
+
+**Common trap:** banning tools (people use them anyway) or allowing everything with no data controls.
+
+**Learned in:** STF-021, STF-003, STF-009
+**Practiced in:** `STF-021-LAB1`, `STF-CAP`
+**Show it:** the AI governance part of your Platform 2.0 capstone; at work, a policy or guardrail you introduced and its adoption.
+
+---
+
+### Q16 · Tell me about leading a technology adoption across many teams — for example, AI tools. How did you know it worked?
+**How often:** Common · **Round:** Behavioral, impact deep-dive
+
+**How to answer (STAR, at Staff scope):**
+- **Situation:** many teams, uneven adoption, real risks (security, quality).
+- **Task:** your role — you set direction and enabled others; you did not do it alone.
+- **Actions:** early adopters and champions, enablement material and a community, risk controls, clear success metrics agreed up front, handling resistance by listening and adjusting.
+- **Result:** measured outcomes against a baseline (delivery speed, defect rates, satisfaction), and what you changed when something did not work.
+
+**Learned in:** STF-022, STF-014, STF-019
+**Practiced in:** `STF-022-LAB1`
+
+---
+
+## 9. Six-week preparation plan
 
 | Week | Focus | Do this |
 | --- | --- | --- |

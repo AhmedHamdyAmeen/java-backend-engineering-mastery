@@ -25,6 +25,7 @@ The questions most often asked when hiring a senior backend engineer who will ow
 | Incident leadership | SRC-019 | `SRC-019-LAB1` game-day command |
 | Mentoring and technical leadership | SRC-020, SRC-017 | `SRC-020-LAB1`, `SRC-017-LAB1` debt pitch |
 | Written design communication | SRC-010, SRC-003 | `SRC-010-LAB1` architecture pack |
+| Reliable AI features in production | SRC-021, SRC-022 | `SRC-021-LAB1`, `SRC-022-LAB1`, AI requirements in `SRC-CAP` |
 
 **Your portfolio at the end of Level 4:** the `SRC-CAP` package — requirements, ADRs, capacity plan, load-test evidence, DR drill report, runbooks, and the recorded handover — plus a written account of at least three pieces of workplace evidence (a launch, an incident, an engineer you mentored).
 
@@ -298,7 +299,44 @@ The questions most often asked when hiring a senior backend engineer who will ow
 
 ---
 
-## 6. Six-week preparation plan
+## 6. AI questions
+
+### Q15 · Your AI assistant must answer within 3 seconds at a fixed cost per conversation, and the model provider has outages. How do you design it?
+**How often:** Increasingly common · **Round:** System design
+
+**How to answer:**
+1. **Budgets first:** split the latency budget across retrieval, model call, and post-processing; set a token budget per request and a cost ceiling per conversation.
+2. **Make it fast:** stream responses, keep prompts and retrieved context small, cache answers to frequent questions, and route simple requests to a smaller model.
+3. **Make it resilient:** timeouts, a circuit breaker per provider, a secondary model or provider behind the same interface, and a non-AI fallback (search results, a contact form) — the feature degrades, the product does not.
+4. **Make it measurable:** SLOs for latency and availability plus a quality indicator from evaluations; per-request cost tracking with alerts.
+5. **Trade-offs:** say what you give up (smaller model quality, cache staleness) and how you would verify it with evaluations.
+
+**Common trap:** designing only the happy path, or treating the model like a local function.
+
+**Learned in:** SRC-021, SRC-005, MID-070
+**Practiced in:** `SRC-021-LAB1`, `SRC-CAP`
+**Show it:** the assistant's latency and cost evidence in your capstone; at work, an AI feature you put SLOs and fallbacks on.
+
+---
+
+### Q16 · How do you release a prompt or model change safely?
+**How often:** Increasingly common · **Round:** Technical deep dive
+
+**How to answer:**
+- Version prompts and model settings like code; review changes.
+- Gate releases on an evaluation suite with thresholds (quality, safety, cost per answer), then roll out gradually (canary or percentage) while comparing live metrics.
+- Keep instant rollback to the previous prompt and model version.
+- Watch for drift after release (provider model updates, changing questions) with sampled human review, and treat harmful or wrong outputs as incidents with a postmortem.
+
+**Common trap:** editing prompts directly in production because "it's just text".
+
+**Learned in:** SRC-022, SRC-011
+**Practiced in:** `SRC-022-LAB1`
+**Show it:** the bad-output incident you simulated in the capstone, and how rollback worked.
+
+---
+
+## 7. Six-week preparation plan
 
 | Week | Focus | Do this |
 | --- | --- | --- |

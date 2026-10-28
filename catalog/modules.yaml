@@ -5,7 +5,7 @@
 # - `prereqs` must refer to modules earlier in teaching order; `co_requisites` are taught in parallel.
 # - After editing, run `py tools/build.py`.
 
-version: "1.9"
+version: "2.0"
 
 levels:
   - code: BEG
@@ -226,6 +226,7 @@ modules:
   - {id: BEG-016, n: 16, phase: BEG-P2, status: detailed, title: Problem-solving, topics: "Decomposition, pseudocode, flowcharts, tracing, debugging, edge cases", prereqs: [BEG-015]}
   - {id: BEG-017, n: 17, phase: BEG-P2, status: detailed, title: Introductory algorithms, topics: "Linear search, binary search, bubble sort, selection sort, basic time complexity", prereqs: [BEG-015, BEG-016]}
   - {id: BEG-018, n: 18, phase: BEG-P2, status: detailed, title: Debugging, topics: "Breakpoints, step into/over/out, variable inspection, stack traces, common errors", prereqs: [BEG-014]}
+  - {id: BEG-056, n: null, phase: BEG-P2, status: detailed, title: AI coding assistants for learners, topics: "How LLMs work conceptually, tokens and prediction, hallucination, asking good questions, explaining errors, never pasting secrets, try-first learning rules", prereqs: [BEG-016, BEG-018]}  # Added in v2.0: AI
   # BEG-P3 Object-Oriented Programming
   - {id: BEG-019, n: 19, phase: BEG-P3, status: detailed, title: OOP introduction, topics: "Procedural vs object-oriented programming, objects, classes, state, behavior", prereqs: [BEG-014]}
   - {id: BEG-020, n: 20, phase: BEG-P3, status: detailed, title: Classes and objects, topics: "Fields, constructors, methods, this, object creation", prereqs: [BEG-019]}
@@ -256,6 +257,7 @@ modules:
   - {id: BEG-043, n: 43, phase: BEG-P5, status: detailed, title: Graph basics, topics: "Vertices, edges, BFS, DFS, common applications", prereqs: [BEG-030, BEG-042]}
   - {id: BEG-044, n: 44, phase: BEG-P5, status: detailed, title: Algorithmic techniques, topics: "Two pointers, sliding window, recursion, basic backtracking", prereqs: [BEG-015, BEG-039]}
   - {id: BEG-045, n: 45, phase: BEG-P5, status: detailed, title: Testing fundamentals, topics: "What testing is, test cases, assertions, boundary conditions, JUnit introduction", prereqs: [BEG-024, BEG-029]}
+  - {id: BEG-057, n: null, phase: BEG-P5, status: detailed, title: Verifying AI-generated code, topics: "Reading and tracing generated code, testing it, plausible-but-wrong code, licensing and academic integrity", prereqs: [BEG-045, BEG-056]}  # Added in v2.0: AI
   # BEG-P6 Git, SQL, and Web Foundations
   - {id: BEG-046, n: 46, phase: BEG-P6, status: detailed, title: Version control, topics: "Repository, commits, staging, branches, merges, conflicts, .gitignore", prereqs: [BEG-006]}
   - {id: BEG-047, n: 47, phase: BEG-P6, status: detailed, title: GitHub, topics: "Remote repositories, push/pull, pull requests, README, Markdown", prereqs: [BEG-046]}
@@ -274,6 +276,7 @@ modules:
   - {id: JNR-001, n: 55, phase: JNR-P1, status: detailed, title: Modern Java, topics: "Release cadence, LTS versions, records, sealed classes, switch expressions, text blocks, pattern matching", prereqs: [BEG-012, BEG-024, BEG-026]}
   - {id: JNR-002, n: 56, phase: JNR-P1, status: detailed, title: Maven in depth, topics: "Dependency scopes, transitive dependencies, BOMs, plugins, multi-module basics, reproducible builds", prereqs: [BEG-054]}
   - {id: JNR-003, n: 57, phase: JNR-P1, status: detailed, title: Code quality, topics: "Naming, cohesion, coupling, DRY, KISS, YAGNI, code smells", prereqs: [BEG-028]}
+  - {id: JNR-055, n: null, phase: JNR-P1, status: detailed, title: AI-assisted development workflow, topics: "IDE assistants, context-rich prompts, generating tests and boilerplate, reviewing AI code in pull requests, protecting proprietary code, team policy", prereqs: [BEG-057, JNR-003]}  # Added in v2.0: AI
   - {id: JNR-004, n: 58, phase: JNR-P1, status: detailed, title: SOLID principles, topics: "SRP, OCP, LSP, ISP, DIP with practical Java examples", prereqs: [BEG-024, JNR-003]}
   - {id: JNR-005, n: 59, phase: JNR-P1, status: detailed, title: Design patterns introduction, topics: "Factory, Builder, Strategy, Adapter, Decorator, Observer, Repository", prereqs: [JNR-004]}
   - {id: JNR-006, n: 60, phase: JNR-P1, status: detailed, title: Logging, topics: "SLF4J, Logback, log levels, structured messages, avoiding sensitive data", prereqs: [BEG-029, JNR-002]}
@@ -295,6 +298,7 @@ modules:
   - {id: JNR-020, n: 74, phase: JNR-P3, status: detailed, title: API design conventions, topics: "DTOs, mapping, consistent errors, filtering, versioning strategies", prereqs: [JNR-019]}
   - {id: JNR-021, n: 75, phase: JNR-P3, status: detailed, title: OpenAPI, topics: "Swagger UI, OpenAPI specification, examples, API documentation", prereqs: [JNR-020]}
   - {id: JNR-022, n: 76, phase: JNR-P3, status: detailed, title: API clients, topics: "Postman, curl, API collections, environment variables", prereqs: [BEG-053, JNR-019]}
+  - {id: JNR-056, n: null, phase: JNR-P3, status: detailed, title: Calling LLMs from Spring, topics: "Spring AI ChatClient, system prompts, structured output to records, streaming, timeouts and retries, token cost, API key handling, testing with a fake model", prereqs: [JNR-012, JNR-022]}  # Added in v2.0: AI
   - {id: JNR-023, n: 77, phase: JNR-P3, status: detailed, title: File operations, topics: "Multipart uploads, downloads, streaming, file-size restrictions", prereqs: [BEG-034, JNR-019]}
   - {id: JNR-024, n: 78, phase: JNR-P3, status: detailed, title: API security fundamentals, topics: "Authentication vs authorization, session vs token, HTTPS, CORS, CSRF concepts", prereqs: [JNR-017]}
   # JNR-P4 Database Integration
@@ -316,6 +320,7 @@ modules:
   - {id: JNR-039, n: 93, phase: JNR-P5, status: detailed, title: OAuth 2.0 and OIDC basics, topics: "Roles, flows, authorization server, resource server, login vs API authorization", prereqs: [JNR-038]}
   - {id: JNR-040, n: 94, phase: JNR-P5, status: detailed, title: Role-based authorization, topics: "RBAC, method security, ownership checks", prereqs: [JNR-029, JNR-036]}
   - {id: JNR-041, n: 95, phase: JNR-P5, status: detailed, title: Common vulnerabilities, topics: "OWASP Top 10, injection, broken access control, XSS, CSRF, SSRF introduction", prereqs: [JNR-025, JNR-035]}
+  - {id: JNR-057, n: null, phase: JNR-P5, status: detailed, title: Securing LLM features, topics: "Prompt injection, untrusted model output, sensitive data leakage, OWASP Top 10 for LLM applications", prereqs: [JNR-041, JNR-056]}  # Added in v2.0: AI
   - {id: JNR-042, n: 96, phase: JNR-P5, status: detailed, title: Secure configuration, topics: "Secrets management basics, HTTPS, dependency updates, secure logging", prereqs: [JNR-006, JNR-012]}
   # JNR-P6 Testing and Delivery
   - {id: JNR-043, n: 97, phase: JNR-P6, status: detailed, title: Unit testing, topics: "JUnit 5, test lifecycle, parameterized tests, assertions", prereqs: [BEG-045]}
@@ -384,16 +389,21 @@ modules:
   - {id: MID-041, n: 149, phase: MID-P4, status: detailed, title: NoSQL fundamentals, topics: "Key-value, document, column-family, graph databases", prereqs: [BEG-048, MID-030]}
   - {id: MID-042, n: 150, phase: MID-P4, status: detailed, title: MongoDB, topics: "Document modeling, indexing, aggregation, transactions, use cases", prereqs: [MID-041]}
   - {id: MID-043, n: 151, phase: MID-P4, status: detailed, title: Search systems, topics: "Full-text search, inverted indexes, Elasticsearch/OpenSearch basics", prereqs: [MID-012, MID-041]}
+  - {id: MID-067, n: null, phase: MID-P4, status: detailed, title: Embeddings and vector search, topics: "Embeddings, similarity metrics, pgvector, HNSW and IVFFlat indexes, hybrid keyword plus vector search", prereqs: [JNR-056, MID-043]}  # Added in v2.0: AI
+  - {id: MID-068, n: null, phase: MID-P4, status: detailed, title: Retrieval-augmented generation, topics: "Chunking, retrieval, context assembly, citations, keeping the index fresh with events, retrieval quality", prereqs: [MID-067]}  # Added in v2.0: AI
   - {id: MID-044, n: 152, phase: MID-P4, status: detailed, title: Data selection, topics: "PostgreSQL vs Redis vs MongoDB vs search engines; workload-driven decisions", prereqs: [MID-038, MID-042, MID-043]}
+  - {id: MID-069, n: null, phase: MID-P5, status: detailed, title: Tool calling and agents, topics: "Function calling, safe tool design, side effects and idempotency, authorization, human approval, agent loops, Model Context Protocol concept", prereqs: [MID-033, MID-068]}  # Added in v2.0: AI
   # MID-P5 Production Engineering and Security
   - {id: MID-045, n: 153, phase: MID-P5, status: detailed, title: Advanced testing, topics: "Contract testing, consumer-driven contracts, property-based testing", prereqs: [JNR-046, MID-029]}
   - {id: MID-046, n: 154, phase: MID-P5, status: detailed, title: Performance testing, topics: "k6 or Gatling, load, stress, spike, soak testing", prereqs: [MID-008, MID-017]}
   - {id: MID-047, n: 155, phase: MID-P5, status: detailed, title: Observability, topics: "Logs, metrics, traces, correlation IDs, OpenTelemetry", prereqs: [JNR-006, MID-031]}
   - {id: MID-048, n: 156, phase: MID-P5, status: detailed, title: Monitoring, topics: "Prometheus, Grafana, dashboards, alerting", prereqs: [MID-047]}
+  - {id: MID-070, n: null, phase: MID-P5, status: detailed, title: LLM evaluation and observability, topics: "Evaluation sets in CI, LLM-as-judge caveats, regression detection, token, latency, and cost tracing", prereqs: [MID-047, MID-068]}  # Added in v2.0: AI
   - {id: MID-049, n: 157, phase: MID-P5, status: detailed, title: Reliability, topics: "SLIs, SLOs, error budgets, availability, latency percentiles", prereqs: [MID-048]}
   - {id: MID-050, n: 158, phase: MID-P5, status: detailed, title: Incident handling, topics: "Triage, severity, escalation, incident timeline, postmortems", prereqs: [JNR-054, MID-049]}
   - {id: MID-051, n: 159, phase: MID-P5, status: detailed, title: Advanced API security, topics: "OAuth 2.0 flows, OIDC, token validation, authorization design", prereqs: [JNR-039, MID-035]}
   - {id: MID-052, n: 160, phase: MID-P5, status: detailed, title: Application threats, topics: "Threat modeling, OWASP API Security Top 10, abuse prevention", prereqs: [JNR-041, MID-051]}
+  - {id: MID-071, n: null, phase: MID-P5, status: detailed, title: AI application threats, topics: "Indirect prompt injection through retrieved content, excessive agency, data exfiltration, cost abuse, mitigations", prereqs: [MID-052, MID-069]}  # Added in v2.0: AI
   - {id: MID-053, n: 161, phase: MID-P5, status: detailed, title: Dependency security, topics: "SCA, SBOM, vulnerability scanning, secure builds", prereqs: [JNR-042, JNR-051]}
   - {id: MID-054, n: 162, phase: MID-P5, status: detailed, title: Secrets and cryptography, topics: "Encryption in transit/at rest, key management concepts, rotation", prereqs: [JNR-042]}
   - {id: MID-055, n: 163, phase: MID-P5, status: detailed, title: CI/CD advanced, topics: "Deployment environments, automated quality gates, rollback", prereqs: [JNR-051, JNR-052]}
@@ -406,6 +416,7 @@ modules:
   - {id: MID-064, n: 172, phase: MID-P6, status: detailed, title: Estimation and delivery, topics: "Requirement clarification, decomposition, risk identification", prereqs: [JNR-053]}
   - {id: MID-065, n: 173, phase: MID-P6, status: detailed, title: Engineering ownership, topics: "Operational responsibility, prioritization, communication", prereqs: [MID-050]}
   - {id: MID-066, n: 174, phase: MID-P6, status: detailed, title: Technical collaboration, topics: "Reviews, constructive feedback, mentoring junior engineers", prereqs: [JNR-053]}
+  - {id: MID-072, n: null, phase: MID-P6, status: detailed, title: AI-assisted engineering at codebase scale, topics: "AI-assisted debugging, refactoring, and test generation on large codebases, review discipline, measuring quality", prereqs: [JNR-055, MID-008]}  # Added in v2.0: AI
 
   # ── LEVEL 4 — SENIOR C ─────────────────────────────────────────────────────
   # SRC-P1 System Design and Architecture Decisions
@@ -418,10 +429,12 @@ modules:
   - {id: SRC-007, n: 181, phase: SRC-P1, status: detailed, title: Database scaling, topics: "Read replicas, partitioning, sharding, hot partitions", prereqs: [MID-018, MID-019, SRC-004]}
   - {id: SRC-008, n: 182, phase: SRC-P1, status: detailed, title: Architectural decomposition, topics: "Modular monolith vs services, migration criteria", prereqs: [MID-061, SRC-003]}
   - {id: SRC-009, n: 183, phase: SRC-P1, status: detailed, title: Failure-mode analysis, topics: "Failure domains, dependency mapping, graceful degradation", prereqs: [MID-033, SRC-002]}
+  - {id: SRC-021, n: null, phase: SRC-P1, status: detailed, title: Designing reliable AI features, topics: "Latency and cost budgets, fallbacks, provider outages, model routing, caching, SLOs for non-deterministic features", prereqs: [SRC-005, MID-070]}  # Added in v2.0: AI
   - {id: SRC-010, n: 184, phase: SRC-P1, status: detailed, title: Architecture documentation, topics: "ADRs, C4, sequence diagrams, operational runbooks", prereqs: [MID-063, SRC-008]}
   # SRC-P2 Reliability and Technical Ownership
   - {id: SRC-011, n: 185, phase: SRC-P2, status: detailed, title: Production readiness, topics: "Readiness reviews, deployment safety, rollback, runbooks", prereqs: [MID-055, MID-065]}
   - {id: SRC-012, n: 186, phase: SRC-P2, status: detailed, title: SLO engineering, topics: "Service-level objectives, error-budget policies, alerts", prereqs: [MID-049, SRC-002]}
+  - {id: SRC-022, n: null, phase: SRC-P2, status: detailed, title: Operating AI in production, topics: "Prompt and model versioning and rollback, evaluation-gated releases, drift, bad-output incidents, human review", prereqs: [SRC-011, SRC-021]}  # Added in v2.0: AI
   - {id: SRC-013, n: 187, phase: SRC-P2, status: detailed, title: Disaster recovery, topics: "RPO, RTO, backups, failover, recovery exercises", prereqs: [MID-018, SRC-009]}
   - {id: SRC-014, n: 188, phase: SRC-P2, status: detailed, title: Data integrity, topics: "Cross-service invariants, reconciliation, exactly-once effects vs guarantees", prereqs: [MID-029, MID-031]}
   - {id: SRC-015, n: 189, phase: SRC-P2, status: detailed, title: Advanced troubleshooting, topics: "Thread starvation, connection exhaustion, deadlocks, cascading failures", prereqs: [MID-008, MID-017, MID-047]}
@@ -443,11 +456,13 @@ modules:
   - {id: SRB-008, n: 202, phase: SRB-P1, status: detailed, title: Architecture migration, topics: "Strangler fig, branch by abstraction, dual-write risks", prereqs: [SRC-008, SRB-007]}
   - {id: SRB-009, n: 203, phase: SRB-P1, status: detailed, title: Service mesh, topics: "mTLS, traffic management, policy enforcement, trade-offs", prereqs: [MID-051, MID-057]}
   - {id: SRB-010, n: 204, phase: SRB-P1, status: detailed, title: Platform engineering, topics: "Internal developer platforms, golden paths, self-service capabilities", prereqs: [MID-055, MID-057]}
+  - {id: SRB-021, n: null, phase: SRB-P1, status: detailed, title: AI platform capabilities, topics: "Shared LLM gateway with quotas, redaction, cost attribution, and routing, shared retrieval services, AI golden path", prereqs: [SRB-010, SRC-021]}  # Added in v2.0: AI
   # SRB-P2 Engineering Leadership and Delivery
   - {id: SRB-011, n: 205, phase: SRB-P2, status: detailed, title: Cross-team design, topics: "Aligning contracts, ownership, timelines, and dependencies", prereqs: [SRC-006, SRB-008]}
   - {id: SRB-012, n: 206, phase: SRB-P2, status: detailed, title: Architecture governance, topics: "RFCs, design reviews, exception processes", prereqs: [SRC-003, SRC-010]}
   - {id: SRB-013, n: 207, phase: SRB-P2, status: detailed, title: Technology evaluation, topics: "Proofs of concept, evaluation matrices, decision criteria", prereqs: [MID-044, SRC-003]}
   - {id: SRB-014, n: 208, phase: SRB-P2, status: detailed, title: Engineering metrics, topics: "DORA metrics, reliability indicators, delivery effectiveness", prereqs: [MID-055, SRC-012]}
+  - {id: SRB-022, n: null, phase: SRB-P2, status: detailed, title: AI tools across teams, topics: "Rolling out coding assistants, usage policy, security review of AI tools, honest impact measurement", prereqs: [MID-072, SRB-014]}  # Added in v2.0: AI
   - {id: SRB-015, n: 209, phase: SRB-P2, status: detailed, title: Cost optimization, topics: "Infrastructure utilization, cloud cost drivers, FinOps basics", prereqs: [MID-056, SRC-004]}
   - {id: SRB-016, n: 210, phase: SRB-P2, status: detailed, title: Security architecture, topics: "Identity boundaries, zero-trust principles, service-to-service authorization", prereqs: [SRC-018, SRB-009]}
   - {id: SRB-017, n: 211, phase: SRB-P2, status: detailed, title: Large migrations, topics: "Rollout strategy, feature flags, canary deployment, data backfills", prereqs: [SRC-011, SRB-008]}
@@ -465,7 +480,9 @@ modules:
   - {id: SRA-006, n: 220, phase: SRA-P1, status: detailed, title: Enterprise resilience, topics: "Regional failure, chaos engineering, systemic risk", prereqs: [SRC-013, SRB-005]}
   - {id: SRA-007, n: 221, phase: SRA-P1, status: detailed, title: Large-scale performance, topics: "Capacity forecasting, workload modeling, cost-performance optimization", prereqs: [SRC-016, SRB-015]}
   - {id: SRA-008, n: 222, phase: SRA-P1, status: detailed, title: Architecture economics, topics: "Build vs buy, total cost of ownership, opportunity cost", prereqs: [SRB-013, SRB-015]}
+  - {id: SRA-021, n: null, phase: SRA-P1, status: detailed, title: AI strategy and build vs buy, topics: "Where AI creates value, hosted vs open-weight models, RAG vs fine-tuning, total cost of ownership, lock-in, data strategy", prereqs: [SRA-008, SRB-021]}  # Added in v2.0: AI
   - {id: SRA-009, n: 223, phase: SRA-P1, status: detailed, title: Security and compliance, topics: "Privacy by design, auditability, regulatory constraints", prereqs: [SRC-014, SRB-016]}
+  - {id: SRA-022, n: null, phase: SRA-P1, status: detailed, title: Responsible AI and AI compliance, topics: "Privacy, residency of model calls, transparency, bias, human oversight, auditability, regulation at concept level", prereqs: [SRA-009, SRA-021]}  # Added in v2.0: AI
   - {id: SRA-010, n: 224, phase: SRA-P1, status: detailed, title: Technical strategy, topics: "Investment planning, modernization, platform vs product priorities", prereqs: [SRA-002, SRA-008]}
   # SRA-P2 Influence and Organizational Execution
   - {id: SRA-011, n: 225, phase: SRA-P2, status: detailed, title: Technical vision, topics: "Writing and communicating a multi-year engineering vision", prereqs: [SRA-010]}
@@ -490,12 +507,14 @@ modules:
   - {id: STF-007, n: 241, phase: STF-P1, status: detailed, title: Technology portfolio, topics: "Standardization, consolidation, adoption, retirement", prereqs: [SRB-013, SRA-002]}
   - {id: STF-008, n: 242, phase: STF-P1, status: detailed, title: Security architecture strategy, topics: "Threat landscapes, trust boundaries, secure defaults", prereqs: [SRB-016, SRA-009]}
   - {id: STF-009, n: 243, phase: STF-P1, status: detailed, title: Engineering productivity, topics: "Build pipelines, developer tooling, feedback loops", prereqs: [SRB-014, STF-004]}
+  - {id: STF-021, n: null, phase: STF-P1, status: detailed, title: AI governance and engineering productivity, topics: "Approved tools, usage policy, evaluation standards, quality and security guardrails, measuring productivity honestly", prereqs: [SRB-022, STF-009]}  # Added in v2.0: AI
   - {id: STF-010, n: 244, phase: STF-P1, status: detailed, title: Technical due diligence, topics: "Assessing architecture, risk, team capabilities, modernization needs", prereqs: [SRA-008, STF-007]}
   # STF-P2 Influence, Communication, and Leadership
   - {id: STF-011, n: 245, phase: STF-P2, status: detailed, title: Influence without authority, topics: "Trust, alignment, negotiation, conflict management", prereqs: [SRB-018, STF-001]}
   - {id: STF-012, n: 246, phase: STF-P2, status: detailed, title: Technical proposals, topics: "Problem framing, RFCs, evidence, alternatives", prereqs: [SRB-012, STF-011]}
   - {id: STF-013, n: 247, phase: STF-P2, status: detailed, title: Cross-team programs, topics: "Dependencies, milestones, accountability, escalation", prereqs: [SRB-011, SRA-014]}
   - {id: STF-014, n: 248, phase: STF-P2, status: detailed, title: Organizational change, topics: "Adoption strategies, incentives, resistance, feedback", prereqs: [SRA-018, STF-011]}
+  - {id: STF-022, n: null, phase: STF-P2, status: detailed, title: Leading an AI adoption program, topics: "Adoption strategy, enablement, communities, risk management, measuring outcomes across the organization", prereqs: [STF-014, STF-021]}  # Added in v2.0: AI
   - {id: STF-015, n: 249, phase: STF-P2, status: detailed, title: Mentoring at scale, topics: "Growing senior engineers, technical communities", prereqs: [SRA-016]}
   - {id: STF-016, n: 250, phase: STF-P2, status: detailed, title: Decision facilitation, topics: "Managing disagreements, clarifying trade-offs, building consensus", prereqs: [SRB-018, SRA-013]}
   - {id: STF-017, n: 251, phase: STF-P2, status: detailed, title: Executive communication, topics: "Business cases, cost/risk narratives, technical storytelling", prereqs: [SRA-019, STF-002]}
@@ -531,11 +550,13 @@ modules:
   # ARC-P3 Enterprise Data, Integration, and Security
   - {id: ARC-023, n: 277, phase: ARC-P3, status: detailed, title: Data architecture, topics: "Operational vs analytical workloads, data lifecycle", prereqs: [MID-044, SRA-004]}
   - {id: ARC-024, n: 278, phase: ARC-P3, status: detailed, title: Integration patterns, topics: "Synchronous APIs, async events, batch ETL/ELT, CDC", prereqs: [SRB-007, ARC-009]}
+  - {id: ARC-045, n: null, phase: ARC-P3, status: detailed, title: AI solution architecture, topics: "Reference architectures for assistants, RAG, and agents over enterprise data, deployment options, cost and latency", prereqs: [SRA-021, ARC-024]}  # Added in v2.0: AI
   - {id: ARC-025, n: 279, phase: ARC-P3, status: detailed, title: API management, topics: "Gateways, developer portals, governance, quotas", prereqs: [MID-035, SRC-006]}
   - {id: ARC-026, n: 280, phase: ARC-P3, status: detailed, title: Event architecture, topics: "Event ownership, event catalogs, schemas, compatibility", prereqs: [SRB-002, ARC-024]}
   - {id: ARC-027, n: 281, phase: ARC-P3, status: detailed, title: Identity and access, topics: "RBAC, ABAC, identity federation, privileged access", prereqs: [ARC-017]}
   - {id: ARC-028, n: 282, phase: ARC-P3, status: detailed, title: Security architecture, topics: "Zero trust, threat modeling, defense in depth", prereqs: [SRA-009, ARC-018]}
   - {id: ARC-029, n: 283, phase: ARC-P3, status: detailed, title: Privacy and compliance, topics: "Data classification, retention, residency, audit requirements", prereqs: [SRA-009, ARC-023]}
+  - {id: ARC-046, n: null, phase: ARC-P3, status: detailed, title: AI security, privacy, and compliance architecture, topics: "Data classification for prompts, residency, vendor terms, guardrails, auditability, responsible AI controls", prereqs: [ARC-029, ARC-045]}  # Added in v2.0: AI
   - {id: ARC-030, n: 284, phase: ARC-P3, status: detailed, title: Data governance, topics: "Ownership, quality, lineage, access policies", prereqs: [SRA-004, ARC-029]}
   - {id: ARC-031, n: 285, phase: ARC-P3, status: detailed, title: Resilience architecture, topics: "Failure scenarios, fault isolation, continuity plans", prereqs: [SRA-006, ARC-019]}
   - {id: ARC-032, n: 286, phase: ARC-P3, status: detailed, title: Integration with enterprise systems, topics: "ERP, CRM, payment gateways, identity providers", prereqs: [ARC-024, ARC-027]}
@@ -548,6 +569,7 @@ modules:
   - {id: ARC-038, n: 292, phase: ARC-P4, status: detailed, title: Operational architecture, topics: "Monitoring, support, incident processes, service ownership", prereqs: [SRC-011, ARC-036]}
   - {id: ARC-039, n: 293, phase: ARC-P4, status: detailed, title: Financial analysis, topics: "TCO, ROI, cost-benefit, licensing, operational costs", prereqs: [SRA-008, ARC-021]}
   - {id: ARC-040, n: 294, phase: ARC-P4, status: detailed, title: Vendor and procurement, topics: "RFP/RFI, technical evaluation, SLAs, contracts", prereqs: [ARC-008, ARC-039]}
+  - {id: ARC-047, n: null, phase: ARC-P4, status: detailed, title: AI vendor and model evaluation, topics: "AI vendor criteria, public benchmarks vs own evaluations, total cost, exit plans", prereqs: [ARC-040, ARC-045]}  # Added in v2.0: AI
   - {id: ARC-041, n: 295, phase: ARC-P4, status: detailed, title: Stakeholder management, topics: "Business, engineering, security, operations, vendors", prereqs: [SRA-015, ARC-003]}
   - {id: ARC-042, n: 296, phase: ARC-P4, status: detailed, title: Architecture assurance, topics: "Design reviews, testing evidence, operational acceptance", prereqs: [SRC-011, ARC-035]}
   - {id: ARC-043, n: 297, phase: ARC-P4, status: detailed, title: Solution documentation, topics: "Architecture packs, decision logs, assumptions, risks", prereqs: [ARC-034]}

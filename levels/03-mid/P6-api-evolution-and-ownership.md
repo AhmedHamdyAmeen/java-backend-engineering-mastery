@@ -4,7 +4,7 @@
 
 **Running project:** *Shop Platform* ships a breaking change safely, gains a full documentation set (C4, ADRs, runbooks), and is handed over as the Mid capstone.
 
-**Phase total:** ~4.9 h video · ~11.5 h practice
+**Phase total:** ~5.9 h video · ~14 h practice
 
 > **Ordering change (v1.4):** MID-059 to MID-061 (architectural styles, DDD, microservices introduction) moved to the start of MID-P3, so this phase was renamed from "Software Architecture and Professional Ownership".
 
@@ -163,6 +163,38 @@
 **Assessment:** review-quality rubric.
 
 **Career relevance:** mentorship (SRC-020) and technical influence at every senior level.
+
+---
+
+### MID-072 · AI-assisted engineering at codebase scale
+`n: new (added in v2.0)` · **Video:** 60 min · **Practice:** 2.5 h
+
+**Prerequisites:** JNR-055, MID-008
+
+**Learning outcomes** — the learner can:
+1. Give an AI assistant the right context on a large codebase (relevant files, tests, conventions, failing output) instead of whole repositories.
+2. Use AI to form debugging hypotheses from stack traces, logs, and profiles, and confirm them with evidence before changing code.
+3. Refactor with AI in small steps under a green test suite, rejecting changes that alter behavior.
+4. Generate tests that add value (edge cases, regression tests) and discard tests that merely restate the implementation.
+5. Measure the effect of AI assistance on review time, defect rate, and test quality rather than lines produced.
+
+**Lectures**
+| ID | Title | Min |
+| --- | --- | --- |
+| MID-072-L01 | AI assistants on large codebases | 8 |
+| MID-072-L02 | AI-assisted debugging with evidence | 10 |
+| MID-072-L03 | Refactoring with AI under a safety net | 10 |
+| MID-072-L04 | Generating tests worth keeping | 10 |
+| MID-072-L05 | Review discipline and measuring quality | 9 |
+| MID-072-L06 | Demo: an AI-assisted refactor of the order saga under green tests | 13 |
+
+**Lab** — `MID-072-LAB1` *AI-assisted refactor:* use an AI assistant to refactor one Shop Platform service module and to add regression tests for a past incident; submit a pull request with a log of prompts, accepted and rejected suggestions, and mutation-testing results for the new tests. Acceptance: behavior unchanged (all tests and contracts green); reviewer can trace every AI-originated change.
+
+**Common mistakes:** large unreviewable AI diffs; accepting generated tests that assert current bugs; pasting secrets or customer data into prompts; measuring success by volume of generated code.
+
+**Assessment:** review an AI-generated pull request and decide what to accept, change, or reject, with reasons.
+
+**Career relevance:** rolling out AI tools across teams (SRB-022) and AI governance at Staff level (STF-021).
 
 ---
 

@@ -25,6 +25,8 @@ The questions most often asked when hiring Solution Architects, how to answer th
 | Cost, TCO, build/buy, vendors | ARC-008, ARC-021, ARC-039, ARC-040 | `SRA-008-LAB1`, `ARC-CAP` cost estimate |
 | Architecture documentation | ARC-034, ARC-043 | `SRC-010-LAB1`, `ARC-CAP` ADRs and risk register |
 | Presenting to executives | ARC-044, SRA-019 | `SRA-019-LAB1`, `ARC-CAP` executive presentation |
+| AI solution architecture | ARC-045 | `ARC-045-LAB1` AI customer-service assistant |
+| AI security, compliance, and vendor evaluation | ARC-046, ARC-047 | `ARC-046-LAB1`, `ARC-047-LAB1`, AI requirements in `ARC-CAP` |
 
 **Your portfolio at the end of Level 8:** the Enterprise Digital Commerce Platform architecture package (`ARC-CAP`) — requirements, C4 and deployment diagrams, integration and data architecture, security and cloud design, DR strategy, cost model, roadmap, ADRs, and risk register — plus real solutions you designed and saw delivered.
 
@@ -294,7 +296,57 @@ The questions most often asked when hiring Solution Architects, how to answer th
 
 ---
 
-## 7. Six-week preparation plan
+## 7. AI questions
+
+### Q15 · Design an AI customer-service assistant for a retailer that integrates with its CRM and order systems.
+**How often:** Increasingly common · **Round:** Case study, whiteboard
+
+**How to answer:**
+1. **Business goals and constraints:** deflection rate, customer satisfaction, languages, channels, hand-over to human agents, budget, regulatory scope.
+2. **Architecture:** channel front end → assistant service → model access through a gateway; RAG over product and policy content; tools into order and CRM systems through existing APIs with the customer's authorization; hand-over to the contact-center platform with conversation context.
+3. **Data:** what is indexed vs fetched live, retention of conversations, personal-data handling.
+4. **Non-functional:** latency, availability with fallbacks, cost per conversation, evaluation and monitoring.
+5. **Security and compliance:** injection defenses, least-privilege tools, residency, audit logs, transparency to customers.
+6. **Options and roadmap:** build on a platform vs buy a contact-center AI product; pilot with one channel, measure, then expand.
+
+**Common trap:** jumping to a model choice before the business case, integration, and hand-over to humans are clear.
+
+**Learned in:** ARC-045, ARC-024, ARC-032
+**Practiced in:** `ARC-045-LAB1`, `ARC-CAP`
+**Show it:** the AI assistant section of your Larkspur Retail package; at work, an AI solution you designed or reviewed.
+
+---
+
+### Q16 · How do you evaluate AI vendors or models for an enterprise solution?
+**How often:** Increasingly common · **Round:** Vendor, governance
+
+**How to answer:**
+- **Criteria first:** quality on *your* tasks, latency, cost at expected volume, data-use and retention terms, residency, security certifications, availability SLA, support, and exit options.
+- **Evaluate with your own data:** public benchmarks are a starting point only; run a time-boxed proof of concept with your evaluation set.
+- **Total cost:** tokens or licenses, integration, evaluation, operations, and switching cost.
+- **Reduce lock-in:** access models through an internal interface or gateway, keep prompts and evaluations portable.
+
+**Learned in:** ARC-047, ARC-040
+**Practiced in:** `ARC-047-LAB1`
+
+---
+
+### Q17 · What privacy and compliance controls does an AI solution need?
+**How often:** Increasingly common · **Round:** Security, compliance
+
+**How to answer:**
+- Classify the data that may enter prompts and retrieval; keep regulated data (e.g., card data) out entirely.
+- Control where model calls are processed (residency) and what the vendor may do with the data.
+- Guardrails on inputs and outputs, least-privilege tools, human oversight for consequential actions.
+- Audit logs of prompts, outputs, model versions, and actions; retention and deletion aligned with privacy rules.
+- Transparency to users and a risk assessment proportionate to the use case.
+
+**Learned in:** ARC-046, ARC-029
+**Practiced in:** `ARC-046-LAB1`
+
+---
+
+## 8. Six-week preparation plan
 
 | Week | Focus | Do this |
 | --- | --- | --- |

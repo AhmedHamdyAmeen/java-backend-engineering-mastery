@@ -23,6 +23,7 @@
 | [`STF-007`](P1-staff-technical-strategy.md#stf-007--technology-portfolio) | Technology portfolio | Standardization, consolidation, adoption, retirement |
 | [`STF-008`](P1-staff-technical-strategy.md#stf-008--security-architecture-strategy) | Security architecture strategy | Threat landscapes, trust boundaries, secure defaults |
 | [`STF-009`](P1-staff-technical-strategy.md#stf-009--engineering-productivity) | Engineering productivity | Build pipelines, developer tooling, feedback loops |
+| [`STF-021`](P1-staff-technical-strategy.md#stf-021--ai-governance-and-engineering-productivity) | AI governance and engineering productivity | Approved tools, usage policy, evaluation standards, quality and security guardrails, measuring productivity honestly |
 | [`STF-010`](P1-staff-technical-strategy.md#stf-010--technical-due-diligence) | Technical due diligence | Assessing architecture, risk, team capabilities, modernization needs |
 
 ## STF-P2 — [Influence, Communication, and Leadership](P2-influence-and-leadership.md)
@@ -33,6 +34,7 @@
 | [`STF-012`](P2-influence-and-leadership.md#stf-012--technical-proposals) | Technical proposals | Problem framing, RFCs, evidence, alternatives |
 | [`STF-013`](P2-influence-and-leadership.md#stf-013--cross-team-programs) | Cross-team programs | Dependencies, milestones, accountability, escalation |
 | [`STF-014`](P2-influence-and-leadership.md#stf-014--organizational-change) | Organizational change | Adoption strategies, incentives, resistance, feedback |
+| [`STF-022`](P2-influence-and-leadership.md#stf-022--leading-an-ai-adoption-program) | Leading an AI adoption program | Adoption strategy, enablement, communities, risk management, measuring outcomes across the organization |
 | [`STF-015`](P2-influence-and-leadership.md#stf-015--mentoring-at-scale) | Mentoring at scale | Growing senior engineers, technical communities |
 | [`STF-016`](P2-influence-and-leadership.md#stf-016--decision-facilitation) | Decision facilitation | Managing disagreements, clarifying trade-offs, building consensus |
 | [`STF-017`](P2-influence-and-leadership.md#stf-017--executive-communication) | Executive communication | Business cases, cost/risk narratives, technical storytelling |

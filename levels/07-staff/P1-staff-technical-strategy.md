@@ -6,7 +6,7 @@
 
 **Format:** case studies, worked strategy sessions, and organizational role-play, with two worked sessions per module. Assessment weighs organizational leverage, not code. Each module lists the workplace evidence that demonstrates the role.
 
-**Phase total:** ~16.1 h video · ~38 h practice
+**Phase total:** ~17.5 h video · ~42 h practice
 
 ---
 
@@ -320,6 +320,40 @@
 **Workplace evidence:** a productivity improvement you led with before/after data.
 
 **Career relevance:** success metrics in `STF-CAP`; measuring impact (STF-019).
+
+---
+
+### STF-021 · AI governance and engineering productivity
+`n: new (added in v2.0)` · **Video:** 88 min · **Practice:** 4 h
+
+**Prerequisites:** SRB-022, STF-009
+
+**Learning outcomes** — the engineer can:
+1. Define organization-wide AI governance: approved tools, usage policy, data rules, and decision rights.
+2. Set evaluation and quality standards for AI features and AI-generated code that teams can meet without a central bottleneck.
+3. Build guardrails into the platform (gateway, scanning, review rules) instead of relying on policy documents.
+4. Measure the effect of AI on engineering productivity and quality honestly across ~20 teams.
+
+**Lectures**
+| ID | Title | Min |
+| --- | --- | --- |
+| STF-021-L01 | Why AI needs governance, not prohibition | 10 |
+| STF-021-L02 | Approved tools, data rules, and decision rights | 12 |
+| STF-021-L03 | Evaluation and quality standards | 12 |
+| STF-021-L04 | Guardrails as paved roads | 12 |
+| STF-021-L05 | Measuring AI's effect on engineering | 12 |
+| STF-021-L06 | Demo: turning an AI policy into platform guardrails | 15 |
+| STF-021-L07 | Demo: an org-wide AI productivity report with honest caveats | 15 |
+
+**Lab** — `STF-021-LAB1` *AI governance for Platform 2.0:* governance model, approved-tool list, data rules, evaluation standard for AI features, platform guardrails, and a measurement plan across the ~20 product teams. Acceptance: every rule has an enforcement point or an explicit owner; measurement plan has baselines and quality counter-metrics.
+
+**Common mistakes:** banning tools and pushing usage underground; governance boards that review every prompt; productivity claims without baselines.
+
+**Assessment:** governance proposal review.
+
+**Workplace evidence:** AI governance or guardrails you established across several teams.
+
+**Career relevance:** leading AI adoption (STF-022) and AI vendor evaluation (ARC-047).
 
 ---
 

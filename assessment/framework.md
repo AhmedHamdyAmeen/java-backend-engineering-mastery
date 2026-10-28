@@ -91,7 +91,14 @@ Assessed continuously, at increasing depth:
 | Testing | Unit, integration | Contract, load, resilience | Organization-wide quality strategy |
 | Security | Secure coding, OWASP | Threat modeling, security reviews | Security architecture and governance |
 | Collaboration | Git, PRs, agile | Cross-team coordination | Organization-wide alignment |
-| AI-assisted development | Effective prompting; verify generated code | AI-assisted debugging and test generation | AI governance, evaluation, security |
+| AI-assisted development | Ask well, verify every suggestion, never share secrets (BEG-056, BEG-057, JNR-055) | AI-assisted debugging, refactoring, and test generation at scale (MID-072); team rollout (SRB-022) | AI governance and productivity measurement (STF-021, STF-022) |
+| Building AI features | Calling LLMs from Spring, securing them (JNR-056, JNR-057) | Vector search, RAG, tools, evaluation, AI threats (MID-067 … MID-071); reliable AI in production (SRC-021, SRC-022) | AI platforms, strategy, responsible AI, AI solution architecture (SRB-021, SRA-021, SRA-022, ARC-045 … ARC-047) |
 | Professional growth | CV, GitHub, interviews | Mentoring, ownership, career planning | Influence, strategy, leadership |
+
+### AI use during assessment
+
+1. **Labs and capstones:** AI assistants are allowed. Every capstone includes an `AI-USE.md` stating where AI helped and how its output was verified. Undisclosed AI use counts as a failure of the COM dimension.
+2. **Module assessments and graduation gates:** each gate states whether AI is allowed. By default, live coding, debugging, and troubleshooting segments are done **without** AI, so the gate measures the learner's own understanding; design and documentation segments may use AI if disclosed.
+3. **Interview simulations** follow the rules the target employer is likely to use; the learner practices both with and without AI.
 
 Also integrated: accessibility awareness, licensing and IP, technical writing, ethical engineering, data privacy, and open-source dependency maintenance.

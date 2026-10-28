@@ -22,7 +22,9 @@
 | [`SRA-006`](P1-advanced-system-strategy.md#sra-006--enterprise-resilience) | Enterprise resilience | Regional failure, chaos engineering, systemic risk |
 | [`SRA-007`](P1-advanced-system-strategy.md#sra-007--large-scale-performance) | Large-scale performance | Capacity forecasting, workload modeling, cost-performance optimization |
 | [`SRA-008`](P1-advanced-system-strategy.md#sra-008--architecture-economics) | Architecture economics | Build vs buy, total cost of ownership, opportunity cost |
+| [`SRA-021`](P1-advanced-system-strategy.md#sra-021--ai-strategy-and-build-vs-buy) | AI strategy and build vs buy | Where AI creates value, hosted vs open-weight models, RAG vs fine-tuning, total cost of ownership, lock-in, data strategy |
 | [`SRA-009`](P1-advanced-system-strategy.md#sra-009--security-and-compliance) | Security and compliance | Privacy by design, auditability, regulatory constraints |
+| [`SRA-022`](P1-advanced-system-strategy.md#sra-022--responsible-ai-and-ai-compliance) | Responsible AI and AI compliance | Privacy, residency of model calls, transparency, bias, human oversight, auditability, regulation at concept level |
 | [`SRA-010`](P1-advanced-system-strategy.md#sra-010--technical-strategy) | Technical strategy | Investment planning, modernization, platform vs product priorities |
 
 ## SRA-P2 — [Influence and Organizational Execution](P2-influence-and-execution.md)
