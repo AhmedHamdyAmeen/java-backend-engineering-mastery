@@ -2,7 +2,7 @@
 
 # Module Index
 
-321 modules · 321 detailed
+321 modules · 321 scripted
 
 ## 1. Beginner — Foundations (`BEG`)
 
@@ -10,88 +10,88 @@
 
 | ID | n | Module | Status | Prerequisites |
 | --- | --- | --- | --- | --- |
-| [`BEG-001`](../levels/01-beginner/P1-computers-and-software.md#beg-001--understanding-computers) | 1 | Understanding computers | detailed | — |
-| [`BEG-002`](../levels/01-beginner/P1-computers-and-software.md#beg-002--understanding-software) | 2 | Understanding software | detailed | BEG-001 |
-| [`BEG-003`](../levels/01-beginner/P1-computers-and-software.md#beg-003--the-internet) | 3 | The internet | detailed | BEG-001 |
-| [`BEG-004`](../levels/01-beginner/P1-computers-and-software.md#beg-004--introduction-to-engineering) | 4 | Introduction to engineering | detailed | BEG-002 |
-| [`BEG-005`](../levels/01-beginner/P1-computers-and-software.md#beg-005--development-environment) | 5 | Development environment | detailed | BEG-001 |
-| [`BEG-006`](../levels/01-beginner/P1-computers-and-software.md#beg-006--command-line) | 6 | Command line | detailed | BEG-005 |
-| [`BEG-007`](../levels/01-beginner/P1-computers-and-software.md#beg-007--how-code-runs) | 7 | How code runs | detailed | BEG-002, BEG-006 |
+| [`BEG-001`](../levels/01-beginner/P1-computers-and-software.md#beg-001--understanding-computers) | 1 | Understanding computers | scripted | — |
+| [`BEG-002`](../levels/01-beginner/P1-computers-and-software.md#beg-002--understanding-software) | 2 | Understanding software | scripted | BEG-001 |
+| [`BEG-003`](../levels/01-beginner/P1-computers-and-software.md#beg-003--the-internet) | 3 | The internet | scripted | BEG-001 |
+| [`BEG-004`](../levels/01-beginner/P1-computers-and-software.md#beg-004--introduction-to-engineering) | 4 | Introduction to engineering | scripted | BEG-002 |
+| [`BEG-005`](../levels/01-beginner/P1-computers-and-software.md#beg-005--development-environment) | 5 | Development environment | scripted | BEG-001 |
+| [`BEG-006`](../levels/01-beginner/P1-computers-and-software.md#beg-006--command-line) | 6 | Command line | scripted | BEG-005 |
+| [`BEG-007`](../levels/01-beginner/P1-computers-and-software.md#beg-007--how-code-runs) | 7 | How code runs | scripted | BEG-002, BEG-006 |
 
 ### BEG-P2 — Programming Fundamentals with Java
 
 | ID | n | Module | Status | Prerequisites |
 | --- | --- | --- | --- | --- |
-| [`BEG-008`](../levels/01-beginner/P2-programming-fundamentals.md#beg-008--first-java-program) | 8 | First Java program | detailed | BEG-007 |
-| [`BEG-009`](../levels/01-beginner/P2-programming-fundamentals.md#beg-009--variables-and-data-types) | 9 | Variables and data types | detailed | BEG-008 |
-| [`BEG-010`](../levels/01-beginner/P2-programming-fundamentals.md#beg-010--operators) | 10 | Operators | detailed | BEG-009 |
-| [`BEG-011`](../levels/01-beginner/P2-programming-fundamentals.md#beg-011--input-and-output) | 11 | Input and output | detailed | BEG-010 |
-| [`BEG-012`](../levels/01-beginner/P2-programming-fundamentals.md#beg-012--conditions) | 12 | Conditions | detailed | BEG-010 |
-| [`BEG-013`](../levels/01-beginner/P2-programming-fundamentals.md#beg-013--loops) | 13 | Loops | detailed | BEG-012 |
-| [`BEG-014`](../levels/01-beginner/P2-programming-fundamentals.md#beg-014--methods) | 14 | Methods | detailed | BEG-013 |
-| [`BEG-015`](../levels/01-beginner/P2-programming-fundamentals.md#beg-015--arrays-and-strings) | 15 | Arrays and strings | detailed | BEG-013, BEG-014 |
-| [`BEG-016`](../levels/01-beginner/P2-programming-fundamentals.md#beg-016--problem-solving) | 16 | Problem-solving | detailed | BEG-015 |
-| [`BEG-017`](../levels/01-beginner/P2-programming-fundamentals.md#beg-017--introductory-algorithms) | 17 | Introductory algorithms | detailed | BEG-015, BEG-016 |
-| [`BEG-018`](../levels/01-beginner/P2-programming-fundamentals.md#beg-018--debugging) | 18 | Debugging | detailed | BEG-014 |
-| [`BEG-056`](../levels/01-beginner/P2-programming-fundamentals.md#beg-056--ai-coding-assistants-for-learners) | new | AI coding assistants for learners | detailed | BEG-016, BEG-018 |
+| [`BEG-008`](../levels/01-beginner/P2-programming-fundamentals.md#beg-008--first-java-program) | 8 | First Java program | scripted | BEG-007 |
+| [`BEG-009`](../levels/01-beginner/P2-programming-fundamentals.md#beg-009--variables-and-data-types) | 9 | Variables and data types | scripted | BEG-008 |
+| [`BEG-010`](../levels/01-beginner/P2-programming-fundamentals.md#beg-010--operators) | 10 | Operators | scripted | BEG-009 |
+| [`BEG-011`](../levels/01-beginner/P2-programming-fundamentals.md#beg-011--input-and-output) | 11 | Input and output | scripted | BEG-010 |
+| [`BEG-012`](../levels/01-beginner/P2-programming-fundamentals.md#beg-012--conditions) | 12 | Conditions | scripted | BEG-010 |
+| [`BEG-013`](../levels/01-beginner/P2-programming-fundamentals.md#beg-013--loops) | 13 | Loops | scripted | BEG-012 |
+| [`BEG-014`](../levels/01-beginner/P2-programming-fundamentals.md#beg-014--methods) | 14 | Methods | scripted | BEG-013 |
+| [`BEG-015`](../levels/01-beginner/P2-programming-fundamentals.md#beg-015--arrays-and-strings) | 15 | Arrays and strings | scripted | BEG-013, BEG-014 |
+| [`BEG-016`](../levels/01-beginner/P2-programming-fundamentals.md#beg-016--problem-solving) | 16 | Problem-solving | scripted | BEG-015 |
+| [`BEG-017`](../levels/01-beginner/P2-programming-fundamentals.md#beg-017--introductory-algorithms) | 17 | Introductory algorithms | scripted | BEG-015, BEG-016 |
+| [`BEG-018`](../levels/01-beginner/P2-programming-fundamentals.md#beg-018--debugging) | 18 | Debugging | scripted | BEG-014 |
+| [`BEG-056`](../levels/01-beginner/P2-programming-fundamentals.md#beg-056--ai-coding-assistants-for-learners) | new | AI coding assistants for learners | scripted | BEG-016, BEG-018 |
 
 ### BEG-P3 — Object-Oriented Programming
 
 | ID | n | Module | Status | Prerequisites |
 | --- | --- | --- | --- | --- |
-| [`BEG-019`](../levels/01-beginner/P3-object-oriented-programming.md#beg-019--oop-introduction) | 19 | OOP introduction | detailed | BEG-014 |
-| [`BEG-020`](../levels/01-beginner/P3-object-oriented-programming.md#beg-020--classes-and-objects) | 20 | Classes and objects | detailed | BEG-019 |
-| [`BEG-021`](../levels/01-beginner/P3-object-oriented-programming.md#beg-021--encapsulation) | 21 | Encapsulation | detailed | BEG-020 |
-| [`BEG-022`](../levels/01-beginner/P3-object-oriented-programming.md#beg-022--inheritance) | 22 | Inheritance | detailed | BEG-021 |
-| [`BEG-023`](../levels/01-beginner/P3-object-oriented-programming.md#beg-023--polymorphism) | 23 | Polymorphism | detailed | BEG-022 |
-| [`BEG-024`](../levels/01-beginner/P3-object-oriented-programming.md#beg-024--abstract-classes-and-interfaces) | 24 | Abstract classes and interfaces | detailed | BEG-023 |
-| [`BEG-025`](../levels/01-beginner/P3-object-oriented-programming.md#beg-025--relationships) | 25 | Relationships | detailed | BEG-020, BEG-022 |
-| [`BEG-026`](../levels/01-beginner/P3-object-oriented-programming.md#beg-026--java-object-model) | 26 | Java object model | detailed | BEG-022 |
-| [`BEG-027`](../levels/01-beginner/P3-object-oriented-programming.md#beg-027--packages-and-organization) | 27 | Packages and organization | detailed | BEG-021 |
-| [`BEG-028`](../levels/01-beginner/P3-object-oriented-programming.md#beg-028--oop-design-practice) | 28 | OOP design practice | detailed | BEG-024, BEG-025, BEG-027 |
+| [`BEG-019`](../levels/01-beginner/P3-object-oriented-programming.md#beg-019--oop-introduction) | 19 | OOP introduction | scripted | BEG-014 |
+| [`BEG-020`](../levels/01-beginner/P3-object-oriented-programming.md#beg-020--classes-and-objects) | 20 | Classes and objects | scripted | BEG-019 |
+| [`BEG-021`](../levels/01-beginner/P3-object-oriented-programming.md#beg-021--encapsulation) | 21 | Encapsulation | scripted | BEG-020 |
+| [`BEG-022`](../levels/01-beginner/P3-object-oriented-programming.md#beg-022--inheritance) | 22 | Inheritance | scripted | BEG-021 |
+| [`BEG-023`](../levels/01-beginner/P3-object-oriented-programming.md#beg-023--polymorphism) | 23 | Polymorphism | scripted | BEG-022 |
+| [`BEG-024`](../levels/01-beginner/P3-object-oriented-programming.md#beg-024--abstract-classes-and-interfaces) | 24 | Abstract classes and interfaces | scripted | BEG-023 |
+| [`BEG-025`](../levels/01-beginner/P3-object-oriented-programming.md#beg-025--relationships) | 25 | Relationships | scripted | BEG-020, BEG-022 |
+| [`BEG-026`](../levels/01-beginner/P3-object-oriented-programming.md#beg-026--java-object-model) | 26 | Java object model | scripted | BEG-022 |
+| [`BEG-027`](../levels/01-beginner/P3-object-oriented-programming.md#beg-027--packages-and-organization) | 27 | Packages and organization | scripted | BEG-021 |
+| [`BEG-028`](../levels/01-beginner/P3-object-oriented-programming.md#beg-028--oop-design-practice) | 28 | OOP design practice | scripted | BEG-024, BEG-025, BEG-027 |
 
 ### BEG-P4 — Essential Core Java
 
 | ID | n | Module | Status | Prerequisites |
 | --- | --- | --- | --- | --- |
-| [`BEG-029`](../levels/01-beginner/P4-essential-core-java.md#beg-029--exceptions) | 29 | Exceptions | detailed | BEG-022 |
-| [`BEG-030`](../levels/01-beginner/P4-essential-core-java.md#beg-030--collections) | 30 | Collections | detailed | BEG-024, BEG-026 (co: BEG-031) |
-| [`BEG-031`](../levels/01-beginner/P4-essential-core-java.md#beg-031--generics) | 31 | Generics | detailed | BEG-030 |
-| [`BEG-032`](../levels/01-beginner/P4-essential-core-java.md#beg-032--sorting-and-comparison) | 32 | Sorting and comparison | detailed | BEG-024, BEG-030 |
-| [`BEG-033`](../levels/01-beginner/P4-essential-core-java.md#beg-033--date-and-time) | 33 | Date and time | detailed | BEG-020 |
-| [`BEG-034`](../levels/01-beginner/P4-essential-core-java.md#beg-034--files-and-io) | 34 | Files and I/O | detailed | BEG-006, BEG-029 |
-| [`BEG-035`](../levels/01-beginner/P4-essential-core-java.md#beg-035--functional-basics) | 35 | Functional basics | detailed | BEG-024 |
-| [`BEG-036`](../levels/01-beginner/P4-essential-core-java.md#beg-036--stream-api) | 36 | Stream API | detailed | BEG-030, BEG-035 |
-| [`BEG-037`](../levels/01-beginner/P4-essential-core-java.md#beg-037--optional) | 37 | Optional | detailed | BEG-035 |
-| [`BEG-038`](../levels/01-beginner/P4-essential-core-java.md#beg-038--java-memory-basics) | 38 | Java memory basics | detailed | BEG-014, BEG-020 |
+| [`BEG-029`](../levels/01-beginner/P4-essential-core-java.md#beg-029--exceptions) | 29 | Exceptions | scripted | BEG-022 |
+| [`BEG-030`](../levels/01-beginner/P4-essential-core-java.md#beg-030--collections) | 30 | Collections | scripted | BEG-024, BEG-026 (co: BEG-031) |
+| [`BEG-031`](../levels/01-beginner/P4-essential-core-java.md#beg-031--generics) | 31 | Generics | scripted | BEG-030 |
+| [`BEG-032`](../levels/01-beginner/P4-essential-core-java.md#beg-032--sorting-and-comparison) | 32 | Sorting and comparison | scripted | BEG-024, BEG-030 |
+| [`BEG-033`](../levels/01-beginner/P4-essential-core-java.md#beg-033--date-and-time) | 33 | Date and time | scripted | BEG-020 |
+| [`BEG-034`](../levels/01-beginner/P4-essential-core-java.md#beg-034--files-and-io) | 34 | Files and I/O | scripted | BEG-006, BEG-029 |
+| [`BEG-035`](../levels/01-beginner/P4-essential-core-java.md#beg-035--functional-basics) | 35 | Functional basics | scripted | BEG-024 |
+| [`BEG-036`](../levels/01-beginner/P4-essential-core-java.md#beg-036--stream-api) | 36 | Stream API | scripted | BEG-030, BEG-035 |
+| [`BEG-037`](../levels/01-beginner/P4-essential-core-java.md#beg-037--optional) | 37 | Optional | scripted | BEG-035 |
+| [`BEG-038`](../levels/01-beginner/P4-essential-core-java.md#beg-038--java-memory-basics) | 38 | Java memory basics | scripted | BEG-014, BEG-020 |
 
 ### BEG-P5 — Computer Science Foundations
 
 | ID | n | Module | Status | Prerequisites |
 | --- | --- | --- | --- | --- |
-| [`BEG-039`](../levels/01-beginner/P5-computer-science-foundations.md#beg-039--algorithms-and-complexity) | 39 | Algorithms and complexity | detailed | BEG-017 |
-| [`BEG-040`](../levels/01-beginner/P5-computer-science-foundations.md#beg-040--linear-data-structures) | 40 | Linear data structures | detailed | BEG-031, BEG-039 |
-| [`BEG-041`](../levels/01-beginner/P5-computer-science-foundations.md#beg-041--hashing) | 41 | Hashing | detailed | BEG-026, BEG-040 |
-| [`BEG-042`](../levels/01-beginner/P5-computer-science-foundations.md#beg-042--trees) | 42 | Trees | detailed | BEG-014, BEG-040 |
-| [`BEG-043`](../levels/01-beginner/P5-computer-science-foundations.md#beg-043--graph-basics) | 43 | Graph basics | detailed | BEG-030, BEG-042 |
-| [`BEG-044`](../levels/01-beginner/P5-computer-science-foundations.md#beg-044--algorithmic-techniques) | 44 | Algorithmic techniques | detailed | BEG-015, BEG-039 |
-| [`BEG-045`](../levels/01-beginner/P5-computer-science-foundations.md#beg-045--testing-fundamentals) | 45 | Testing fundamentals | detailed | BEG-024, BEG-029 |
-| [`BEG-057`](../levels/01-beginner/P5-computer-science-foundations.md#beg-057--verifying-ai-generated-code) | new | Verifying AI-generated code | detailed | BEG-045, BEG-056 |
+| [`BEG-039`](../levels/01-beginner/P5-computer-science-foundations.md#beg-039--algorithms-and-complexity) | 39 | Algorithms and complexity | scripted | BEG-017 |
+| [`BEG-040`](../levels/01-beginner/P5-computer-science-foundations.md#beg-040--linear-data-structures) | 40 | Linear data structures | scripted | BEG-031, BEG-039 |
+| [`BEG-041`](../levels/01-beginner/P5-computer-science-foundations.md#beg-041--hashing) | 41 | Hashing | scripted | BEG-026, BEG-040 |
+| [`BEG-042`](../levels/01-beginner/P5-computer-science-foundations.md#beg-042--trees) | 42 | Trees | scripted | BEG-014, BEG-040 |
+| [`BEG-043`](../levels/01-beginner/P5-computer-science-foundations.md#beg-043--graph-basics) | 43 | Graph basics | scripted | BEG-030, BEG-042 |
+| [`BEG-044`](../levels/01-beginner/P5-computer-science-foundations.md#beg-044--algorithmic-techniques) | 44 | Algorithmic techniques | scripted | BEG-015, BEG-039 |
+| [`BEG-045`](../levels/01-beginner/P5-computer-science-foundations.md#beg-045--testing-fundamentals) | 45 | Testing fundamentals | scripted | BEG-024, BEG-029 |
+| [`BEG-057`](../levels/01-beginner/P5-computer-science-foundations.md#beg-057--verifying-ai-generated-code) | new | Verifying AI-generated code | scripted | BEG-045, BEG-056 |
 
 ### BEG-P6 — Git, SQL, and Web Foundations
 
 | ID | n | Module | Status | Prerequisites |
 | --- | --- | --- | --- | --- |
-| [`BEG-046`](../levels/01-beginner/P6-git-sql-web.md#beg-046--version-control) | 46 | Version control | detailed | BEG-006 |
-| [`BEG-047`](../levels/01-beginner/P6-git-sql-web.md#beg-047--github) | 47 | GitHub | detailed | BEG-046 |
-| [`BEG-048`](../levels/01-beginner/P6-git-sql-web.md#beg-048--data-fundamentals) | 48 | Data fundamentals | detailed | BEG-002 |
-| [`BEG-049`](../levels/01-beginner/P6-git-sql-web.md#beg-049--relational-modeling) | 49 | Relational modeling | detailed | BEG-048 |
-| [`BEG-050`](../levels/01-beginner/P6-git-sql-web.md#beg-050--sql-foundations) | 50 | SQL foundations | detailed | BEG-049 |
-| [`BEG-051`](../levels/01-beginner/P6-git-sql-web.md#beg-051--postgresql-basics) | 51 | PostgreSQL basics | detailed | BEG-005, BEG-050 |
-| [`BEG-052`](../levels/01-beginner/P6-git-sql-web.md#beg-052--web-fundamentals) | 52 | Web fundamentals | detailed | BEG-003 |
-| [`BEG-053`](../levels/01-beginner/P6-git-sql-web.md#beg-053--api-fundamentals) | 53 | API fundamentals | detailed | BEG-052 |
-| [`BEG-054`](../levels/01-beginner/P6-git-sql-web.md#beg-054--build-tools) | 54 | Build tools | detailed | BEG-006, BEG-045 |
-| [`BEG-055`](../levels/01-beginner/P6-git-sql-web.md#beg-055--jdbc-essentials) | new | JDBC essentials | detailed | BEG-029, BEG-051, BEG-054 |
+| [`BEG-046`](../levels/01-beginner/P6-git-sql-web.md#beg-046--version-control) | 46 | Version control | scripted | BEG-006 |
+| [`BEG-047`](../levels/01-beginner/P6-git-sql-web.md#beg-047--github) | 47 | GitHub | scripted | BEG-046 |
+| [`BEG-048`](../levels/01-beginner/P6-git-sql-web.md#beg-048--data-fundamentals) | 48 | Data fundamentals | scripted | BEG-002 |
+| [`BEG-049`](../levels/01-beginner/P6-git-sql-web.md#beg-049--relational-modeling) | 49 | Relational modeling | scripted | BEG-048 |
+| [`BEG-050`](../levels/01-beginner/P6-git-sql-web.md#beg-050--sql-foundations) | 50 | SQL foundations | scripted | BEG-049 |
+| [`BEG-051`](../levels/01-beginner/P6-git-sql-web.md#beg-051--postgresql-basics) | 51 | PostgreSQL basics | scripted | BEG-005, BEG-050 |
+| [`BEG-052`](../levels/01-beginner/P6-git-sql-web.md#beg-052--web-fundamentals) | 52 | Web fundamentals | scripted | BEG-003 |
+| [`BEG-053`](../levels/01-beginner/P6-git-sql-web.md#beg-053--api-fundamentals) | 53 | API fundamentals | scripted | BEG-052 |
+| [`BEG-054`](../levels/01-beginner/P6-git-sql-web.md#beg-054--build-tools) | 54 | Build tools | scripted | BEG-006, BEG-045 |
+| [`BEG-055`](../levels/01-beginner/P6-git-sql-web.md#beg-055--jdbc-essentials) | new | JDBC essentials | scripted | BEG-029, BEG-051, BEG-054 |
 
 ## 2. Junior Java Backend Engineer (`JNR`)
 
@@ -99,88 +99,88 @@
 
 | ID | n | Module | Status | Prerequisites |
 | --- | --- | --- | --- | --- |
-| [`JNR-001`](../levels/02-junior/P1-professional-java.md#jnr-001--modern-java) | 55 | Modern Java | detailed | BEG-012, BEG-024, BEG-026 |
-| [`JNR-002`](../levels/02-junior/P1-professional-java.md#jnr-002--maven-in-depth) | 56 | Maven in depth | detailed | BEG-054 |
-| [`JNR-003`](../levels/02-junior/P1-professional-java.md#jnr-003--code-quality) | 57 | Code quality | detailed | BEG-028 |
-| [`JNR-055`](../levels/02-junior/P1-professional-java.md#jnr-055--ai-assisted-development-workflow) | new | AI-assisted development workflow | detailed | BEG-057, JNR-003 |
-| [`JNR-004`](../levels/02-junior/P1-professional-java.md#jnr-004--solid-principles) | 58 | SOLID principles | detailed | BEG-024, JNR-003 |
-| [`JNR-005`](../levels/02-junior/P1-professional-java.md#jnr-005--design-patterns-introduction) | 59 | Design patterns introduction | detailed | JNR-004 |
-| [`JNR-006`](../levels/02-junior/P1-professional-java.md#jnr-006--logging) | 60 | Logging | detailed | BEG-029, JNR-002 |
-| [`JNR-007`](../levels/02-junior/P1-professional-java.md#jnr-007--configuration) | 61 | Configuration | detailed | BEG-006, BEG-034 |
+| [`JNR-001`](../levels/02-junior/P1-professional-java.md#jnr-001--modern-java) | 55 | Modern Java | scripted | BEG-012, BEG-024, BEG-026 |
+| [`JNR-002`](../levels/02-junior/P1-professional-java.md#jnr-002--maven-in-depth) | 56 | Maven in depth | scripted | BEG-054 |
+| [`JNR-003`](../levels/02-junior/P1-professional-java.md#jnr-003--code-quality) | 57 | Code quality | scripted | BEG-028 |
+| [`JNR-055`](../levels/02-junior/P1-professional-java.md#jnr-055--ai-assisted-development-workflow) | new | AI-assisted development workflow | scripted | BEG-057, JNR-003 |
+| [`JNR-004`](../levels/02-junior/P1-professional-java.md#jnr-004--solid-principles) | 58 | SOLID principles | scripted | BEG-024, JNR-003 |
+| [`JNR-005`](../levels/02-junior/P1-professional-java.md#jnr-005--design-patterns-introduction) | 59 | Design patterns introduction | scripted | JNR-004 |
+| [`JNR-006`](../levels/02-junior/P1-professional-java.md#jnr-006--logging) | 60 | Logging | scripted | BEG-029, JNR-002 |
+| [`JNR-007`](../levels/02-junior/P1-professional-java.md#jnr-007--configuration) | 61 | Configuration | scripted | BEG-006, BEG-034 |
 
 ### JNR-P2 — Spring Framework Fundamentals
 
 | ID | n | Module | Status | Prerequisites |
 | --- | --- | --- | --- | --- |
-| [`JNR-008`](../levels/02-junior/P2-spring-fundamentals.md#jnr-008--spring-ecosystem) | 62 | Spring ecosystem | detailed | JNR-002 |
-| [`JNR-009`](../levels/02-junior/P2-spring-fundamentals.md#jnr-009--ioc-and-di) | 63 | IoC and DI | detailed | JNR-004, JNR-008 |
-| [`JNR-010`](../levels/02-junior/P2-spring-fundamentals.md#jnr-010--spring-container) | 64 | Spring container | detailed | JNR-009 |
-| [`JNR-011`](../levels/02-junior/P2-spring-fundamentals.md#jnr-011--spring-boot) | 65 | Spring Boot | detailed | JNR-010 |
-| [`JNR-012`](../levels/02-junior/P2-spring-fundamentals.md#jnr-012--configuration-management) | 66 | Configuration management | detailed | JNR-007, JNR-011 |
-| [`JNR-013`](../levels/02-junior/P2-spring-fundamentals.md#jnr-013--layered-architecture) | 67 | Layered architecture | detailed | BEG-027, JNR-011 |
-| [`JNR-014`](../levels/02-junior/P2-spring-fundamentals.md#jnr-014--validation) | 68 | Validation | detailed | JNR-013 |
-| [`JNR-015`](../levels/02-junior/P2-spring-fundamentals.md#jnr-015--error-handling) | 69 | Error handling | detailed | BEG-029, JNR-013 |
-| [`JNR-016`](../levels/02-junior/P2-spring-fundamentals.md#jnr-016--spring-testing-basics) | 70 | Spring testing basics | detailed | BEG-045, JNR-013 |
+| [`JNR-008`](../levels/02-junior/P2-spring-fundamentals.md#jnr-008--spring-ecosystem) | 62 | Spring ecosystem | scripted | JNR-002 |
+| [`JNR-009`](../levels/02-junior/P2-spring-fundamentals.md#jnr-009--ioc-and-di) | 63 | IoC and DI | scripted | JNR-004, JNR-008 |
+| [`JNR-010`](../levels/02-junior/P2-spring-fundamentals.md#jnr-010--spring-container) | 64 | Spring container | scripted | JNR-009 |
+| [`JNR-011`](../levels/02-junior/P2-spring-fundamentals.md#jnr-011--spring-boot) | 65 | Spring Boot | scripted | JNR-010 |
+| [`JNR-012`](../levels/02-junior/P2-spring-fundamentals.md#jnr-012--configuration-management) | 66 | Configuration management | scripted | JNR-007, JNR-011 |
+| [`JNR-013`](../levels/02-junior/P2-spring-fundamentals.md#jnr-013--layered-architecture) | 67 | Layered architecture | scripted | BEG-027, JNR-011 |
+| [`JNR-014`](../levels/02-junior/P2-spring-fundamentals.md#jnr-014--validation) | 68 | Validation | scripted | JNR-013 |
+| [`JNR-015`](../levels/02-junior/P2-spring-fundamentals.md#jnr-015--error-handling) | 69 | Error handling | scripted | BEG-029, JNR-013 |
+| [`JNR-016`](../levels/02-junior/P2-spring-fundamentals.md#jnr-016--spring-testing-basics) | 70 | Spring testing basics | scripted | BEG-045, JNR-013 |
 
 ### JNR-P3 — REST API Engineering
 
 | ID | n | Module | Status | Prerequisites |
 | --- | --- | --- | --- | --- |
-| [`JNR-017`](../levels/02-junior/P3-rest-api-engineering.md#jnr-017--http-in-depth) | 71 | HTTP in depth | detailed | BEG-052 |
-| [`JNR-018`](../levels/02-junior/P3-rest-api-engineering.md#jnr-018--restful-design) | 72 | RESTful design | detailed | BEG-053, JNR-017 |
-| [`JNR-019`](../levels/02-junior/P3-rest-api-engineering.md#jnr-019--crud-apis) | 73 | CRUD APIs | detailed | JNR-013, JNR-018 |
-| [`JNR-020`](../levels/02-junior/P3-rest-api-engineering.md#jnr-020--api-design-conventions) | 74 | API design conventions | detailed | JNR-019 |
-| [`JNR-021`](../levels/02-junior/P3-rest-api-engineering.md#jnr-021--openapi) | 75 | OpenAPI | detailed | JNR-020 |
-| [`JNR-022`](../levels/02-junior/P3-rest-api-engineering.md#jnr-022--api-clients) | 76 | API clients | detailed | BEG-053, JNR-019 |
-| [`JNR-056`](../levels/02-junior/P3-rest-api-engineering.md#jnr-056--calling-llms-from-spring) | new | Calling LLMs from Spring | detailed | JNR-012, JNR-022 |
-| [`JNR-023`](../levels/02-junior/P3-rest-api-engineering.md#jnr-023--file-operations) | 77 | File operations | detailed | BEG-034, JNR-019 |
-| [`JNR-024`](../levels/02-junior/P3-rest-api-engineering.md#jnr-024--api-security-fundamentals) | 78 | API security fundamentals | detailed | JNR-017 |
+| [`JNR-017`](../levels/02-junior/P3-rest-api-engineering.md#jnr-017--http-in-depth) | 71 | HTTP in depth | scripted | BEG-052 |
+| [`JNR-018`](../levels/02-junior/P3-rest-api-engineering.md#jnr-018--restful-design) | 72 | RESTful design | scripted | BEG-053, JNR-017 |
+| [`JNR-019`](../levels/02-junior/P3-rest-api-engineering.md#jnr-019--crud-apis) | 73 | CRUD APIs | scripted | JNR-013, JNR-018 |
+| [`JNR-020`](../levels/02-junior/P3-rest-api-engineering.md#jnr-020--api-design-conventions) | 74 | API design conventions | scripted | JNR-019 |
+| [`JNR-021`](../levels/02-junior/P3-rest-api-engineering.md#jnr-021--openapi) | 75 | OpenAPI | scripted | JNR-020 |
+| [`JNR-022`](../levels/02-junior/P3-rest-api-engineering.md#jnr-022--api-clients) | 76 | API clients | scripted | BEG-053, JNR-019 |
+| [`JNR-056`](../levels/02-junior/P3-rest-api-engineering.md#jnr-056--calling-llms-from-spring) | new | Calling LLMs from Spring | scripted | JNR-012, JNR-022 |
+| [`JNR-023`](../levels/02-junior/P3-rest-api-engineering.md#jnr-023--file-operations) | 77 | File operations | scripted | BEG-034, JNR-019 |
+| [`JNR-024`](../levels/02-junior/P3-rest-api-engineering.md#jnr-024--api-security-fundamentals) | 78 | API security fundamentals | scripted | JNR-017 |
 
 ### JNR-P4 — Database Integration
 
 | ID | n | Module | Status | Prerequisites |
 | --- | --- | --- | --- | --- |
-| [`JNR-025`](../levels/02-junior/P4-database-integration.md#jnr-025--jdbc) | 79 | JDBC | detailed | BEG-055 |
-| [`JNR-026`](../levels/02-junior/P4-database-integration.md#jnr-026--spring-jdbc) | 80 | Spring JDBC | detailed | JNR-011, JNR-025 |
-| [`JNR-027`](../levels/02-junior/P4-database-integration.md#jnr-027--orm-fundamentals) | 81 | ORM fundamentals | detailed | JNR-026 |
-| [`JNR-028`](../levels/02-junior/P4-database-integration.md#jnr-028--jpa-and-hibernate) | 82 | JPA and Hibernate | detailed | JNR-027 |
-| [`JNR-029`](../levels/02-junior/P4-database-integration.md#jnr-029--spring-data-jpa) | 83 | Spring Data JPA | detailed | JNR-028 |
-| [`JNR-030`](../levels/02-junior/P4-database-integration.md#jnr-030--entity-relationships) | 84 | Entity relationships | detailed | BEG-049, JNR-029 |
-| [`JNR-031`](../levels/02-junior/P4-database-integration.md#jnr-031--transactions) | 85 | Transactions | detailed | BEG-051, JNR-029 |
-| [`JNR-032`](../levels/02-junior/P4-database-integration.md#jnr-032--orm-pitfalls) | 86 | ORM pitfalls | detailed | JNR-030 |
-| [`JNR-033`](../levels/02-junior/P4-database-integration.md#jnr-033--schema-migrations) | 87 | Schema migrations | detailed | BEG-051, JNR-028 |
-| [`JNR-034`](../levels/02-junior/P4-database-integration.md#jnr-034--database-constraints) | 88 | Database constraints | detailed | JNR-033 |
+| [`JNR-025`](../levels/02-junior/P4-database-integration.md#jnr-025--jdbc) | 79 | JDBC | scripted | BEG-055 |
+| [`JNR-026`](../levels/02-junior/P4-database-integration.md#jnr-026--spring-jdbc) | 80 | Spring JDBC | scripted | JNR-011, JNR-025 |
+| [`JNR-027`](../levels/02-junior/P4-database-integration.md#jnr-027--orm-fundamentals) | 81 | ORM fundamentals | scripted | JNR-026 |
+| [`JNR-028`](../levels/02-junior/P4-database-integration.md#jnr-028--jpa-and-hibernate) | 82 | JPA and Hibernate | scripted | JNR-027 |
+| [`JNR-029`](../levels/02-junior/P4-database-integration.md#jnr-029--spring-data-jpa) | 83 | Spring Data JPA | scripted | JNR-028 |
+| [`JNR-030`](../levels/02-junior/P4-database-integration.md#jnr-030--entity-relationships) | 84 | Entity relationships | scripted | BEG-049, JNR-029 |
+| [`JNR-031`](../levels/02-junior/P4-database-integration.md#jnr-031--transactions) | 85 | Transactions | scripted | BEG-051, JNR-029 |
+| [`JNR-032`](../levels/02-junior/P4-database-integration.md#jnr-032--orm-pitfalls) | 86 | ORM pitfalls | scripted | JNR-030 |
+| [`JNR-033`](../levels/02-junior/P4-database-integration.md#jnr-033--schema-migrations) | 87 | Schema migrations | scripted | BEG-051, JNR-028 |
+| [`JNR-034`](../levels/02-junior/P4-database-integration.md#jnr-034--database-constraints) | 88 | Database constraints | scripted | JNR-033 |
 
 ### JNR-P5 — Authentication and Application Security
 
 | ID | n | Module | Status | Prerequisites |
 | --- | --- | --- | --- | --- |
-| [`JNR-035`](../levels/02-junior/P5-security.md#jnr-035--security-fundamentals) | 89 | Security fundamentals | detailed | JNR-024 |
-| [`JNR-036`](../levels/02-junior/P5-security.md#jnr-036--spring-security) | 90 | Spring Security | detailed | JNR-011, JNR-035 |
-| [`JNR-037`](../levels/02-junior/P5-security.md#jnr-037--password-security) | 91 | Password security | detailed | JNR-036 |
-| [`JNR-038`](../levels/02-junior/P5-security.md#jnr-038--sessions-and-tokens) | 92 | Sessions and tokens | detailed | JNR-024, JNR-036 |
-| [`JNR-039`](../levels/02-junior/P5-security.md#jnr-039--oauth-20-and-oidc-basics) | 93 | OAuth 2.0 and OIDC basics | detailed | JNR-038 |
-| [`JNR-040`](../levels/02-junior/P5-security.md#jnr-040--role-based-authorization) | 94 | Role-based authorization | detailed | JNR-029, JNR-036 |
-| [`JNR-041`](../levels/02-junior/P5-security.md#jnr-041--common-vulnerabilities) | 95 | Common vulnerabilities | detailed | JNR-025, JNR-035 |
-| [`JNR-057`](../levels/02-junior/P5-security.md#jnr-057--securing-llm-features) | new | Securing LLM features | detailed | JNR-041, JNR-056 |
-| [`JNR-042`](../levels/02-junior/P5-security.md#jnr-042--secure-configuration) | 96 | Secure configuration | detailed | JNR-006, JNR-012 |
+| [`JNR-035`](../levels/02-junior/P5-security.md#jnr-035--security-fundamentals) | 89 | Security fundamentals | scripted | JNR-024 |
+| [`JNR-036`](../levels/02-junior/P5-security.md#jnr-036--spring-security) | 90 | Spring Security | scripted | JNR-011, JNR-035 |
+| [`JNR-037`](../levels/02-junior/P5-security.md#jnr-037--password-security) | 91 | Password security | scripted | JNR-036 |
+| [`JNR-038`](../levels/02-junior/P5-security.md#jnr-038--sessions-and-tokens) | 92 | Sessions and tokens | scripted | JNR-024, JNR-036 |
+| [`JNR-039`](../levels/02-junior/P5-security.md#jnr-039--oauth-20-and-oidc-basics) | 93 | OAuth 2.0 and OIDC basics | scripted | JNR-038 |
+| [`JNR-040`](../levels/02-junior/P5-security.md#jnr-040--role-based-authorization) | 94 | Role-based authorization | scripted | JNR-029, JNR-036 |
+| [`JNR-041`](../levels/02-junior/P5-security.md#jnr-041--common-vulnerabilities) | 95 | Common vulnerabilities | scripted | JNR-025, JNR-035 |
+| [`JNR-057`](../levels/02-junior/P5-security.md#jnr-057--securing-llm-features) | new | Securing LLM features | scripted | JNR-041, JNR-056 |
+| [`JNR-042`](../levels/02-junior/P5-security.md#jnr-042--secure-configuration) | 96 | Secure configuration | scripted | JNR-006, JNR-012 |
 
 ### JNR-P6 — Testing and Delivery
 
 | ID | n | Module | Status | Prerequisites |
 | --- | --- | --- | --- | --- |
-| [`JNR-043`](../levels/02-junior/P6-testing-and-delivery.md#jnr-043--unit-testing) | 97 | Unit testing | detailed | BEG-045 |
-| [`JNR-044`](../levels/02-junior/P6-testing-and-delivery.md#jnr-044--mocking) | 98 | Mocking | detailed | JNR-009, JNR-043 |
-| [`JNR-048`](../levels/02-junior/P6-testing-and-delivery.md#jnr-048--linux-basics) | 102 | Linux basics | detailed | BEG-006 |
-| [`JNR-049`](../levels/02-junior/P6-testing-and-delivery.md#jnr-049--docker-fundamentals) | 103 | Docker fundamentals | detailed | JNR-011, JNR-048 |
-| [`JNR-050`](../levels/02-junior/P6-testing-and-delivery.md#jnr-050--docker-compose) | 104 | Docker Compose | detailed | BEG-051, JNR-049 |
-| [`JNR-045`](../levels/02-junior/P6-testing-and-delivery.md#jnr-045--integration-testing) | 99 | Integration testing | detailed | JNR-016, JNR-029, JNR-050 |
-| [`JNR-046`](../levels/02-junior/P6-testing-and-delivery.md#jnr-046--api-testing) | 100 | API testing | detailed | JNR-019, JNR-045 |
-| [`JNR-047`](../levels/02-junior/P6-testing-and-delivery.md#jnr-047--testing-practices) | 101 | Testing practices | detailed | JNR-045 |
-| [`JNR-051`](../levels/02-junior/P6-testing-and-delivery.md#jnr-051--cicd-introduction) | 105 | CI/CD introduction | detailed | BEG-047, JNR-045, JNR-049 |
-| [`JNR-052`](../levels/02-junior/P6-testing-and-delivery.md#jnr-052--deployment-basics) | 106 | Deployment basics | detailed | JNR-012, JNR-051 |
-| [`JNR-053`](../levels/02-junior/P6-testing-and-delivery.md#jnr-053--team-workflows) | 107 | Team workflows | detailed | BEG-047 |
-| [`JNR-054`](../levels/02-junior/P6-testing-and-delivery.md#jnr-054--troubleshooting) | 108 | Troubleshooting | detailed | BEG-018, JNR-006, JNR-052 |
+| [`JNR-043`](../levels/02-junior/P6-testing-and-delivery.md#jnr-043--unit-testing) | 97 | Unit testing | scripted | BEG-045 |
+| [`JNR-044`](../levels/02-junior/P6-testing-and-delivery.md#jnr-044--mocking) | 98 | Mocking | scripted | JNR-009, JNR-043 |
+| [`JNR-048`](../levels/02-junior/P6-testing-and-delivery.md#jnr-048--linux-basics) | 102 | Linux basics | scripted | BEG-006 |
+| [`JNR-049`](../levels/02-junior/P6-testing-and-delivery.md#jnr-049--docker-fundamentals) | 103 | Docker fundamentals | scripted | JNR-011, JNR-048 |
+| [`JNR-050`](../levels/02-junior/P6-testing-and-delivery.md#jnr-050--docker-compose) | 104 | Docker Compose | scripted | BEG-051, JNR-049 |
+| [`JNR-045`](../levels/02-junior/P6-testing-and-delivery.md#jnr-045--integration-testing) | 99 | Integration testing | scripted | JNR-016, JNR-029, JNR-050 |
+| [`JNR-046`](../levels/02-junior/P6-testing-and-delivery.md#jnr-046--api-testing) | 100 | API testing | scripted | JNR-019, JNR-045 |
+| [`JNR-047`](../levels/02-junior/P6-testing-and-delivery.md#jnr-047--testing-practices) | 101 | Testing practices | scripted | JNR-045 |
+| [`JNR-051`](../levels/02-junior/P6-testing-and-delivery.md#jnr-051--cicd-introduction) | 105 | CI/CD introduction | scripted | BEG-047, JNR-045, JNR-049 |
+| [`JNR-052`](../levels/02-junior/P6-testing-and-delivery.md#jnr-052--deployment-basics) | 106 | Deployment basics | scripted | JNR-012, JNR-051 |
+| [`JNR-053`](../levels/02-junior/P6-testing-and-delivery.md#jnr-053--team-workflows) | 107 | Team workflows | scripted | BEG-047 |
+| [`JNR-054`](../levels/02-junior/P6-testing-and-delivery.md#jnr-054--troubleshooting) | 108 | Troubleshooting | scripted | BEG-018, JNR-006, JNR-052 |
 
 ## 3. Mid-Level Java Backend Engineer (`MID`)
 
@@ -188,103 +188,103 @@
 
 | ID | n | Module | Status | Prerequisites |
 | --- | --- | --- | --- | --- |
-| [`MID-001`](../levels/03-mid/P1-jvm-and-concurrency.md#mid-001--jvm-architecture) | 109 | JVM architecture | detailed | BEG-007, BEG-038, JNR-001 |
-| [`MID-002`](../levels/03-mid/P1-jvm-and-concurrency.md#mid-002--memory-management) | 110 | Memory management | detailed | MID-001 |
-| [`MID-003`](../levels/03-mid/P1-jvm-and-concurrency.md#mid-003--java-concurrency) | 111 | Java concurrency | detailed | BEG-030, BEG-035 |
-| [`MID-004`](../levels/03-mid/P1-jvm-and-concurrency.md#mid-004--thread-safety) | 112 | Thread safety | detailed | MID-003 |
-| [`MID-005`](../levels/03-mid/P1-jvm-and-concurrency.md#mid-005--concurrent-collections) | 113 | Concurrent collections | detailed | BEG-041, MID-004 |
-| [`MID-006`](../levels/03-mid/P1-jvm-and-concurrency.md#mid-006--async-programming) | 114 | Async programming | detailed | BEG-035, MID-003 |
-| [`MID-007`](../levels/03-mid/P1-jvm-and-concurrency.md#mid-007--virtual-threads) | 115 | Virtual threads | detailed | MID-004, MID-006 |
-| [`MID-008`](../levels/03-mid/P1-jvm-and-concurrency.md#mid-008--performance-profiling) | 116 | Performance profiling | detailed | MID-002, MID-004 |
-| [`MID-009`](../levels/03-mid/P1-jvm-and-concurrency.md#mid-009--advanced-generics-and-reflection) | 117 | Advanced generics and reflection | detailed | BEG-031, JNR-009 |
-| [`MID-010`](../levels/03-mid/P1-jvm-and-concurrency.md#mid-010--java-module-system) | 118 | Java module system | detailed | BEG-027, JNR-002 |
+| [`MID-001`](../levels/03-mid/P1-jvm-and-concurrency.md#mid-001--jvm-architecture) | 109 | JVM architecture | scripted | BEG-007, BEG-038, JNR-001 |
+| [`MID-002`](../levels/03-mid/P1-jvm-and-concurrency.md#mid-002--memory-management) | 110 | Memory management | scripted | MID-001 |
+| [`MID-003`](../levels/03-mid/P1-jvm-and-concurrency.md#mid-003--java-concurrency) | 111 | Java concurrency | scripted | BEG-030, BEG-035 |
+| [`MID-004`](../levels/03-mid/P1-jvm-and-concurrency.md#mid-004--thread-safety) | 112 | Thread safety | scripted | MID-003 |
+| [`MID-005`](../levels/03-mid/P1-jvm-and-concurrency.md#mid-005--concurrent-collections) | 113 | Concurrent collections | scripted | BEG-041, MID-004 |
+| [`MID-006`](../levels/03-mid/P1-jvm-and-concurrency.md#mid-006--async-programming) | 114 | Async programming | scripted | BEG-035, MID-003 |
+| [`MID-007`](../levels/03-mid/P1-jvm-and-concurrency.md#mid-007--virtual-threads) | 115 | Virtual threads | scripted | MID-004, MID-006 |
+| [`MID-008`](../levels/03-mid/P1-jvm-and-concurrency.md#mid-008--performance-profiling) | 116 | Performance profiling | scripted | MID-002, MID-004 |
+| [`MID-009`](../levels/03-mid/P1-jvm-and-concurrency.md#mid-009--advanced-generics-and-reflection) | 117 | Advanced generics and reflection | scripted | BEG-031, JNR-009 |
+| [`MID-010`](../levels/03-mid/P1-jvm-and-concurrency.md#mid-010--java-module-system) | 118 | Java module system | scripted | BEG-027, JNR-002 |
 
 ### MID-P2 — Advanced PostgreSQL and Data Access
 
 | ID | n | Module | Status | Prerequisites |
 | --- | --- | --- | --- | --- |
-| [`MID-011`](../levels/03-mid/P2-advanced-postgresql.md#mid-011--sql-mastery) | 119 | SQL mastery | detailed | BEG-050, JNR-029 |
-| [`MID-012`](../levels/03-mid/P2-advanced-postgresql.md#mid-012--index-internals) | 120 | Index internals | detailed | BEG-042, JNR-034 |
-| [`MID-013`](../levels/03-mid/P2-advanced-postgresql.md#mid-013--query-optimization) | 121 | Query optimization | detailed | MID-012 |
-| [`MID-014`](../levels/03-mid/P2-advanced-postgresql.md#mid-014--mvcc) | 122 | MVCC | detailed | JNR-031 |
-| [`MID-015`](../levels/03-mid/P2-advanced-postgresql.md#mid-015--isolation-and-locking) | 123 | Isolation and locking | detailed | MID-014 |
-| [`MID-016`](../levels/03-mid/P2-advanced-postgresql.md#mid-016--advanced-transactions) | 124 | Advanced transactions | detailed | JNR-031, MID-015 |
-| [`MID-017`](../levels/03-mid/P2-advanced-postgresql.md#mid-017--connection-pooling) | 125 | Connection pooling | detailed | JNR-026, MID-003 |
-| [`MID-018`](../levels/03-mid/P2-advanced-postgresql.md#mid-018--database-operations) | 126 | Database operations | detailed | BEG-051, JNR-048 |
-| [`MID-019`](../levels/03-mid/P2-advanced-postgresql.md#mid-019--data-modeling-at-scale) | 127 | Data modeling at scale | detailed | MID-013 |
-| [`MID-020`](../levels/03-mid/P2-advanced-postgresql.md#mid-020--database-migrations) | 128 | Database migrations | detailed | JNR-033, MID-015 |
-| [`MID-021`](../levels/03-mid/P2-advanced-postgresql.md#mid-021--advanced-hibernate) | 129 | Advanced Hibernate | detailed | JNR-032, MID-016 |
-| [`MID-022`](../levels/03-mid/P2-advanced-postgresql.md#mid-022--alternative-persistence) | 130 | Alternative persistence | detailed | JNR-026, MID-011 |
+| [`MID-011`](../levels/03-mid/P2-advanced-postgresql.md#mid-011--sql-mastery) | 119 | SQL mastery | scripted | BEG-050, JNR-029 |
+| [`MID-012`](../levels/03-mid/P2-advanced-postgresql.md#mid-012--index-internals) | 120 | Index internals | scripted | BEG-042, JNR-034 |
+| [`MID-013`](../levels/03-mid/P2-advanced-postgresql.md#mid-013--query-optimization) | 121 | Query optimization | scripted | MID-012 |
+| [`MID-014`](../levels/03-mid/P2-advanced-postgresql.md#mid-014--mvcc) | 122 | MVCC | scripted | JNR-031 |
+| [`MID-015`](../levels/03-mid/P2-advanced-postgresql.md#mid-015--isolation-and-locking) | 123 | Isolation and locking | scripted | MID-014 |
+| [`MID-016`](../levels/03-mid/P2-advanced-postgresql.md#mid-016--advanced-transactions) | 124 | Advanced transactions | scripted | JNR-031, MID-015 |
+| [`MID-017`](../levels/03-mid/P2-advanced-postgresql.md#mid-017--connection-pooling) | 125 | Connection pooling | scripted | JNR-026, MID-003 |
+| [`MID-018`](../levels/03-mid/P2-advanced-postgresql.md#mid-018--database-operations) | 126 | Database operations | scripted | BEG-051, JNR-048 |
+| [`MID-019`](../levels/03-mid/P2-advanced-postgresql.md#mid-019--data-modeling-at-scale) | 127 | Data modeling at scale | scripted | MID-013 |
+| [`MID-020`](../levels/03-mid/P2-advanced-postgresql.md#mid-020--database-migrations) | 128 | Database migrations | scripted | JNR-033, MID-015 |
+| [`MID-021`](../levels/03-mid/P2-advanced-postgresql.md#mid-021--advanced-hibernate) | 129 | Advanced Hibernate | scripted | JNR-032, MID-016 |
+| [`MID-022`](../levels/03-mid/P2-advanced-postgresql.md#mid-022--alternative-persistence) | 130 | Alternative persistence | scripted | JNR-026, MID-011 |
 
 ### MID-P3 — Distributed Systems Foundations
 
 | ID | n | Module | Status | Prerequisites |
 | --- | --- | --- | --- | --- |
-| [`MID-059`](../levels/03-mid/P3-distributed-systems.md#mid-059--architectural-styles) | 167 | Architectural styles | detailed | JNR-004, JNR-013 |
-| [`MID-060`](../levels/03-mid/P3-distributed-systems.md#mid-060--ddd-introduction) | 168 | DDD introduction | detailed | JNR-030, MID-059 |
-| [`MID-061`](../levels/03-mid/P3-distributed-systems.md#mid-061--microservices-introduction) | 169 | Microservices introduction | detailed | MID-060 |
-| [`MID-023`](../levels/03-mid/P3-distributed-systems.md#mid-023--distributed-computing) | 131 | Distributed computing | detailed | BEG-003, JNR-022 |
-| [`MID-024`](../levels/03-mid/P3-distributed-systems.md#mid-024--communication-models) | 132 | Communication models | detailed | JNR-018, MID-023 |
-| [`MID-025`](../levels/03-mid/P3-distributed-systems.md#mid-025--service-boundaries) | 133 | Service boundaries | detailed | MID-060, MID-061 |
-| [`MID-026`](../levels/03-mid/P3-distributed-systems.md#mid-026--messaging-fundamentals) | 134 | Messaging fundamentals | detailed | MID-024 |
-| [`MID-027`](../levels/03-mid/P3-distributed-systems.md#mid-027--rabbitmq) | 135 | RabbitMQ | detailed | JNR-050, MID-026 |
-| [`MID-028`](../levels/03-mid/P3-distributed-systems.md#mid-028--apache-kafka) | 136 | Apache Kafka | detailed | JNR-050, MID-026 |
-| [`MID-029`](../levels/03-mid/P3-distributed-systems.md#mid-029--reliable-messaging) | 137 | Reliable messaging | detailed | JNR-031, MID-028 |
-| [`MID-030`](../levels/03-mid/P3-distributed-systems.md#mid-030--distributed-consistency) | 138 | Distributed consistency | detailed | MID-023, MID-029 |
-| [`MID-031`](../levels/03-mid/P3-distributed-systems.md#mid-031--distributed-workflows) | 139 | Distributed workflows | detailed | MID-025, MID-029 |
-| [`MID-032`](../levels/03-mid/P3-distributed-systems.md#mid-032--distributed-coordination) | 140 | Distributed coordination | detailed | MID-030 |
-| [`MID-033`](../levels/03-mid/P3-distributed-systems.md#mid-033--resilience) | 141 | Resilience | detailed | JNR-022, MID-024 |
-| [`MID-034`](../levels/03-mid/P3-distributed-systems.md#mid-034--rate-limiting) | 142 | Rate limiting | detailed | MID-033 |
-| [`MID-035`](../levels/03-mid/P3-distributed-systems.md#mid-035--api-gateways) | 143 | API gateways | detailed | JNR-039, MID-024 |
-| [`MID-036`](../levels/03-mid/P3-distributed-systems.md#mid-036--service-discovery) | 144 | Service discovery | detailed | JNR-049, MID-035 |
+| [`MID-059`](../levels/03-mid/P3-distributed-systems.md#mid-059--architectural-styles) | 167 | Architectural styles | scripted | JNR-004, JNR-013 |
+| [`MID-060`](../levels/03-mid/P3-distributed-systems.md#mid-060--ddd-introduction) | 168 | DDD introduction | scripted | JNR-030, MID-059 |
+| [`MID-061`](../levels/03-mid/P3-distributed-systems.md#mid-061--microservices-introduction) | 169 | Microservices introduction | scripted | MID-060 |
+| [`MID-023`](../levels/03-mid/P3-distributed-systems.md#mid-023--distributed-computing) | 131 | Distributed computing | scripted | BEG-003, JNR-022 |
+| [`MID-024`](../levels/03-mid/P3-distributed-systems.md#mid-024--communication-models) | 132 | Communication models | scripted | JNR-018, MID-023 |
+| [`MID-025`](../levels/03-mid/P3-distributed-systems.md#mid-025--service-boundaries) | 133 | Service boundaries | scripted | MID-060, MID-061 |
+| [`MID-026`](../levels/03-mid/P3-distributed-systems.md#mid-026--messaging-fundamentals) | 134 | Messaging fundamentals | scripted | MID-024 |
+| [`MID-027`](../levels/03-mid/P3-distributed-systems.md#mid-027--rabbitmq) | 135 | RabbitMQ | scripted | JNR-050, MID-026 |
+| [`MID-028`](../levels/03-mid/P3-distributed-systems.md#mid-028--apache-kafka) | 136 | Apache Kafka | scripted | JNR-050, MID-026 |
+| [`MID-029`](../levels/03-mid/P3-distributed-systems.md#mid-029--reliable-messaging) | 137 | Reliable messaging | scripted | JNR-031, MID-028 |
+| [`MID-030`](../levels/03-mid/P3-distributed-systems.md#mid-030--distributed-consistency) | 138 | Distributed consistency | scripted | MID-023, MID-029 |
+| [`MID-031`](../levels/03-mid/P3-distributed-systems.md#mid-031--distributed-workflows) | 139 | Distributed workflows | scripted | MID-025, MID-029 |
+| [`MID-032`](../levels/03-mid/P3-distributed-systems.md#mid-032--distributed-coordination) | 140 | Distributed coordination | scripted | MID-030 |
+| [`MID-033`](../levels/03-mid/P3-distributed-systems.md#mid-033--resilience) | 141 | Resilience | scripted | JNR-022, MID-024 |
+| [`MID-034`](../levels/03-mid/P3-distributed-systems.md#mid-034--rate-limiting) | 142 | Rate limiting | scripted | MID-033 |
+| [`MID-035`](../levels/03-mid/P3-distributed-systems.md#mid-035--api-gateways) | 143 | API gateways | scripted | JNR-039, MID-024 |
+| [`MID-036`](../levels/03-mid/P3-distributed-systems.md#mid-036--service-discovery) | 144 | Service discovery | scripted | JNR-049, MID-035 |
 
 ### MID-P4 — Caching and Nonrelational Data
 
 | ID | n | Module | Status | Prerequisites |
 | --- | --- | --- | --- | --- |
-| [`MID-037`](../levels/03-mid/P4-caching-and-nosql.md#mid-037--caching-fundamentals) | 145 | Caching fundamentals | detailed | MID-023 |
-| [`MID-038`](../levels/03-mid/P4-caching-and-nosql.md#mid-038--redis) | 146 | Redis | detailed | JNR-050, MID-037 |
-| [`MID-039`](../levels/03-mid/P4-caching-and-nosql.md#mid-039--caching-patterns) | 147 | Caching patterns | detailed | MID-038 |
-| [`MID-040`](../levels/03-mid/P4-caching-and-nosql.md#mid-040--cache-consistency) | 148 | Cache consistency | detailed | MID-030, MID-039 |
-| [`MID-041`](../levels/03-mid/P4-caching-and-nosql.md#mid-041--nosql-fundamentals) | 149 | NoSQL fundamentals | detailed | BEG-048, MID-030 |
-| [`MID-042`](../levels/03-mid/P4-caching-and-nosql.md#mid-042--mongodb) | 150 | MongoDB | detailed | MID-041 |
-| [`MID-043`](../levels/03-mid/P4-caching-and-nosql.md#mid-043--search-systems) | 151 | Search systems | detailed | MID-012, MID-041 |
-| [`MID-067`](../levels/03-mid/P4-caching-and-nosql.md#mid-067--embeddings-and-vector-search) | new | Embeddings and vector search | detailed | JNR-056, MID-043 |
-| [`MID-068`](../levels/03-mid/P4-caching-and-nosql.md#mid-068--retrieval-augmented-generation) | new | Retrieval-augmented generation | detailed | MID-067 |
-| [`MID-044`](../levels/03-mid/P4-caching-and-nosql.md#mid-044--data-selection) | 152 | Data selection | detailed | MID-038, MID-042, MID-043 |
+| [`MID-037`](../levels/03-mid/P4-caching-and-nosql.md#mid-037--caching-fundamentals) | 145 | Caching fundamentals | scripted | MID-023 |
+| [`MID-038`](../levels/03-mid/P4-caching-and-nosql.md#mid-038--redis) | 146 | Redis | scripted | JNR-050, MID-037 |
+| [`MID-039`](../levels/03-mid/P4-caching-and-nosql.md#mid-039--caching-patterns) | 147 | Caching patterns | scripted | MID-038 |
+| [`MID-040`](../levels/03-mid/P4-caching-and-nosql.md#mid-040--cache-consistency) | 148 | Cache consistency | scripted | MID-030, MID-039 |
+| [`MID-041`](../levels/03-mid/P4-caching-and-nosql.md#mid-041--nosql-fundamentals) | 149 | NoSQL fundamentals | scripted | BEG-048, MID-030 |
+| [`MID-042`](../levels/03-mid/P4-caching-and-nosql.md#mid-042--mongodb) | 150 | MongoDB | scripted | MID-041 |
+| [`MID-043`](../levels/03-mid/P4-caching-and-nosql.md#mid-043--search-systems) | 151 | Search systems | scripted | MID-012, MID-041 |
+| [`MID-067`](../levels/03-mid/P4-caching-and-nosql.md#mid-067--embeddings-and-vector-search) | new | Embeddings and vector search | scripted | JNR-056, MID-043 |
+| [`MID-068`](../levels/03-mid/P4-caching-and-nosql.md#mid-068--retrieval-augmented-generation) | new | Retrieval-augmented generation | scripted | MID-067 |
+| [`MID-044`](../levels/03-mid/P4-caching-and-nosql.md#mid-044--data-selection) | 152 | Data selection | scripted | MID-038, MID-042, MID-043 |
 
 ### MID-P5 — Production Engineering and Security
 
 | ID | n | Module | Status | Prerequisites |
 | --- | --- | --- | --- | --- |
-| [`MID-069`](../levels/03-mid/P5-production-engineering.md#mid-069--tool-calling-and-agents) | new | Tool calling and agents | detailed | MID-033, MID-068 |
-| [`MID-045`](../levels/03-mid/P5-production-engineering.md#mid-045--advanced-testing) | 153 | Advanced testing | detailed | JNR-046, MID-029 |
-| [`MID-046`](../levels/03-mid/P5-production-engineering.md#mid-046--performance-testing) | 154 | Performance testing | detailed | MID-008, MID-017 |
-| [`MID-047`](../levels/03-mid/P5-production-engineering.md#mid-047--observability) | 155 | Observability | detailed | JNR-006, MID-031 |
-| [`MID-048`](../levels/03-mid/P5-production-engineering.md#mid-048--monitoring) | 156 | Monitoring | detailed | MID-047 |
-| [`MID-070`](../levels/03-mid/P5-production-engineering.md#mid-070--llm-evaluation-and-observability) | new | LLM evaluation and observability | detailed | MID-047, MID-068 |
-| [`MID-049`](../levels/03-mid/P5-production-engineering.md#mid-049--reliability) | 157 | Reliability | detailed | MID-048 |
-| [`MID-050`](../levels/03-mid/P5-production-engineering.md#mid-050--incident-handling) | 158 | Incident handling | detailed | JNR-054, MID-049 |
-| [`MID-051`](../levels/03-mid/P5-production-engineering.md#mid-051--advanced-api-security) | 159 | Advanced API security | detailed | JNR-039, MID-035 |
-| [`MID-052`](../levels/03-mid/P5-production-engineering.md#mid-052--application-threats) | 160 | Application threats | detailed | JNR-041, MID-051 |
-| [`MID-071`](../levels/03-mid/P5-production-engineering.md#mid-071--ai-application-threats) | new | AI application threats | detailed | MID-052, MID-069 |
-| [`MID-053`](../levels/03-mid/P5-production-engineering.md#mid-053--dependency-security) | 161 | Dependency security | detailed | JNR-042, JNR-051 |
-| [`MID-054`](../levels/03-mid/P5-production-engineering.md#mid-054--secrets-and-cryptography) | 162 | Secrets and cryptography | detailed | JNR-042 |
-| [`MID-055`](../levels/03-mid/P5-production-engineering.md#mid-055--cicd-advanced) | 163 | CI/CD advanced | detailed | JNR-051, JNR-052 |
-| [`MID-056`](../levels/03-mid/P5-production-engineering.md#mid-056--cloud-fundamentals) | 164 | Cloud fundamentals | detailed | JNR-048, JNR-052 |
-| [`MID-057`](../levels/03-mid/P5-production-engineering.md#mid-057--kubernetes-foundations) | 165 | Kubernetes foundations | detailed | JNR-049, MID-056 |
-| [`MID-058`](../levels/03-mid/P5-production-engineering.md#mid-058--infrastructure-as-code) | 166 | Infrastructure as Code | detailed | MID-056 |
+| [`MID-069`](../levels/03-mid/P5-production-engineering.md#mid-069--tool-calling-and-agents) | new | Tool calling and agents | scripted | MID-033, MID-068 |
+| [`MID-045`](../levels/03-mid/P5-production-engineering.md#mid-045--advanced-testing) | 153 | Advanced testing | scripted | JNR-046, MID-029 |
+| [`MID-046`](../levels/03-mid/P5-production-engineering.md#mid-046--performance-testing) | 154 | Performance testing | scripted | MID-008, MID-017 |
+| [`MID-047`](../levels/03-mid/P5-production-engineering.md#mid-047--observability) | 155 | Observability | scripted | JNR-006, MID-031 |
+| [`MID-048`](../levels/03-mid/P5-production-engineering.md#mid-048--monitoring) | 156 | Monitoring | scripted | MID-047 |
+| [`MID-070`](../levels/03-mid/P5-production-engineering.md#mid-070--llm-evaluation-and-observability) | new | LLM evaluation and observability | scripted | MID-047, MID-068 |
+| [`MID-049`](../levels/03-mid/P5-production-engineering.md#mid-049--reliability) | 157 | Reliability | scripted | MID-048 |
+| [`MID-050`](../levels/03-mid/P5-production-engineering.md#mid-050--incident-handling) | 158 | Incident handling | scripted | JNR-054, MID-049 |
+| [`MID-051`](../levels/03-mid/P5-production-engineering.md#mid-051--advanced-api-security) | 159 | Advanced API security | scripted | JNR-039, MID-035 |
+| [`MID-052`](../levels/03-mid/P5-production-engineering.md#mid-052--application-threats) | 160 | Application threats | scripted | JNR-041, MID-051 |
+| [`MID-071`](../levels/03-mid/P5-production-engineering.md#mid-071--ai-application-threats) | new | AI application threats | scripted | MID-052, MID-069 |
+| [`MID-053`](../levels/03-mid/P5-production-engineering.md#mid-053--dependency-security) | 161 | Dependency security | scripted | JNR-042, JNR-051 |
+| [`MID-054`](../levels/03-mid/P5-production-engineering.md#mid-054--secrets-and-cryptography) | 162 | Secrets and cryptography | scripted | JNR-042 |
+| [`MID-055`](../levels/03-mid/P5-production-engineering.md#mid-055--cicd-advanced) | 163 | CI/CD advanced | scripted | JNR-051, JNR-052 |
+| [`MID-056`](../levels/03-mid/P5-production-engineering.md#mid-056--cloud-fundamentals) | 164 | Cloud fundamentals | scripted | JNR-048, JNR-052 |
+| [`MID-057`](../levels/03-mid/P5-production-engineering.md#mid-057--kubernetes-foundations) | 165 | Kubernetes foundations | scripted | JNR-049, MID-056 |
+| [`MID-058`](../levels/03-mid/P5-production-engineering.md#mid-058--infrastructure-as-code) | 166 | Infrastructure as Code | scripted | MID-056 |
 
 ### MID-P6 — API Evolution and Professional Ownership
 
 | ID | n | Module | Status | Prerequisites |
 | --- | --- | --- | --- | --- |
-| [`MID-062`](../levels/03-mid/P6-api-evolution-and-ownership.md#mid-062--api-evolution) | 170 | API evolution | detailed | JNR-020, MID-045 |
-| [`MID-063`](../levels/03-mid/P6-api-evolution-and-ownership.md#mid-063--technical-documentation) | 171 | Technical documentation | detailed | MID-061 |
-| [`MID-064`](../levels/03-mid/P6-api-evolution-and-ownership.md#mid-064--estimation-and-delivery) | 172 | Estimation and delivery | detailed | JNR-053 |
-| [`MID-065`](../levels/03-mid/P6-api-evolution-and-ownership.md#mid-065--engineering-ownership) | 173 | Engineering ownership | detailed | MID-050 |
-| [`MID-066`](../levels/03-mid/P6-api-evolution-and-ownership.md#mid-066--technical-collaboration) | 174 | Technical collaboration | detailed | JNR-053 |
-| [`MID-072`](../levels/03-mid/P6-api-evolution-and-ownership.md#mid-072--ai-assisted-engineering-at-codebase-scale) | new | AI-assisted engineering at codebase scale | detailed | JNR-055, MID-008 |
+| [`MID-062`](../levels/03-mid/P6-api-evolution-and-ownership.md#mid-062--api-evolution) | 170 | API evolution | scripted | JNR-020, MID-045 |
+| [`MID-063`](../levels/03-mid/P6-api-evolution-and-ownership.md#mid-063--technical-documentation) | 171 | Technical documentation | scripted | MID-061 |
+| [`MID-064`](../levels/03-mid/P6-api-evolution-and-ownership.md#mid-064--estimation-and-delivery) | 172 | Estimation and delivery | scripted | JNR-053 |
+| [`MID-065`](../levels/03-mid/P6-api-evolution-and-ownership.md#mid-065--engineering-ownership) | 173 | Engineering ownership | scripted | MID-050 |
+| [`MID-066`](../levels/03-mid/P6-api-evolution-and-ownership.md#mid-066--technical-collaboration) | 174 | Technical collaboration | scripted | JNR-053 |
+| [`MID-072`](../levels/03-mid/P6-api-evolution-and-ownership.md#mid-072--ai-assisted-engineering-at-codebase-scale) | new | AI-assisted engineering at codebase scale | scripted | JNR-055, MID-008 |
 
 ## 4. Senior Backend Engineer — Grade C (System ownership) (`SRC`)
 
@@ -292,33 +292,33 @@
 
 | ID | n | Module | Status | Prerequisites |
 | --- | --- | --- | --- | --- |
-| [`SRC-001`](../levels/04-senior-c/P1-system-design-and-decisions.md#src-001--requirements-engineering) | 175 | Requirements engineering | detailed | MID-064 |
-| [`SRC-002`](../levels/04-senior-c/P1-system-design-and-decisions.md#src-002--quality-attributes) | 176 | Quality attributes | detailed | MID-049, SRC-001 |
-| [`SRC-003`](../levels/04-senior-c/P1-system-design-and-decisions.md#src-003--architecture-trade-offs) | 177 | Architecture trade-offs | detailed | MID-063, SRC-002 |
-| [`SRC-004`](../levels/04-senior-c/P1-system-design-and-decisions.md#src-004--capacity-planning) | 178 | Capacity planning | detailed | MID-046, SRC-002 |
-| [`SRC-005`](../levels/04-senior-c/P1-system-design-and-decisions.md#src-005--performance-modeling) | 179 | Performance modeling | detailed | MID-017, SRC-004 |
-| [`SRC-006`](../levels/04-senior-c/P1-system-design-and-decisions.md#src-006--api-and-data-contracts) | 180 | API and data contracts | detailed | MID-062 |
-| [`SRC-007`](../levels/04-senior-c/P1-system-design-and-decisions.md#src-007--database-scaling) | 181 | Database scaling | detailed | MID-018, MID-019, SRC-004 |
-| [`SRC-008`](../levels/04-senior-c/P1-system-design-and-decisions.md#src-008--architectural-decomposition) | 182 | Architectural decomposition | detailed | MID-061, SRC-003 |
-| [`SRC-009`](../levels/04-senior-c/P1-system-design-and-decisions.md#src-009--failure-mode-analysis) | 183 | Failure-mode analysis | detailed | MID-033, SRC-002 |
-| [`SRC-021`](../levels/04-senior-c/P1-system-design-and-decisions.md#src-021--designing-reliable-ai-features) | new | Designing reliable AI features | detailed | SRC-005, MID-070 |
-| [`SRC-010`](../levels/04-senior-c/P1-system-design-and-decisions.md#src-010--architecture-documentation) | 184 | Architecture documentation | detailed | MID-063, SRC-008 |
+| [`SRC-001`](../levels/04-senior-c/P1-system-design-and-decisions.md#src-001--requirements-engineering) | 175 | Requirements engineering | scripted | MID-064 |
+| [`SRC-002`](../levels/04-senior-c/P1-system-design-and-decisions.md#src-002--quality-attributes) | 176 | Quality attributes | scripted | MID-049, SRC-001 |
+| [`SRC-003`](../levels/04-senior-c/P1-system-design-and-decisions.md#src-003--architecture-trade-offs) | 177 | Architecture trade-offs | scripted | MID-063, SRC-002 |
+| [`SRC-004`](../levels/04-senior-c/P1-system-design-and-decisions.md#src-004--capacity-planning) | 178 | Capacity planning | scripted | MID-046, SRC-002 |
+| [`SRC-005`](../levels/04-senior-c/P1-system-design-and-decisions.md#src-005--performance-modeling) | 179 | Performance modeling | scripted | MID-017, SRC-004 |
+| [`SRC-006`](../levels/04-senior-c/P1-system-design-and-decisions.md#src-006--api-and-data-contracts) | 180 | API and data contracts | scripted | MID-062 |
+| [`SRC-007`](../levels/04-senior-c/P1-system-design-and-decisions.md#src-007--database-scaling) | 181 | Database scaling | scripted | MID-018, MID-019, SRC-004 |
+| [`SRC-008`](../levels/04-senior-c/P1-system-design-and-decisions.md#src-008--architectural-decomposition) | 182 | Architectural decomposition | scripted | MID-061, SRC-003 |
+| [`SRC-009`](../levels/04-senior-c/P1-system-design-and-decisions.md#src-009--failure-mode-analysis) | 183 | Failure-mode analysis | scripted | MID-033, SRC-002 |
+| [`SRC-021`](../levels/04-senior-c/P1-system-design-and-decisions.md#src-021--designing-reliable-ai-features) | new | Designing reliable AI features | scripted | SRC-005, MID-070 |
+| [`SRC-010`](../levels/04-senior-c/P1-system-design-and-decisions.md#src-010--architecture-documentation) | 184 | Architecture documentation | scripted | MID-063, SRC-008 |
 
 ### SRC-P2 — Reliability and Technical Ownership
 
 | ID | n | Module | Status | Prerequisites |
 | --- | --- | --- | --- | --- |
-| [`SRC-011`](../levels/04-senior-c/P2-reliability-and-ownership.md#src-011--production-readiness) | 185 | Production readiness | detailed | MID-055, MID-065 |
-| [`SRC-012`](../levels/04-senior-c/P2-reliability-and-ownership.md#src-012--slo-engineering) | 186 | SLO engineering | detailed | MID-049, SRC-002 |
-| [`SRC-022`](../levels/04-senior-c/P2-reliability-and-ownership.md#src-022--operating-ai-in-production) | new | Operating AI in production | detailed | SRC-011, SRC-021 |
-| [`SRC-013`](../levels/04-senior-c/P2-reliability-and-ownership.md#src-013--disaster-recovery) | 187 | Disaster recovery | detailed | MID-018, SRC-009 |
-| [`SRC-014`](../levels/04-senior-c/P2-reliability-and-ownership.md#src-014--data-integrity) | 188 | Data integrity | detailed | MID-029, MID-031 |
-| [`SRC-015`](../levels/04-senior-c/P2-reliability-and-ownership.md#src-015--advanced-troubleshooting) | 189 | Advanced troubleshooting | detailed | MID-008, MID-017, MID-047 |
-| [`SRC-016`](../levels/04-senior-c/P2-reliability-and-ownership.md#src-016--performance-engineering) | 190 | Performance engineering | detailed | MID-046, SRC-005 |
-| [`SRC-017`](../levels/04-senior-c/P2-reliability-and-ownership.md#src-017--technical-debt) | 191 | Technical debt | detailed | MID-065 |
-| [`SRC-018`](../levels/04-senior-c/P2-reliability-and-ownership.md#src-018--security-reviews) | 192 | Security reviews | detailed | MID-052, SRC-010 |
-| [`SRC-019`](../levels/04-senior-c/P2-reliability-and-ownership.md#src-019--incident-leadership) | 193 | Incident leadership | detailed | MID-050 |
-| [`SRC-020`](../levels/04-senior-c/P2-reliability-and-ownership.md#src-020--mentorship) | 194 | Mentorship | detailed | MID-066 |
+| [`SRC-011`](../levels/04-senior-c/P2-reliability-and-ownership.md#src-011--production-readiness) | 185 | Production readiness | scripted | MID-055, MID-065 |
+| [`SRC-012`](../levels/04-senior-c/P2-reliability-and-ownership.md#src-012--slo-engineering) | 186 | SLO engineering | scripted | MID-049, SRC-002 |
+| [`SRC-022`](../levels/04-senior-c/P2-reliability-and-ownership.md#src-022--operating-ai-in-production) | new | Operating AI in production | scripted | SRC-011, SRC-021 |
+| [`SRC-013`](../levels/04-senior-c/P2-reliability-and-ownership.md#src-013--disaster-recovery) | 187 | Disaster recovery | scripted | MID-018, SRC-009 |
+| [`SRC-014`](../levels/04-senior-c/P2-reliability-and-ownership.md#src-014--data-integrity) | 188 | Data integrity | scripted | MID-029, MID-031 |
+| [`SRC-015`](../levels/04-senior-c/P2-reliability-and-ownership.md#src-015--advanced-troubleshooting) | 189 | Advanced troubleshooting | scripted | MID-008, MID-017, MID-047 |
+| [`SRC-016`](../levels/04-senior-c/P2-reliability-and-ownership.md#src-016--performance-engineering) | 190 | Performance engineering | scripted | MID-046, SRC-005 |
+| [`SRC-017`](../levels/04-senior-c/P2-reliability-and-ownership.md#src-017--technical-debt) | 191 | Technical debt | scripted | MID-065 |
+| [`SRC-018`](../levels/04-senior-c/P2-reliability-and-ownership.md#src-018--security-reviews) | 192 | Security reviews | scripted | MID-052, SRC-010 |
+| [`SRC-019`](../levels/04-senior-c/P2-reliability-and-ownership.md#src-019--incident-leadership) | 193 | Incident leadership | scripted | MID-050 |
+| [`SRC-020`](../levels/04-senior-c/P2-reliability-and-ownership.md#src-020--mentorship) | 194 | Mentorship | scripted | MID-066 |
 
 ## 5. Senior Backend Engineer — Grade B (Cross-team design) (`SRB`)
 
@@ -326,33 +326,33 @@
 
 | ID | n | Module | Status | Prerequisites |
 | --- | --- | --- | --- | --- |
-| [`SRB-001`](../levels/05-senior-b/P1-advanced-distributed-architecture.md#srb-001--distributed-architecture-patterns) | 195 | Distributed architecture patterns | detailed | MID-022, MID-031 |
-| [`SRB-002`](../levels/05-senior-b/P1-advanced-distributed-architecture.md#srb-002--event-driven-architecture) | 196 | Event-driven architecture | detailed | MID-062, SRB-001 |
-| [`SRB-003`](../levels/05-senior-b/P1-advanced-distributed-architecture.md#srb-003--distributed-data) | 197 | Distributed data | detailed | MID-030, MID-032, SRC-007 |
-| [`SRB-004`](../levels/05-senior-b/P1-advanced-distributed-architecture.md#srb-004--multi-region-systems) | 198 | Multi-region systems | detailed | SRC-013, SRB-003 |
-| [`SRB-005`](../levels/05-senior-b/P1-advanced-distributed-architecture.md#srb-005--high-availability-design) | 199 | High-availability design | detailed | SRC-009, SRB-004 |
-| [`SRB-006`](../levels/05-senior-b/P1-advanced-distributed-architecture.md#srb-006--large-scale-messaging) | 200 | Large-scale messaging | detailed | MID-028, SRC-005 |
-| [`SRB-007`](../levels/05-senior-b/P1-advanced-distributed-architecture.md#srb-007--data-platform-integration) | 201 | Data platform integration | detailed | MID-029, SRB-002 |
-| [`SRB-008`](../levels/05-senior-b/P1-advanced-distributed-architecture.md#srb-008--architecture-migration) | 202 | Architecture migration | detailed | SRC-008, SRB-007 |
-| [`SRB-009`](../levels/05-senior-b/P1-advanced-distributed-architecture.md#srb-009--service-mesh) | 203 | Service mesh | detailed | MID-051, MID-057 |
-| [`SRB-010`](../levels/05-senior-b/P1-advanced-distributed-architecture.md#srb-010--platform-engineering) | 204 | Platform engineering | detailed | MID-055, MID-057 |
-| [`SRB-021`](../levels/05-senior-b/P1-advanced-distributed-architecture.md#srb-021--ai-platform-capabilities) | new | AI platform capabilities | detailed | SRB-010, SRC-021 |
+| [`SRB-001`](../levels/05-senior-b/P1-advanced-distributed-architecture.md#srb-001--distributed-architecture-patterns) | 195 | Distributed architecture patterns | scripted | MID-022, MID-031 |
+| [`SRB-002`](../levels/05-senior-b/P1-advanced-distributed-architecture.md#srb-002--event-driven-architecture) | 196 | Event-driven architecture | scripted | MID-062, SRB-001 |
+| [`SRB-003`](../levels/05-senior-b/P1-advanced-distributed-architecture.md#srb-003--distributed-data) | 197 | Distributed data | scripted | MID-030, MID-032, SRC-007 |
+| [`SRB-004`](../levels/05-senior-b/P1-advanced-distributed-architecture.md#srb-004--multi-region-systems) | 198 | Multi-region systems | scripted | SRC-013, SRB-003 |
+| [`SRB-005`](../levels/05-senior-b/P1-advanced-distributed-architecture.md#srb-005--high-availability-design) | 199 | High-availability design | scripted | SRC-009, SRB-004 |
+| [`SRB-006`](../levels/05-senior-b/P1-advanced-distributed-architecture.md#srb-006--large-scale-messaging) | 200 | Large-scale messaging | scripted | MID-028, SRC-005 |
+| [`SRB-007`](../levels/05-senior-b/P1-advanced-distributed-architecture.md#srb-007--data-platform-integration) | 201 | Data platform integration | scripted | MID-029, SRB-002 |
+| [`SRB-008`](../levels/05-senior-b/P1-advanced-distributed-architecture.md#srb-008--architecture-migration) | 202 | Architecture migration | scripted | SRC-008, SRB-007 |
+| [`SRB-009`](../levels/05-senior-b/P1-advanced-distributed-architecture.md#srb-009--service-mesh) | 203 | Service mesh | scripted | MID-051, MID-057 |
+| [`SRB-010`](../levels/05-senior-b/P1-advanced-distributed-architecture.md#srb-010--platform-engineering) | 204 | Platform engineering | scripted | MID-055, MID-057 |
+| [`SRB-021`](../levels/05-senior-b/P1-advanced-distributed-architecture.md#srb-021--ai-platform-capabilities) | new | AI platform capabilities | scripted | SRB-010, SRC-021 |
 
 ### SRB-P2 — Engineering Leadership and Delivery
 
 | ID | n | Module | Status | Prerequisites |
 | --- | --- | --- | --- | --- |
-| [`SRB-011`](../levels/05-senior-b/P2-leadership-and-delivery.md#srb-011--cross-team-design) | 205 | Cross-team design | detailed | SRC-006, SRB-008 |
-| [`SRB-012`](../levels/05-senior-b/P2-leadership-and-delivery.md#srb-012--architecture-governance) | 206 | Architecture governance | detailed | SRC-003, SRC-010 |
-| [`SRB-013`](../levels/05-senior-b/P2-leadership-and-delivery.md#srb-013--technology-evaluation) | 207 | Technology evaluation | detailed | MID-044, SRC-003 |
-| [`SRB-014`](../levels/05-senior-b/P2-leadership-and-delivery.md#srb-014--engineering-metrics) | 208 | Engineering metrics | detailed | MID-055, SRC-012 |
-| [`SRB-022`](../levels/05-senior-b/P2-leadership-and-delivery.md#srb-022--ai-tools-across-teams) | new | AI tools across teams | detailed | MID-072, SRB-014 |
-| [`SRB-015`](../levels/05-senior-b/P2-leadership-and-delivery.md#srb-015--cost-optimization) | 209 | Cost optimization | detailed | MID-056, SRC-004 |
-| [`SRB-016`](../levels/05-senior-b/P2-leadership-and-delivery.md#srb-016--security-architecture) | 210 | Security architecture | detailed | SRC-018, SRB-009 |
-| [`SRB-017`](../levels/05-senior-b/P2-leadership-and-delivery.md#srb-017--large-migrations) | 211 | Large migrations | detailed | SRC-011, SRB-008 |
-| [`SRB-018`](../levels/05-senior-b/P2-leadership-and-delivery.md#srb-018--mentoring-senior-peers) | 212 | Mentoring senior peers | detailed | SRC-020 |
-| [`SRB-019`](../levels/05-senior-b/P2-leadership-and-delivery.md#srb-019--risk-management) | 213 | Risk management | detailed | SRC-009, SRB-011 |
-| [`SRB-020`](../levels/05-senior-b/P2-leadership-and-delivery.md#srb-020--stakeholder-communication) | 214 | Stakeholder communication | detailed | SRC-017 |
+| [`SRB-011`](../levels/05-senior-b/P2-leadership-and-delivery.md#srb-011--cross-team-design) | 205 | Cross-team design | scripted | SRC-006, SRB-008 |
+| [`SRB-012`](../levels/05-senior-b/P2-leadership-and-delivery.md#srb-012--architecture-governance) | 206 | Architecture governance | scripted | SRC-003, SRC-010 |
+| [`SRB-013`](../levels/05-senior-b/P2-leadership-and-delivery.md#srb-013--technology-evaluation) | 207 | Technology evaluation | scripted | MID-044, SRC-003 |
+| [`SRB-014`](../levels/05-senior-b/P2-leadership-and-delivery.md#srb-014--engineering-metrics) | 208 | Engineering metrics | scripted | MID-055, SRC-012 |
+| [`SRB-022`](../levels/05-senior-b/P2-leadership-and-delivery.md#srb-022--ai-tools-across-teams) | new | AI tools across teams | scripted | MID-072, SRB-014 |
+| [`SRB-015`](../levels/05-senior-b/P2-leadership-and-delivery.md#srb-015--cost-optimization) | 209 | Cost optimization | scripted | MID-056, SRC-004 |
+| [`SRB-016`](../levels/05-senior-b/P2-leadership-and-delivery.md#srb-016--security-architecture) | 210 | Security architecture | scripted | SRC-018, SRB-009 |
+| [`SRB-017`](../levels/05-senior-b/P2-leadership-and-delivery.md#srb-017--large-migrations) | 211 | Large migrations | scripted | SRC-011, SRB-008 |
+| [`SRB-018`](../levels/05-senior-b/P2-leadership-and-delivery.md#srb-018--mentoring-senior-peers) | 212 | Mentoring senior peers | scripted | SRC-020 |
+| [`SRB-019`](../levels/05-senior-b/P2-leadership-and-delivery.md#srb-019--risk-management) | 213 | Risk management | scripted | SRC-009, SRB-011 |
+| [`SRB-020`](../levels/05-senior-b/P2-leadership-and-delivery.md#srb-020--stakeholder-communication) | 214 | Stakeholder communication | scripted | SRC-017 |
 
 ## 6. Senior Backend Engineer — Grade A (Technical leadership) (`SRA`)
 
@@ -360,33 +360,33 @@
 
 | ID | n | Module | Status | Prerequisites |
 | --- | --- | --- | --- | --- |
-| [`SRA-001`](../levels/06-senior-a/P1-advanced-system-strategy.md#sra-001--architecture-at-scale) | 215 | Architecture at scale | detailed | SRB-010, SRB-012 |
-| [`SRA-002`](../levels/06-senior-a/P1-advanced-system-strategy.md#sra-002--long-term-system-evolution) | 216 | Long-term system evolution | detailed | SRB-014, SRA-001 |
-| [`SRA-003`](../levels/06-senior-a/P1-advanced-system-strategy.md#sra-003--complex-domain-modeling) | 217 | Complex domain modeling | detailed | MID-060, SRB-002 |
-| [`SRA-004`](../levels/06-senior-a/P1-advanced-system-strategy.md#sra-004--data-ownership-strategy) | 218 | Data ownership strategy | detailed | SRB-007, SRA-003 |
-| [`SRA-005`](../levels/06-senior-a/P1-advanced-system-strategy.md#sra-005--multi-region-trade-offs) | 219 | Multi-region trade-offs | detailed | SRB-003, SRB-004 |
-| [`SRA-006`](../levels/06-senior-a/P1-advanced-system-strategy.md#sra-006--enterprise-resilience) | 220 | Enterprise resilience | detailed | SRC-013, SRB-005 |
-| [`SRA-007`](../levels/06-senior-a/P1-advanced-system-strategy.md#sra-007--large-scale-performance) | 221 | Large-scale performance | detailed | SRC-016, SRB-015 |
-| [`SRA-008`](../levels/06-senior-a/P1-advanced-system-strategy.md#sra-008--architecture-economics) | 222 | Architecture economics | detailed | SRB-013, SRB-015 |
-| [`SRA-021`](../levels/06-senior-a/P1-advanced-system-strategy.md#sra-021--ai-strategy-and-build-vs-buy) | new | AI strategy and build vs buy | detailed | SRA-008, SRB-021 |
-| [`SRA-009`](../levels/06-senior-a/P1-advanced-system-strategy.md#sra-009--security-and-compliance) | 223 | Security and compliance | detailed | SRC-014, SRB-016 |
-| [`SRA-022`](../levels/06-senior-a/P1-advanced-system-strategy.md#sra-022--responsible-ai-and-ai-compliance) | new | Responsible AI and AI compliance | detailed | SRA-009, SRA-021 |
-| [`SRA-010`](../levels/06-senior-a/P1-advanced-system-strategy.md#sra-010--technical-strategy) | 224 | Technical strategy | detailed | SRA-002, SRA-008 |
+| [`SRA-001`](../levels/06-senior-a/P1-advanced-system-strategy.md#sra-001--architecture-at-scale) | 215 | Architecture at scale | scripted | SRB-010, SRB-012 |
+| [`SRA-002`](../levels/06-senior-a/P1-advanced-system-strategy.md#sra-002--long-term-system-evolution) | 216 | Long-term system evolution | scripted | SRB-014, SRA-001 |
+| [`SRA-003`](../levels/06-senior-a/P1-advanced-system-strategy.md#sra-003--complex-domain-modeling) | 217 | Complex domain modeling | scripted | MID-060, SRB-002 |
+| [`SRA-004`](../levels/06-senior-a/P1-advanced-system-strategy.md#sra-004--data-ownership-strategy) | 218 | Data ownership strategy | scripted | SRB-007, SRA-003 |
+| [`SRA-005`](../levels/06-senior-a/P1-advanced-system-strategy.md#sra-005--multi-region-trade-offs) | 219 | Multi-region trade-offs | scripted | SRB-003, SRB-004 |
+| [`SRA-006`](../levels/06-senior-a/P1-advanced-system-strategy.md#sra-006--enterprise-resilience) | 220 | Enterprise resilience | scripted | SRC-013, SRB-005 |
+| [`SRA-007`](../levels/06-senior-a/P1-advanced-system-strategy.md#sra-007--large-scale-performance) | 221 | Large-scale performance | scripted | SRC-016, SRB-015 |
+| [`SRA-008`](../levels/06-senior-a/P1-advanced-system-strategy.md#sra-008--architecture-economics) | 222 | Architecture economics | scripted | SRB-013, SRB-015 |
+| [`SRA-021`](../levels/06-senior-a/P1-advanced-system-strategy.md#sra-021--ai-strategy-and-build-vs-buy) | new | AI strategy and build vs buy | scripted | SRA-008, SRB-021 |
+| [`SRA-009`](../levels/06-senior-a/P1-advanced-system-strategy.md#sra-009--security-and-compliance) | 223 | Security and compliance | scripted | SRC-014, SRB-016 |
+| [`SRA-022`](../levels/06-senior-a/P1-advanced-system-strategy.md#sra-022--responsible-ai-and-ai-compliance) | new | Responsible AI and AI compliance | scripted | SRA-009, SRA-021 |
+| [`SRA-010`](../levels/06-senior-a/P1-advanced-system-strategy.md#sra-010--technical-strategy) | 224 | Technical strategy | scripted | SRA-002, SRA-008 |
 
 ### SRA-P2 — Influence and Organizational Execution
 
 | ID | n | Module | Status | Prerequisites |
 | --- | --- | --- | --- | --- |
-| [`SRA-011`](../levels/06-senior-a/P2-influence-and-execution.md#sra-011--technical-vision) | 225 | Technical vision | detailed | SRA-010 |
-| [`SRA-012`](../levels/06-senior-a/P2-influence-and-execution.md#sra-012--engineering-standards) | 226 | Engineering standards | detailed | SRB-012, SRA-001 |
-| [`SRA-013`](../levels/06-senior-a/P2-influence-and-execution.md#sra-013--decision-making-under-uncertainty) | 227 | Decision-making under uncertainty | detailed | SRC-003, SRB-019 |
-| [`SRA-014`](../levels/06-senior-a/P2-influence-and-execution.md#sra-014--leading-ambiguous-initiatives) | 228 | Leading ambiguous initiatives | detailed | SRB-011, SRA-013 |
-| [`SRA-015`](../levels/06-senior-a/P2-influence-and-execution.md#sra-015--cross-functional-leadership) | 229 | Cross-functional leadership | detailed | SRB-020 |
-| [`SRA-016`](../levels/06-senior-a/P2-influence-and-execution.md#sra-016--engineering-capability-development) | 230 | Engineering capability development | detailed | SRB-018 |
-| [`SRA-017`](../levels/06-senior-a/P2-influence-and-execution.md#sra-017--architectural-reviews) | 231 | Architectural reviews | detailed | SRC-018, SRB-012 |
-| [`SRA-018`](../levels/06-senior-a/P2-influence-and-execution.md#sra-018--organizational-bottlenecks) | 232 | Organizational bottlenecks | detailed | SRC-008, SRA-001 |
-| [`SRA-019`](../levels/06-senior-a/P2-influence-and-execution.md#sra-019--executive-communication) | 233 | Executive communication | detailed | SRB-020, SRA-011 |
-| [`SRA-020`](../levels/06-senior-a/P2-influence-and-execution.md#sra-020--succession-and-delegation) | 234 | Succession and delegation | detailed | SRB-018 |
+| [`SRA-011`](../levels/06-senior-a/P2-influence-and-execution.md#sra-011--technical-vision) | 225 | Technical vision | scripted | SRA-010 |
+| [`SRA-012`](../levels/06-senior-a/P2-influence-and-execution.md#sra-012--engineering-standards) | 226 | Engineering standards | scripted | SRB-012, SRA-001 |
+| [`SRA-013`](../levels/06-senior-a/P2-influence-and-execution.md#sra-013--decision-making-under-uncertainty) | 227 | Decision-making under uncertainty | scripted | SRC-003, SRB-019 |
+| [`SRA-014`](../levels/06-senior-a/P2-influence-and-execution.md#sra-014--leading-ambiguous-initiatives) | 228 | Leading ambiguous initiatives | scripted | SRB-011, SRA-013 |
+| [`SRA-015`](../levels/06-senior-a/P2-influence-and-execution.md#sra-015--cross-functional-leadership) | 229 | Cross-functional leadership | scripted | SRB-020 |
+| [`SRA-016`](../levels/06-senior-a/P2-influence-and-execution.md#sra-016--engineering-capability-development) | 230 | Engineering capability development | scripted | SRB-018 |
+| [`SRA-017`](../levels/06-senior-a/P2-influence-and-execution.md#sra-017--architectural-reviews) | 231 | Architectural reviews | scripted | SRC-018, SRB-012 |
+| [`SRA-018`](../levels/06-senior-a/P2-influence-and-execution.md#sra-018--organizational-bottlenecks) | 232 | Organizational bottlenecks | scripted | SRC-008, SRA-001 |
+| [`SRA-019`](../levels/06-senior-a/P2-influence-and-execution.md#sra-019--executive-communication) | 233 | Executive communication | scripted | SRB-020, SRA-011 |
+| [`SRA-020`](../levels/06-senior-a/P2-influence-and-execution.md#sra-020--succession-and-delegation) | 234 | Succession and delegation | scripted | SRB-018 |
 
 ## 7. Staff Software Engineer (`STF`)
 
@@ -394,33 +394,33 @@
 
 | ID | n | Module | Status | Prerequisites |
 | --- | --- | --- | --- | --- |
-| [`STF-001`](../levels/07-staff/P1-staff-technical-strategy.md#stf-001--staff-engineering-role) | 235 | Staff engineering role | detailed | SRA-014, SRA-020 |
-| [`STF-002`](../levels/07-staff/P1-staff-technical-strategy.md#stf-002--technical-strategy) | 236 | Technical strategy | detailed | SRA-010, STF-001 |
-| [`STF-003`](../levels/07-staff/P1-staff-technical-strategy.md#stf-003--architecture-governance-at-scale) | 237 | Architecture governance at scale | detailed | SRB-012, SRA-012 |
-| [`STF-004`](../levels/07-staff/P1-staff-technical-strategy.md#stf-004--platform-strategy) | 238 | Platform strategy | detailed | SRB-010, STF-002 |
-| [`STF-005`](../levels/07-staff/P1-staff-technical-strategy.md#stf-005--organization-wide-reliability) | 239 | Organization-wide reliability | detailed | SRC-012, SRA-006 |
-| [`STF-006`](../levels/07-staff/P1-staff-technical-strategy.md#stf-006--cross-domain-systems) | 240 | Cross-domain systems | detailed | SRA-003, SRA-004 |
-| [`STF-007`](../levels/07-staff/P1-staff-technical-strategy.md#stf-007--technology-portfolio) | 241 | Technology portfolio | detailed | SRB-013, SRA-002 |
-| [`STF-008`](../levels/07-staff/P1-staff-technical-strategy.md#stf-008--security-architecture-strategy) | 242 | Security architecture strategy | detailed | SRB-016, SRA-009 |
-| [`STF-009`](../levels/07-staff/P1-staff-technical-strategy.md#stf-009--engineering-productivity) | 243 | Engineering productivity | detailed | SRB-014, STF-004 |
-| [`STF-021`](../levels/07-staff/P1-staff-technical-strategy.md#stf-021--ai-governance-and-engineering-productivity) | new | AI governance and engineering productivity | detailed | SRB-022, STF-009 |
-| [`STF-010`](../levels/07-staff/P1-staff-technical-strategy.md#stf-010--technical-due-diligence) | 244 | Technical due diligence | detailed | SRA-008, STF-007 |
+| [`STF-001`](../levels/07-staff/P1-staff-technical-strategy.md#stf-001--staff-engineering-role) | 235 | Staff engineering role | scripted | SRA-014, SRA-020 |
+| [`STF-002`](../levels/07-staff/P1-staff-technical-strategy.md#stf-002--technical-strategy) | 236 | Technical strategy | scripted | SRA-010, STF-001 |
+| [`STF-003`](../levels/07-staff/P1-staff-technical-strategy.md#stf-003--architecture-governance-at-scale) | 237 | Architecture governance at scale | scripted | SRB-012, SRA-012 |
+| [`STF-004`](../levels/07-staff/P1-staff-technical-strategy.md#stf-004--platform-strategy) | 238 | Platform strategy | scripted | SRB-010, STF-002 |
+| [`STF-005`](../levels/07-staff/P1-staff-technical-strategy.md#stf-005--organization-wide-reliability) | 239 | Organization-wide reliability | scripted | SRC-012, SRA-006 |
+| [`STF-006`](../levels/07-staff/P1-staff-technical-strategy.md#stf-006--cross-domain-systems) | 240 | Cross-domain systems | scripted | SRA-003, SRA-004 |
+| [`STF-007`](../levels/07-staff/P1-staff-technical-strategy.md#stf-007--technology-portfolio) | 241 | Technology portfolio | scripted | SRB-013, SRA-002 |
+| [`STF-008`](../levels/07-staff/P1-staff-technical-strategy.md#stf-008--security-architecture-strategy) | 242 | Security architecture strategy | scripted | SRB-016, SRA-009 |
+| [`STF-009`](../levels/07-staff/P1-staff-technical-strategy.md#stf-009--engineering-productivity) | 243 | Engineering productivity | scripted | SRB-014, STF-004 |
+| [`STF-021`](../levels/07-staff/P1-staff-technical-strategy.md#stf-021--ai-governance-and-engineering-productivity) | new | AI governance and engineering productivity | scripted | SRB-022, STF-009 |
+| [`STF-010`](../levels/07-staff/P1-staff-technical-strategy.md#stf-010--technical-due-diligence) | 244 | Technical due diligence | scripted | SRA-008, STF-007 |
 
 ### STF-P2 — Influence, Communication, and Leadership
 
 | ID | n | Module | Status | Prerequisites |
 | --- | --- | --- | --- | --- |
-| [`STF-011`](../levels/07-staff/P2-influence-and-leadership.md#stf-011--influence-without-authority) | 245 | Influence without authority | detailed | SRB-018, STF-001 |
-| [`STF-012`](../levels/07-staff/P2-influence-and-leadership.md#stf-012--technical-proposals) | 246 | Technical proposals | detailed | SRB-012, STF-011 |
-| [`STF-013`](../levels/07-staff/P2-influence-and-leadership.md#stf-013--cross-team-programs) | 247 | Cross-team programs | detailed | SRB-011, SRA-014 |
-| [`STF-014`](../levels/07-staff/P2-influence-and-leadership.md#stf-014--organizational-change) | 248 | Organizational change | detailed | SRA-018, STF-011 |
-| [`STF-022`](../levels/07-staff/P2-influence-and-leadership.md#stf-022--leading-an-ai-adoption-program) | new | Leading an AI adoption program | detailed | STF-014, STF-021 |
-| [`STF-015`](../levels/07-staff/P2-influence-and-leadership.md#stf-015--mentoring-at-scale) | 249 | Mentoring at scale | detailed | SRA-016 |
-| [`STF-016`](../levels/07-staff/P2-influence-and-leadership.md#stf-016--decision-facilitation) | 250 | Decision facilitation | detailed | SRB-018, SRA-013 |
-| [`STF-017`](../levels/07-staff/P2-influence-and-leadership.md#stf-017--executive-communication) | 251 | Executive communication | detailed | SRA-019, STF-002 |
-| [`STF-018`](../levels/07-staff/P2-influence-and-leadership.md#stf-018--incident-and-crisis-leadership) | 252 | Incident and crisis leadership | detailed | SRC-019, STF-005 |
-| [`STF-019`](../levels/07-staff/P2-influence-and-leadership.md#stf-019--measuring-impact) | 253 | Measuring impact | detailed | SRB-014, STF-002 |
-| [`STF-020`](../levels/07-staff/P2-influence-and-leadership.md#stf-020--staff-career-development) | 254 | Staff career development | detailed | STF-001, STF-019 |
+| [`STF-011`](../levels/07-staff/P2-influence-and-leadership.md#stf-011--influence-without-authority) | 245 | Influence without authority | scripted | SRB-018, STF-001 |
+| [`STF-012`](../levels/07-staff/P2-influence-and-leadership.md#stf-012--technical-proposals) | 246 | Technical proposals | scripted | SRB-012, STF-011 |
+| [`STF-013`](../levels/07-staff/P2-influence-and-leadership.md#stf-013--cross-team-programs) | 247 | Cross-team programs | scripted | SRB-011, SRA-014 |
+| [`STF-014`](../levels/07-staff/P2-influence-and-leadership.md#stf-014--organizational-change) | 248 | Organizational change | scripted | SRA-018, STF-011 |
+| [`STF-022`](../levels/07-staff/P2-influence-and-leadership.md#stf-022--leading-an-ai-adoption-program) | new | Leading an AI adoption program | scripted | STF-014, STF-021 |
+| [`STF-015`](../levels/07-staff/P2-influence-and-leadership.md#stf-015--mentoring-at-scale) | 249 | Mentoring at scale | scripted | SRA-016 |
+| [`STF-016`](../levels/07-staff/P2-influence-and-leadership.md#stf-016--decision-facilitation) | 250 | Decision facilitation | scripted | SRB-018, SRA-013 |
+| [`STF-017`](../levels/07-staff/P2-influence-and-leadership.md#stf-017--executive-communication) | 251 | Executive communication | scripted | SRA-019, STF-002 |
+| [`STF-018`](../levels/07-staff/P2-influence-and-leadership.md#stf-018--incident-and-crisis-leadership) | 252 | Incident and crisis leadership | scripted | SRC-019, STF-005 |
+| [`STF-019`](../levels/07-staff/P2-influence-and-leadership.md#stf-019--measuring-impact) | 253 | Measuring impact | scripted | SRB-014, STF-002 |
+| [`STF-020`](../levels/07-staff/P2-influence-and-leadership.md#stf-020--staff-career-development) | 254 | Staff career development | scripted | STF-001, STF-019 |
 
 ## 8. Solution Architect (`ARC`)
 
@@ -428,65 +428,65 @@
 
 | ID | n | Module | Status | Prerequisites |
 | --- | --- | --- | --- | --- |
-| [`ARC-001`](../levels/08-solution-architect/P1-business-and-enterprise-architecture.md#arc-001--architecture-roles) | 255 | Architecture roles | detailed | SRC-010 |
-| [`ARC-002`](../levels/08-solution-architect/P1-business-and-enterprise-architecture.md#arc-002--business-architecture) | 256 | Business architecture | detailed | SRA-001, ARC-001 |
-| [`ARC-003`](../levels/08-solution-architect/P1-business-and-enterprise-architecture.md#arc-003--requirements-discovery) | 257 | Requirements discovery | detailed | SRC-001, ARC-002 |
-| [`ARC-004`](../levels/08-solution-architect/P1-business-and-enterprise-architecture.md#arc-004--architecture-frameworks) | 258 | Architecture frameworks | detailed | SRB-012, ARC-001 |
-| [`ARC-005`](../levels/08-solution-architect/P1-business-and-enterprise-architecture.md#arc-005--architecture-modeling) | 259 | Architecture modeling | detailed | MID-063, ARC-002 |
-| [`ARC-006`](../levels/08-solution-architect/P1-business-and-enterprise-architecture.md#arc-006--solution-architecture-lifecycle) | 260 | Solution architecture lifecycle | detailed | ARC-003, ARC-004 |
-| [`ARC-007`](../levels/08-solution-architect/P1-business-and-enterprise-architecture.md#arc-007--architecture-principles) | 261 | Architecture principles | detailed | SRA-012, ARC-004 |
-| [`ARC-008`](../levels/08-solution-architect/P1-business-and-enterprise-architecture.md#arc-008--technology-assessment) | 262 | Technology assessment | detailed | SRB-013, SRA-008 |
-| [`ARC-009`](../levels/08-solution-architect/P1-business-and-enterprise-architecture.md#arc-009--enterprise-integration) | 263 | Enterprise integration | detailed | SRB-002, SRB-007 |
-| [`ARC-010`](../levels/08-solution-architect/P1-business-and-enterprise-architecture.md#arc-010--legacy-modernization) | 264 | Legacy modernization | detailed | SRB-008, ARC-009 |
+| [`ARC-001`](../levels/08-solution-architect/P1-business-and-enterprise-architecture.md#arc-001--architecture-roles) | 255 | Architecture roles | scripted | SRC-010 |
+| [`ARC-002`](../levels/08-solution-architect/P1-business-and-enterprise-architecture.md#arc-002--business-architecture) | 256 | Business architecture | scripted | SRA-001, ARC-001 |
+| [`ARC-003`](../levels/08-solution-architect/P1-business-and-enterprise-architecture.md#arc-003--requirements-discovery) | 257 | Requirements discovery | scripted | SRC-001, ARC-002 |
+| [`ARC-004`](../levels/08-solution-architect/P1-business-and-enterprise-architecture.md#arc-004--architecture-frameworks) | 258 | Architecture frameworks | scripted | SRB-012, ARC-001 |
+| [`ARC-005`](../levels/08-solution-architect/P1-business-and-enterprise-architecture.md#arc-005--architecture-modeling) | 259 | Architecture modeling | scripted | MID-063, ARC-002 |
+| [`ARC-006`](../levels/08-solution-architect/P1-business-and-enterprise-architecture.md#arc-006--solution-architecture-lifecycle) | 260 | Solution architecture lifecycle | scripted | ARC-003, ARC-004 |
+| [`ARC-007`](../levels/08-solution-architect/P1-business-and-enterprise-architecture.md#arc-007--architecture-principles) | 261 | Architecture principles | scripted | SRA-012, ARC-004 |
+| [`ARC-008`](../levels/08-solution-architect/P1-business-and-enterprise-architecture.md#arc-008--technology-assessment) | 262 | Technology assessment | scripted | SRB-013, SRA-008 |
+| [`ARC-009`](../levels/08-solution-architect/P1-business-and-enterprise-architecture.md#arc-009--enterprise-integration) | 263 | Enterprise integration | scripted | SRB-002, SRB-007 |
+| [`ARC-010`](../levels/08-solution-architect/P1-business-and-enterprise-architecture.md#arc-010--legacy-modernization) | 264 | Legacy modernization | scripted | SRB-008, ARC-009 |
 
 ### ARC-P2 — Cloud and Infrastructure Architecture
 
 | ID | n | Module | Status | Prerequisites |
 | --- | --- | --- | --- | --- |
-| [`ARC-011`](../levels/08-solution-architect/P2-cloud-and-infrastructure.md#arc-011--cloud-service-models) | 265 | Cloud service models | detailed | MID-056 |
-| [`ARC-012`](../levels/08-solution-architect/P2-cloud-and-infrastructure.md#arc-012--cloud-architecture) | 266 | Cloud architecture | detailed | MID-056, ARC-011 |
-| [`ARC-013`](../levels/08-solution-architect/P2-cloud-and-infrastructure.md#arc-013--networking) | 267 | Networking | detailed | MID-056, ARC-012 |
-| [`ARC-014`](../levels/08-solution-architect/P2-cloud-and-infrastructure.md#arc-014--compute-choices) | 268 | Compute choices | detailed | MID-057, ARC-012 |
-| [`ARC-015`](../levels/08-solution-architect/P2-cloud-and-infrastructure.md#arc-015--storage-architecture) | 269 | Storage architecture | detailed | ARC-012 |
-| [`ARC-016`](../levels/08-solution-architect/P2-cloud-and-infrastructure.md#arc-016--database-architecture) | 270 | Database architecture | detailed | SRC-007, ARC-012 |
-| [`ARC-017`](../levels/08-solution-architect/P2-cloud-and-infrastructure.md#arc-017--identity-architecture) | 271 | Identity architecture | detailed | MID-051, ARC-012 |
-| [`ARC-018`](../levels/08-solution-architect/P2-cloud-and-infrastructure.md#arc-018--network-security) | 272 | Network security | detailed | SRB-016, ARC-013 |
-| [`ARC-019`](../levels/08-solution-architect/P2-cloud-and-infrastructure.md#arc-019--high-availability-and-dr) | 273 | High availability and DR | detailed | SRC-013, SRB-004, ARC-012 |
-| [`ARC-020`](../levels/08-solution-architect/P2-cloud-and-infrastructure.md#arc-020--infrastructure-governance) | 274 | Infrastructure governance | detailed | MID-058, ARC-012 |
-| [`ARC-021`](../levels/08-solution-architect/P2-cloud-and-infrastructure.md#arc-021--cost-architecture) | 275 | Cost architecture | detailed | SRB-015, ARC-012 |
-| [`ARC-022`](../levels/08-solution-architect/P2-cloud-and-infrastructure.md#arc-022--cloud-architecture-frameworks) | 276 | Cloud architecture frameworks | detailed | ARC-019, ARC-021 |
+| [`ARC-011`](../levels/08-solution-architect/P2-cloud-and-infrastructure.md#arc-011--cloud-service-models) | 265 | Cloud service models | scripted | MID-056 |
+| [`ARC-012`](../levels/08-solution-architect/P2-cloud-and-infrastructure.md#arc-012--cloud-architecture) | 266 | Cloud architecture | scripted | MID-056, ARC-011 |
+| [`ARC-013`](../levels/08-solution-architect/P2-cloud-and-infrastructure.md#arc-013--networking) | 267 | Networking | scripted | MID-056, ARC-012 |
+| [`ARC-014`](../levels/08-solution-architect/P2-cloud-and-infrastructure.md#arc-014--compute-choices) | 268 | Compute choices | scripted | MID-057, ARC-012 |
+| [`ARC-015`](../levels/08-solution-architect/P2-cloud-and-infrastructure.md#arc-015--storage-architecture) | 269 | Storage architecture | scripted | ARC-012 |
+| [`ARC-016`](../levels/08-solution-architect/P2-cloud-and-infrastructure.md#arc-016--database-architecture) | 270 | Database architecture | scripted | SRC-007, ARC-012 |
+| [`ARC-017`](../levels/08-solution-architect/P2-cloud-and-infrastructure.md#arc-017--identity-architecture) | 271 | Identity architecture | scripted | MID-051, ARC-012 |
+| [`ARC-018`](../levels/08-solution-architect/P2-cloud-and-infrastructure.md#arc-018--network-security) | 272 | Network security | scripted | SRB-016, ARC-013 |
+| [`ARC-019`](../levels/08-solution-architect/P2-cloud-and-infrastructure.md#arc-019--high-availability-and-dr) | 273 | High availability and DR | scripted | SRC-013, SRB-004, ARC-012 |
+| [`ARC-020`](../levels/08-solution-architect/P2-cloud-and-infrastructure.md#arc-020--infrastructure-governance) | 274 | Infrastructure governance | scripted | MID-058, ARC-012 |
+| [`ARC-021`](../levels/08-solution-architect/P2-cloud-and-infrastructure.md#arc-021--cost-architecture) | 275 | Cost architecture | scripted | SRB-015, ARC-012 |
+| [`ARC-022`](../levels/08-solution-architect/P2-cloud-and-infrastructure.md#arc-022--cloud-architecture-frameworks) | 276 | Cloud architecture frameworks | scripted | ARC-019, ARC-021 |
 
 ### ARC-P3 — Enterprise Data, Integration, and Security
 
 | ID | n | Module | Status | Prerequisites |
 | --- | --- | --- | --- | --- |
-| [`ARC-023`](../levels/08-solution-architect/P3-data-integration-and-security.md#arc-023--data-architecture) | 277 | Data architecture | detailed | MID-044, SRA-004 |
-| [`ARC-024`](../levels/08-solution-architect/P3-data-integration-and-security.md#arc-024--integration-patterns) | 278 | Integration patterns | detailed | SRB-007, ARC-009 |
-| [`ARC-045`](../levels/08-solution-architect/P3-data-integration-and-security.md#arc-045--ai-solution-architecture) | new | AI solution architecture | detailed | SRA-021, ARC-024 |
-| [`ARC-025`](../levels/08-solution-architect/P3-data-integration-and-security.md#arc-025--api-management) | 279 | API management | detailed | MID-035, SRC-006 |
-| [`ARC-026`](../levels/08-solution-architect/P3-data-integration-and-security.md#arc-026--event-architecture) | 280 | Event architecture | detailed | SRB-002, ARC-024 |
-| [`ARC-027`](../levels/08-solution-architect/P3-data-integration-and-security.md#arc-027--identity-and-access) | 281 | Identity and access | detailed | ARC-017 |
-| [`ARC-028`](../levels/08-solution-architect/P3-data-integration-and-security.md#arc-028--security-architecture) | 282 | Security architecture | detailed | SRA-009, ARC-018 |
-| [`ARC-029`](../levels/08-solution-architect/P3-data-integration-and-security.md#arc-029--privacy-and-compliance) | 283 | Privacy and compliance | detailed | SRA-009, ARC-023 |
-| [`ARC-046`](../levels/08-solution-architect/P3-data-integration-and-security.md#arc-046--ai-security) | new | AI security | detailed | ARC-029, ARC-045 |
-| [`ARC-030`](../levels/08-solution-architect/P3-data-integration-and-security.md#arc-030--data-governance) | 284 | Data governance | detailed | SRA-004, ARC-029 |
-| [`ARC-031`](../levels/08-solution-architect/P3-data-integration-and-security.md#arc-031--resilience-architecture) | 285 | Resilience architecture | detailed | SRA-006, ARC-019 |
-| [`ARC-032`](../levels/08-solution-architect/P3-data-integration-and-security.md#arc-032--integration-with-enterprise-systems) | 286 | Integration with enterprise systems | detailed | ARC-024, ARC-027 |
+| [`ARC-023`](../levels/08-solution-architect/P3-data-integration-and-security.md#arc-023--data-architecture) | 277 | Data architecture | scripted | MID-044, SRA-004 |
+| [`ARC-024`](../levels/08-solution-architect/P3-data-integration-and-security.md#arc-024--integration-patterns) | 278 | Integration patterns | scripted | SRB-007, ARC-009 |
+| [`ARC-045`](../levels/08-solution-architect/P3-data-integration-and-security.md#arc-045--ai-solution-architecture) | new | AI solution architecture | scripted | SRA-021, ARC-024 |
+| [`ARC-025`](../levels/08-solution-architect/P3-data-integration-and-security.md#arc-025--api-management) | 279 | API management | scripted | MID-035, SRC-006 |
+| [`ARC-026`](../levels/08-solution-architect/P3-data-integration-and-security.md#arc-026--event-architecture) | 280 | Event architecture | scripted | SRB-002, ARC-024 |
+| [`ARC-027`](../levels/08-solution-architect/P3-data-integration-and-security.md#arc-027--identity-and-access) | 281 | Identity and access | scripted | ARC-017 |
+| [`ARC-028`](../levels/08-solution-architect/P3-data-integration-and-security.md#arc-028--security-architecture) | 282 | Security architecture | scripted | SRA-009, ARC-018 |
+| [`ARC-029`](../levels/08-solution-architect/P3-data-integration-and-security.md#arc-029--privacy-and-compliance) | 283 | Privacy and compliance | scripted | SRA-009, ARC-023 |
+| [`ARC-046`](../levels/08-solution-architect/P3-data-integration-and-security.md#arc-046--ai-security) | new | AI security | scripted | ARC-029, ARC-045 |
+| [`ARC-030`](../levels/08-solution-architect/P3-data-integration-and-security.md#arc-030--data-governance) | 284 | Data governance | scripted | SRA-004, ARC-029 |
+| [`ARC-031`](../levels/08-solution-architect/P3-data-integration-and-security.md#arc-031--resilience-architecture) | 285 | Resilience architecture | scripted | SRA-006, ARC-019 |
+| [`ARC-032`](../levels/08-solution-architect/P3-data-integration-and-security.md#arc-032--integration-with-enterprise-systems) | 286 | Integration with enterprise systems | scripted | ARC-024, ARC-027 |
 
 ### ARC-P4 — Solution Design, Governance, and Delivery
 
 | ID | n | Module | Status | Prerequisites |
 | --- | --- | --- | --- | --- |
-| [`ARC-033`](../levels/08-solution-architect/P4-solution-design-and-delivery.md#arc-033--solution-options) | 287 | Solution options | detailed | SRC-003, ARC-006 |
-| [`ARC-034`](../levels/08-solution-architect/P4-solution-design-and-delivery.md#arc-034--architecture-deliverables) | 288 | Architecture deliverables | detailed | ARC-005, ARC-033 |
-| [`ARC-035`](../levels/08-solution-architect/P4-solution-design-and-delivery.md#arc-035--architecture-review-boards) | 289 | Architecture review boards | detailed | ARC-007, ARC-034 |
-| [`ARC-036`](../levels/08-solution-architect/P4-solution-design-and-delivery.md#arc-036--solution-roadmaps) | 290 | Solution roadmaps | detailed | SRA-002, ARC-033 |
-| [`ARC-037`](../levels/08-solution-architect/P4-solution-design-and-delivery.md#arc-037--migration-strategy) | 291 | Migration strategy | detailed | SRB-017, ARC-010 |
-| [`ARC-038`](../levels/08-solution-architect/P4-solution-design-and-delivery.md#arc-038--operational-architecture) | 292 | Operational architecture | detailed | SRC-011, ARC-036 |
-| [`ARC-039`](../levels/08-solution-architect/P4-solution-design-and-delivery.md#arc-039--financial-analysis) | 293 | Financial analysis | detailed | SRA-008, ARC-021 |
-| [`ARC-040`](../levels/08-solution-architect/P4-solution-design-and-delivery.md#arc-040--vendor-and-procurement) | 294 | Vendor and procurement | detailed | ARC-008, ARC-039 |
-| [`ARC-047`](../levels/08-solution-architect/P4-solution-design-and-delivery.md#arc-047--ai-vendor-and-model-evaluation) | new | AI vendor and model evaluation | detailed | ARC-040, ARC-045 |
-| [`ARC-041`](../levels/08-solution-architect/P4-solution-design-and-delivery.md#arc-041--stakeholder-management) | 295 | Stakeholder management | detailed | SRA-015, ARC-003 |
-| [`ARC-042`](../levels/08-solution-architect/P4-solution-design-and-delivery.md#arc-042--architecture-assurance) | 296 | Architecture assurance | detailed | SRC-011, ARC-035 |
-| [`ARC-043`](../levels/08-solution-architect/P4-solution-design-and-delivery.md#arc-043--solution-documentation) | 297 | Solution documentation | detailed | ARC-034 |
-| [`ARC-044`](../levels/08-solution-architect/P4-solution-design-and-delivery.md#arc-044--architecture-communication) | 298 | Architecture communication | detailed | SRA-019, ARC-043 |
+| [`ARC-033`](../levels/08-solution-architect/P4-solution-design-and-delivery.md#arc-033--solution-options) | 287 | Solution options | scripted | SRC-003, ARC-006 |
+| [`ARC-034`](../levels/08-solution-architect/P4-solution-design-and-delivery.md#arc-034--architecture-deliverables) | 288 | Architecture deliverables | scripted | ARC-005, ARC-033 |
+| [`ARC-035`](../levels/08-solution-architect/P4-solution-design-and-delivery.md#arc-035--architecture-review-boards) | 289 | Architecture review boards | scripted | ARC-007, ARC-034 |
+| [`ARC-036`](../levels/08-solution-architect/P4-solution-design-and-delivery.md#arc-036--solution-roadmaps) | 290 | Solution roadmaps | scripted | SRA-002, ARC-033 |
+| [`ARC-037`](../levels/08-solution-architect/P4-solution-design-and-delivery.md#arc-037--migration-strategy) | 291 | Migration strategy | scripted | SRB-017, ARC-010 |
+| [`ARC-038`](../levels/08-solution-architect/P4-solution-design-and-delivery.md#arc-038--operational-architecture) | 292 | Operational architecture | scripted | SRC-011, ARC-036 |
+| [`ARC-039`](../levels/08-solution-architect/P4-solution-design-and-delivery.md#arc-039--financial-analysis) | 293 | Financial analysis | scripted | SRA-008, ARC-021 |
+| [`ARC-040`](../levels/08-solution-architect/P4-solution-design-and-delivery.md#arc-040--vendor-and-procurement) | 294 | Vendor and procurement | scripted | ARC-008, ARC-039 |
+| [`ARC-047`](../levels/08-solution-architect/P4-solution-design-and-delivery.md#arc-047--ai-vendor-and-model-evaluation) | new | AI vendor and model evaluation | scripted | ARC-040, ARC-045 |
+| [`ARC-041`](../levels/08-solution-architect/P4-solution-design-and-delivery.md#arc-041--stakeholder-management) | 295 | Stakeholder management | scripted | SRA-015, ARC-003 |
+| [`ARC-042`](../levels/08-solution-architect/P4-solution-design-and-delivery.md#arc-042--architecture-assurance) | 296 | Architecture assurance | scripted | SRC-011, ARC-035 |
+| [`ARC-043`](../levels/08-solution-architect/P4-solution-design-and-delivery.md#arc-043--solution-documentation) | 297 | Solution documentation | scripted | ARC-034 |
+| [`ARC-044`](../levels/08-solution-architect/P4-solution-design-and-delivery.md#arc-044--architecture-communication) | 298 | Architecture communication | scripted | SRA-019, ARC-043 |
